@@ -7,7 +7,7 @@ export function ChaptersCard({ name, description, link }) {
             shadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
             padding="lg"
             radius="30"
-            style={{ flexShrink: 0, width: "468px" }}
+            style={{ flexShrink: 0 }}
         >
             <Card.Section
                 c="#0078E8"
