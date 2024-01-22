@@ -19,6 +19,17 @@
     padding-right: 20px;
 }
 
+.nav-link{
+    text-decoration: underline 1px rgba(255, 255, 255, 0);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+.nav-link:hover{
+    text-decoration: underline 1px var(--clr-light);
+    text-underline-offset: 0.4em;
+}
+
 .nav-logo_container{
     height: 40px;
     display: flex;
@@ -34,4 +45,12 @@
 .nav-join-btn{
     --button-radius: 20px;
     --button-height: 40px;
+    background-color: transparent;
+    color: var(--clr-light); 
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.nav-join-btn:hover{
+    background-color: var(--clr-light);
+    color: var(--clr-hl1);
 }

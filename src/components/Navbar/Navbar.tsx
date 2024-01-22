@@ -4,7 +4,6 @@ import '@/components/Navbar/Navbar.css';
 import { Button, Group } from '@mantine/core';
 import '@mantine/core/styles.css';
 
-// TODO: change when links are known
 const links = [
   { link: '/projects', label: 'Projects' },
   { link: '/team', label: 'Team' },
@@ -12,7 +11,7 @@ const links = [
 ];
 
 const items = links.map((link) => 
-<Button variant="transparent" component="a" href={link.link} color="white" >{link.label}</Button>
+  <Button variant="transparent" component="a" href={link.link} color="white" classNames={{label: "nav-link"}}>{link.label}</Button>
 )
 
 function Navbar() {
