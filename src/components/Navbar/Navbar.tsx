@@ -17,9 +17,9 @@ const items = links.map((link) =>
 function Navbar() {
   return (
     <header className='nav'>
-      <div className='nav-logo_container'>
-        <Image src='/logo-with-text.svg' alt='Blueprint Logo' className='nav-logo-img' height={30} width={150}/>
-      </div>
+      <a className='nav-logo_tag' href="/">
+        <Image src='/logo-with-text.svg' alt='Blueprint Logo' height={30} width={150}/>
+      </a>
       <div className='nav-menu_container'>
         {items}
         <Button variant="outline" color="white" className="nav-join-btn"> Join our Team!</Button>
