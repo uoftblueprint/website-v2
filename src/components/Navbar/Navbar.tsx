@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from '@mantine/core';
 import '@/components/Navbar/Navbar.css';
-import { Button, Group } from '@mantine/core';
 import '@mantine/core/styles.css';
 
 const links = [
@@ -22,7 +22,7 @@ function Navbar() {
       </a>
       <div className='nav-menu_container'>
         {items}
-        <Button variant="outline" color="white" className="nav-join-btn"> Join our Team!</Button>
+        <Button variant="outline" color="white" className="nav-join-btn">Join our Team!</Button>
       </div>
     </header>
   )
