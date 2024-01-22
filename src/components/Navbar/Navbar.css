@@ -1,12 +1,3 @@
-*{
-
-    /* TODO: will replace this with mantine theme styles once it is set up for the project */
-
-    --clr-light: #FFFFFF;
-    --clr-hl1: #006DEC;
-
-}
-
 .nav{
     height: 8vh;
     width: 100%;
@@ -19,6 +10,9 @@
     padding-right: 20px;
     position: fixed;
     top: 0;
+
+    --clr-light: #FFFFFF;
+    --clr-hl1: #006DEC;
 }
 
 .nav-link{
