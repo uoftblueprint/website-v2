@@ -4,7 +4,7 @@
     flex-shrink: 0;
     background: #0078E8;
     justify-content: space-between;
-    padding: 10px
+    padding: 10px;
 }
 
 .footer-menu  {
@@ -15,20 +15,28 @@
     padding-right: 50px;
     margin-left: 30px;
     margin-right: 30px;
-    
 }
+
 .footer-text{
     color: #FFF;
-    font-family: Poppins;
     font-size: 32px;
     font-weight: 500;
     line-height: normal;
-    
 }
 
 .logo{
     height: 100%;
-   
+}
+
+.copyright-text{
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
 }
 
 
