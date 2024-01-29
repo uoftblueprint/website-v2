@@ -3,7 +3,7 @@
 import React from "react";
 import { Center, Avatar, Text } from "@mantine/core";
 import '@mantine/core/styles.css';
-import classes from "./Profile.css"
+import "./Profile.css"
 
 
 function Profile({name, role, profilePicture}) {
