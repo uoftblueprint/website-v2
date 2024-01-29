@@ -12,11 +12,11 @@ function TeamCard({title, team_members}) {
 
             <SimpleGrid spacing="lg" cols={{lg:6, sm:4, xs:2}}>
                 {team_members.map( (team_member, index) => 
-                            <Profile 
-                            key={index}
-                            name={team_member.name} 
-                            role={team_member.role} 
-                            profilePicture={team_member.profilePicture}/>
+                    <Profile 
+                        key={index}
+                        name={team_member.name} 
+                        role={team_member.role} 
+                        profilePicture={team_member.profilePicture}/>
                 )}
             </SimpleGrid>
 

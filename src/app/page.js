@@ -6,7 +6,7 @@ import TeamCard from '@/team-card/TeamCard';
 
 
 let test_team = [
-    {name: "Michael Jia", role: "Product Manager", profilePicture: "/cat.jpeg",},
+    {name: "Michael Jia", role: "Product Manager", profilePicture: "/cat.jpeg"},
     {name: "qwer", role: "123", profilePicture: "./cat.jpeg",},
     {name: "asdfj", role: "123", profilePicture: "./cat.jpeg",},
     {name: "xcvb", role: "123", profilePicture: "./cat.jpeg",},
