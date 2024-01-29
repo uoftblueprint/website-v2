@@ -2,18 +2,14 @@
 
 import React from "react";
 import Profile from "./Profile";
-import { createTheme, MantineProvider, Title, SimpleGrid } from "@mantine/core";
+import { MantineProvider, Title, SimpleGrid } from "@mantine/core";
 import '@mantine/core/styles.layer.css';
 import "./TeamCard.css"
 
-const theme = createTheme({
-    fontFamily: 'Poppins, sans-serif',
-  });
-
 function TeamCard({title, team_members}) {
-
+    //using index as key prop? or should use uuid
     return (
-        <MantineProvider theme={theme}>
+        <MantineProvider>
             <Title className="teamName" ta="center" pb="xl" c="#0078E8">{title}</Title>
 
             <SimpleGrid style={{alignItems:"start",}} spacing="lg" cols={{lg:6, sm:4, xs:2}}>

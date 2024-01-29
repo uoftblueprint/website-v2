@@ -8,5 +8,9 @@
 }
 
 .mantine-Center-root {
-    flex-direction: 'column';
+    flex-direction: column;
+}
+
+.mantine-Text-root, .mantine-Title-root {
+    font-family: 'Poppins', sans-serif;
 }
