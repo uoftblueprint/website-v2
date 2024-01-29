@@ -1,5 +1,3 @@
-'use client'
-
 import React from "react";
 import { Center, Avatar, Text } from "@mantine/core";
 import '@mantine/core/styles.css';
