@@ -6,3 +6,7 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
+
+.mantine-Center-root {
+    flex-direction: 'column';
+}
