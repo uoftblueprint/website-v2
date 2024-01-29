@@ -10,7 +10,7 @@ function TeamCard({title, team_members}) {
         <MantineProvider>
             <Title ta="center" pb="xl" c="#0078E8">{title}</Title>
 
-            <SimpleGrid style={{alignItems:"start",}} spacing="lg" cols={{lg:6, sm:4, xs:2}}>
+            <SimpleGrid spacing="lg" cols={{lg:6, sm:4, xs:2}}>
                 {team_members.map( (team_member, index) => 
                             <Profile 
                             key={index}

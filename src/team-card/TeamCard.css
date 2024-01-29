@@ -3,3 +3,7 @@
 .mantine-Title-root {
     font-family: 'Poppins', sans-serif;
 }
+
+.mantine-SimpleGrid-root {
+    align-items: start;
+}
