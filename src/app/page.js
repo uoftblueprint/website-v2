@@ -2,26 +2,25 @@ import Image from 'next/image';
 import _ from '@/config/firebase';
 import styles from '@/app/page.module.css';
 import '@mantine/core/styles.css';
-import TeamCard from "./team-card/TeamCard";
-import Profile from '@/team-card/Profile';
+import TeamCard from '@/team-card/TeamCard';
 
 
-// let test_team = [
-//     {name: "Michael Jia", role: "Product Manager", profilePicture: "/cat.jpeg",},
-//     {name: "qwer", role: "123", profilePicture: "/cat.jpeg",},
-//     {name: "asdfj", role: "123", profilePicture: "/cat.jpeg",},
-//     {name: "xcvb", role: "123", profilePicture: "/cat.jpeg",},
-//     {name: "rtyu", role: "123", profilePicture: "/cat.jpeg",},
-//     {name: "rtyu", role: "123", profilePicture: "/cat.jpeg",},
-//     {name: "rtyu", role: "123", profilePicture: "/cat.jpeg",}
-//   ]
+let test_team = [
+    {name: "Michael Jia", role: "Product Manager", profilePicture: "/cat.jpeg",},
+    {name: "qwer", role: "123", profilePicture: "./cat.jpeg",},
+    {name: "asdfj", role: "123", profilePicture: "./cat.jpeg",},
+    {name: "xcvb", role: "123", profilePicture: "./cat.jpeg",},
+    {name: "rtyu", role: "123", profilePicture: "./cat.jpeg",},
+    {name: "rtyu", role: "123", profilePicture: "./cat.jpeg",},
+    {name: "rtyu", role: "123", profilePicture: "./cat.jpeg",}
+  ]
 
 export default function Home() {
 
     return (
         <main className={styles.main}>
 
-            {/* <Profile name={test_team[0].name} role={test_team[0].role} profilePicture={test_team[0].profilePicture}/> */}
+            <TeamCard title={"Testing Title"} team_members={test_team}></TeamCard>
 
             <div className={styles.description}>
                 <p>

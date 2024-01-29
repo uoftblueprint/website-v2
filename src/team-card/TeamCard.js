@@ -4,7 +4,7 @@ import React from "react";
 import Profile from "./Profile";
 import { createTheme, MantineProvider, Title, SimpleGrid } from "@mantine/core";
 import '@mantine/core/styles.layer.css';
-import "./TeamCard.module.css"
+import "./TeamCard.css"
 
 const theme = createTheme({
     fontFamily: 'Poppins, sans-serif',
