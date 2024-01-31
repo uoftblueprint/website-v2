@@ -13,11 +13,11 @@ export default function RootLayout({ children }) {
                 <MantineProvider>
                     <AppShell
                         header={{ height: "8vh" }}
-                        footer={{ height: "283px" }}
+                        footer={{ height: "283px" }} // adjust based on footer height
                         style={{ position: "relative" }}
                     >
                         <AppShell.Header>
-                            {/* add header here! */}
+                            {/* add navbar here! */}
                         </AppShell.Header>
 
                         <AppShell.Main>{children}</AppShell.Main>

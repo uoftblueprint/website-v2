@@ -1,5 +1,4 @@
 "use client";
-import { ChaptersCard } from "@/chapters-card/ChaptersCard";
 import React from "react";
 
 export default function ChaptersPage() {
