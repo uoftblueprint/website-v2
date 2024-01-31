@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
-import _ from "@/config/firebase";
 
-export default function Home() {
+export default function TeamPage() {
     return (
         <div>
             {/* add components here! */}

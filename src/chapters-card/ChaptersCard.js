@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Anchor } from "@mantine/core";
-import "@mantine/core/styles.css";
 import "../chapters-card/ChaptersCard.css";
 
 export function ChaptersCard({ name, description, link }) {
