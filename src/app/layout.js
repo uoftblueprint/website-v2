@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
                     <AppShell
                         header={{ height: "8vh" }}
                         footer={{ height: "283px" }}
+                        style={{ position: "relative" }}
                     >
                         <AppShell.Header>
                             {/* add header here! */}
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
 
                         <AppShell.Main>{children}</AppShell.Main>
 
-                        <AppShell.Footer>
+                        <AppShell.Footer style={{ position: "absolute" }}>
                             {/* add footer here! */}
                         </AppShell.Footer>
                     </AppShell>
