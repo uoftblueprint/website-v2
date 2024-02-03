@@ -1,26 +1,26 @@
-import { Card, Image } from "@mantine/core";
+import { Card, CardSection, Image } from "@mantine/core";
 import "@mantine/core/styles.css";
 import "../projects-card/ProjectsCard.css";
 
-export function ProjectsCard({image, name, description}) { {/* What order is prefered? */}
+export function ProjectsCard({name, description, image}) {
     return (
         <Card padding="lg">
-            <Card.Section>
+            <CardSection>
                 <Image
                     src={image}
-                    radius="md" // How to change radius for bottom two edges?
-                    h={200} // Prevents layout jumps. Replace 200 with something else.
+                    radius="md"
+                    h={200}
                     alt= {name}
                 />
-            </Card.Section>
+            </CardSection>
 
-            <Card.Section c="#0078E8" className={"project-name"}>
+            <CardSection c="#0078E8" className={"project-name"}>
                 {name}
-            </Card.Section>
+            </CardSection>
 
-            <Card.Section c="0078E8" className={"project-description"}>
+            <CardSection c="#0078E8" className={"project-description"}>
                 {description}
-            </Card.Section>
+            </CardSection>
         </Card>
     )
 }
