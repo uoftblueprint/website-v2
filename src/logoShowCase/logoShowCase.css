@@ -1,0 +1,7 @@
+.main-grid{
+    width: 1728px;
+    height: 712px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 300px 300px;
+    background: #E7F3FF;
+}
