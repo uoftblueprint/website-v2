@@ -11,8 +11,8 @@ export default function HeroBanner() {
                 <div className="banner-logo-container">
                     <Image src="bp_logo_white.svg" alt="bp logo" fill className="banner-logo"/>
                 </div>
+                <h1 className="banner-title">Tech for Social Good. </h1>
                 <div className="banner-text-container">
-                    <h1 className="banner-title">Tech for Social Good. </h1>
                     <div className="banner-text">
                         Hi! We're a group of passionate UofT students that build software for social good.
                     </div>
