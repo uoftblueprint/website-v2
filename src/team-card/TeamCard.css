@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-.mantine-Title-root {
-    font-family: 'Poppins', sans-serif;
-}
-
 .mantine-SimpleGrid-root {
     align-items: start;
 }
+
+.mantine-Title-root {
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+}
+
+@media screen and (max-width: 768px) {
+    .mantine-Title-root {
+        font-size:15px;
+    }
+
+    .mantine-Avatar-root {
+        --avatar-size:100px;
+    }
+
+}
+
+/* .teamName {
+    font-size: calc(41px + 1.8rem);
+} */
