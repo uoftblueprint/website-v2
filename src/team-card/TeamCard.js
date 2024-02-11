@@ -7,10 +7,6 @@ import "./TeamCard.css"
 const theme = createTheme({
     breakpoints: {
       xs: '10em',
-      sm: '48em',
-      md: '64em',
-      lg: '74em',
-      xl: '90em',
     },
   });
 
