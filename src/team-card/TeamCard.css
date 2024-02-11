@@ -6,4 +6,6 @@
 
 .mantine-Title-root {
     font-family: 'Poppins', sans-serif !important;
+    text-align: center;
+    padding-bottom: 30px;
 }
