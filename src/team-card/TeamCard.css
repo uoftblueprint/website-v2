@@ -5,13 +5,5 @@
 }
 
 .mantine-Title-root {
-    font-family: 'Poppins', sans-serif;
-    font-size:20px;
-}
-
-@media screen and (max-width: 768px) {
-    .mantine-Title-root {
-        font-size:15px;
-    }
-
+    font-family: 'Poppins', sans-serif !important;
 }

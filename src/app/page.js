@@ -20,7 +20,7 @@ export default function Home() {
     return (
         <main className={styles.main}>
 
-            <TeamCard title={"Testinalsdjflad sjfkldsjfksdalj flskadjfdlsakjdflksdfg Title"} team_members={test_team}></TeamCard>
+            <TeamCard title={"Toronto Community Employment Services"} team_members={test_team}></TeamCard>
 
             <div className={styles.description}>
                 <p>
