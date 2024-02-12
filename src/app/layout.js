@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
               breakpoint: "sm",
               collapsed: { mobile: !isSideNavOpened, desktop: true },
             }}
+            transitionDuration={0}
           >
             <AppShell.Header>
               <Navbar
@@ -40,7 +41,7 @@ export default function RootLayout({ children }) {
               />
             </AppShell.Header>
 
-            <AppShell.Navbar>
+            <AppShell.Navbar style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}>
               <SideNavMenu links={links} />
             </AppShell.Navbar>
 
