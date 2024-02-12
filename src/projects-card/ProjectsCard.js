@@ -9,7 +9,7 @@ export function ProjectsCard({name, description, image}) {
                 <Image
                     src={image}
                     radius="md"
-                    h={200}
+                    h={250}
                     alt= {name}
                 />
             </CardSection>
