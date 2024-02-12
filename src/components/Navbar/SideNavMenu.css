@@ -3,6 +3,7 @@
     --clr-hl1: #006DEC;
 
     display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .side-menu{

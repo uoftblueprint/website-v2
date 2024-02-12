@@ -31,16 +31,19 @@ export default function RootLayout({ children }) {
                             breakpoint: 'sm',
                             collapsed: { mobile: !isSideNavOpened, desktop: true},
                         }}
+                        transitionDuration={0}
                     >
                         <AppShell.Header>
                             <Navbar opened={isSideNavOpened} toggleOpened={() => setIsSideNavOpened(!isSideNavOpened)} links={links}/>
                         </AppShell.Header>
 
-                        <AppShell.Navbar>
+                        <AppShell.Navbar style={{backgroundColor: "rgba(0, 0, 0, 0)"}}>
                             <SideNavMenu links={links}/>
                         </AppShell.Navbar>
 
-                        <AppShell.Main>{children}</AppShell.Main>
+                        <AppShell.Main>
+                            {children}
+                        </AppShell.Main>
 
                         <AppShell.Footer style={{ position: "absolute" }}>
                             {/* add footer here! */}
