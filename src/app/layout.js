@@ -9,29 +9,33 @@ import SideNavMenu from "@/components/Navbar/SideNavMenu";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
-  const [opened, setOpened] = useState(false);
+  const [isSideNavOpened, setIsSideNavOpened] = useState(false);
+
   return (
     <html lang="en">
       <body className={inter.className}>
         <MantineProvider>
           <AppShell
-            header={{ height: "8vh" }}
+            header={{ height: "60px" }}
             footer={{ height: "283px" }} // adjust based on footer height
             style={{ position: "relative" }}
             navbar={{
               width: 300,
               breakpoint: "sm",
-              collapsed: { mobile: !opened, desktop: true },
+              collapsed: { mobile: !isSideNavOpened, desktop: true },
             }}
           >
             <AppShell.Header>
-              <Navbar opened={opened} toggleOpened={() => setOpened(!opened)} />
+              <Navbar
+                opened={isSideNavOpened}
+                toggleOpened={() => setIsSideNavOpened(!isSideNavOpened)}
+              />
             </AppShell.Header>
 
             <AppShell.Navbar>
               <SideNavMenu
-                opened={opened}
-                toggleOpened={() => setOpened(!opened)}
+                opened={isSideNavOpened}
+                toggleOpened={() => setIsSideNavOpened(!isSideNavOpened)}
               />
             </AppShell.Navbar>
 
