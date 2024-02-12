@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
             <body className={inter.className}>
                 <MantineProvider>
                     <AppShell
-                        header={{ height: "60px" }}
+                        header={{ height: "96px" }}
                         footer={{ height: "283px" }} // adjust based on footer height
                         style={{ position: "relative" }}
                         navbar={{
