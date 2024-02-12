@@ -5,31 +5,25 @@ import "@/components/Navbar/Navbar.css";
 import "@/components/Navbar/SideNavMenu.css";
 import "@mantine/core/styles.css";
 
-const links = [
-  { link: "/projects", label: "Projects" },
-  { link: "/team", label: "Team" },
-  { link: "/chapters", label: "Chapters" },
-];
+function Navbar({ opened, toggleOpened, links }) {
+  const items = links.map((link) => (
+    <Button
+      variant="transparent"
+      component="a"
+      href={link.link}
+      color="white"
+      classNames={{ label: "nav-link" }}
+    >
+      {link.label}
+    </Button>
+  ));
 
-const items = links.map((link) => (
-  <Button
-    variant="transparent"
-    component="a"
-    href={link.link}
-    color="white"
-    classNames={{ label: "nav-link" }}
-  >
-    {link.label}
-  </Button>
-));
+  items.push(
+    <Button variant="filled" color="#FFFFFF" className="nav-join-btn">
+      Join our Team!
+    </Button>,
+  );
 
-items.push(
-  <Button variant="filled" color="#FFFFFF" className="nav-join-btn">
-    Join our Team!
-  </Button>,
-);
-
-function Navbar({ opened, toggleOpened }) {
   return (
     <header className="nav">
       <a className="nav-logo_tag" href="/">
