@@ -8,6 +8,13 @@ import SideNavMenu from "@/components/Navbar/SideNavMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const links = [
+    { link: '/about', label: 'About'},
+    { link: '/projects', label: 'Projects' },
+    { link: '/team', label: 'Team' },
+    { link: '/chapters', label: 'Chapters' },
+];
+
 export default function RootLayout({ children }) {
     const [isSideNavOpened, setIsSideNavOpened] = useState(false);
 
@@ -26,11 +33,11 @@ export default function RootLayout({ children }) {
                         }}
                     >
                         <AppShell.Header>
-                            <Navbar opened={isSideNavOpened} toggleOpened={() => setIsSideNavOpened(!isSideNavOpened)}/>
+                            <Navbar opened={isSideNavOpened} toggleOpened={() => setIsSideNavOpened(!isSideNavOpened)} links={links}/>
                         </AppShell.Header>
 
                         <AppShell.Navbar>
-                            <SideNavMenu opened={isSideNavOpened} toggleOpened={() => setIsSideNavOpened(!isSideNavOpened)} />
+                            <SideNavMenu links={links}/>
                         </AppShell.Navbar>
 
                         <AppShell.Main>{children}</AppShell.Main>
