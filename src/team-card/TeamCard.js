@@ -3,6 +3,7 @@
 import React from "react";
 import Profile from "./Profile";
 import { createTheme, MantineProvider, Title, SimpleGrid } from "@mantine/core";
+import { useMediaQuery } from '@mantine/hooks';
 import '@mantine/core/styles.css';
 import "./TeamCard.css"
 
@@ -13,10 +14,12 @@ const theme = createTheme({
   });
 
 function TeamCard({title, team_members}) {
+    const small = useMediaQuery('(max-width: 500px)');
+    const titleSize = small ? "20px" : "30px"
 
     return (
         <MantineProvider theme={theme}>
-            <Title size="30px" c="#0078E8">{title}</Title>
+            <Title size={titleSize} c="#0078E8">{title}</Title>
 
             <SimpleGrid spacing="lg" cols={{lg:6, sm:4, xs:2}}>
                 {team_members.map( (team_member, index) => 
