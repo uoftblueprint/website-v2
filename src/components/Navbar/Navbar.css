@@ -41,8 +41,7 @@
 .nav-join-btn{
     --button-radius: 20px;
     --button-height: 40px;
-    background-color: transparent;
-    color: var(--clr-light); 
+    color: var(--clr-hl1); 
     transition: color .3s ease-in-out, background-color .3s ease-in-out;
 }
 
