@@ -19,6 +19,7 @@ function TeamCard({title, team_members}) {
 
     return (
         <MantineProvider theme={theme}>
+
             <Center>
                 <Title size={titleSize} c="#0078E8">{title}</Title>
 
@@ -32,6 +33,7 @@ function TeamCard({title, team_members}) {
                     )}
                 </SimpleGrid>
             </Center>
+
         </MantineProvider>
         
     )
