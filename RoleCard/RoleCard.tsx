@@ -16,9 +16,9 @@ export default function RoleCard({ role, link}){
         </Center>
         <Center>
           <Anchor href={link} target="_blank" rel="noopener noreferrer">
-            <Button variant="filled" radius="xl">
-              Apply
-            </Button>
+          <Button rightSection={<Image className='chevron' src="/chevron-right.svg"/>} variant="filled" radius="xl" size="xl" className="buttonWithImage">
+            Apply
+          </Button>
           </Anchor>
         </Center>
       </Card>
