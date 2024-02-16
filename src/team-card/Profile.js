@@ -20,8 +20,8 @@ function Profile({name, role, profilePicture, linkedinLink = ''}) {
                             <Avatar size={avatarSize} src={profilePicture}/>
                             }
 
-            <Text pt="15px" size="18px" c="#000">{name}</Text>  
-            <Text pt="5px" size="16px" c="#C4C4C4">{role}</Text>
+            <Text id="name">{name}</Text>  
+            <Text id="role">{role}</Text>
         </Center>
     )
 }
