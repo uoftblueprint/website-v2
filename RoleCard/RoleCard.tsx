@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Image, Text, Button, Center, Anchor } from '@mantine/core';
 import "./RoleCard.css"
 
-export default function RoleCard(){
+export default function RoleCard({ role, link}){
   return (
       // <Card className='roleCard' shadow="lg" radius="xl" p="xl" style={{ width: 'calc(33.333% - 20px)', marginBottom: '20px' }}>
       <Card className='roleCard' shadow="lg" radius="xl" p="xl">
@@ -11,11 +11,11 @@ export default function RoleCard(){
         </Center>
         <Center my="xs">
           <Text c="#0078E8" fw={500} className='roleTitle'>
-            Software Developer
+            {role}
           </Text>
         </Center>
         <Center>
-          <Anchor href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+          <Anchor href={link} target="_blank" rel="noopener noreferrer">
             <Button variant="filled" radius="xl">
               Apply
             </Button>

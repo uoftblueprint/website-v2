@@ -8,14 +8,27 @@
 
 .roleCard{
     font-family: 'Poppins', sans-serif;
-    width: 27.5rem; 
+    width: 460px;
     margin-bottom: 20px;
     font-weight: 500;
+    flex-shrink: 0;
 }
 
 .roleTitle {
-    font-size: 1rem;
+    font-size: 40px;
     line-height: normal;
     font-style: normal;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .roleTitle {
+        font-size: 24px;
+    }
+
+    .roleCard {
+        width: 90%;
+    }
 }
