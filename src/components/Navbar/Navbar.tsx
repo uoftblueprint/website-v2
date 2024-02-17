@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { Button } from "@mantine/core";
 import "@/components/Navbar/Navbar.css";
@@ -15,6 +14,7 @@ const items = links.map((link) => (
     variant="transparent"
     component="a"
     href={link.link}
+    key={link.link}
     color="white"
     classNames={{ label: "nav-link" }}
   >

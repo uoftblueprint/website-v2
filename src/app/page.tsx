@@ -1,6 +1,4 @@
 "use client";
-import React from "react";
-import _ from "@/config/firebase";
 import { ChaptersCard } from "@/chapters-card/ChaptersCard";
 
 export default function Home() {

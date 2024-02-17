@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, Anchor } from "@mantine/core";
 import "../chapters-card/ChaptersCard.css";
 

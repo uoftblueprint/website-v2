@@ -1,5 +1,10 @@
 {
-  "extends": ["eslint:recommended", "prettier", "prettier/react"],
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
   "plugins": [],
   "parserOptions": {
     "ecmaVersion": 2018,
@@ -13,5 +18,8 @@
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "rules": {
+    "react/prop-types": "off"
   }
 }
