@@ -9,8 +9,8 @@ export function ProjectsCard({name, description, image}) {
                 <Image
                     src={image}
                     radius="md"
-                    h={250}
                     alt= {name}
+                    className={"image"}
                 />
             </CardSection>
 
