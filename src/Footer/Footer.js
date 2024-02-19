@@ -9,9 +9,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="main-footer">
+    <Footer className="footer-container">
 
-      <Group className="footer-menu">
+      <Group className="menu-container">
         <a className="logo" href="/">
           <Image
             src="/logo-with-text.svg"
@@ -41,7 +41,7 @@ const Footer = () => {
 
       <h5 className="copyright-text"> &copy; Blueprint 2023</h5>
 
-    </footer>
+    </Footer>
   );
 };
 
