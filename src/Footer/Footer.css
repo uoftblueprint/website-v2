@@ -1,0 +1,40 @@
+.footer-container{
+    width: auto;
+    height: 283px;
+    background: #0078E8;
+    justify-content: space-between;
+}
+
+
+.menu-container{
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+.footer-text{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.logo{
+    display: flex;
+    height: 100%;
+}
+
+.copyright-text{
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+
