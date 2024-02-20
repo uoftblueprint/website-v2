@@ -17,6 +17,7 @@
 }
 
 .footer-text {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   font-size: 2rem;
   font-weight: 500;
@@ -24,6 +25,7 @@
 }
 
 .copyright-text {
+  font-family:'Poppins', sans-serif;
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
