@@ -13,7 +13,7 @@ export function ChaptersCard({ name, description, link }) {
       </Card.Section>
 
       <Card.Section style={{ paddingTop: "16px" }}>
-        <Anchor href={link} target="_blank" c="#0078E8" underline="hover">
+        <Anchor href={link} target="_blank" c="#0078E8" underline="hover" className="card-font">
           Learn more
         </Anchor>
       </Card.Section>

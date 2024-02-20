@@ -8,7 +8,12 @@
     margin: 0;
 }
 
-.mantine-Anchor-root {
+/* .mantine-Anchor-root {
+    font-size: 24px;
+    font-weight: 500;
+} */
+
+.card-font{
     font-size: 24px;
     font-weight: 500;
 }
