@@ -1,9 +1,10 @@
 "use client";
 import { Inter } from "next/font/google";
 import "@mantine/core/styles.css";
-import { MantineProvider, AppShell } from "@mantine/core";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
+import { MantineProvider, AppShell } from "@mantine/core";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
