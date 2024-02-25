@@ -9,7 +9,7 @@
     color: #0078E8;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 4.3vw;
+    font-size: 3.47vw;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -17,8 +17,8 @@
 }
 
 .grid{
-    padding-left: 5.5vw;
-    padding-right: 5.5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .image-container{
