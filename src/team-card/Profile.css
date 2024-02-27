@@ -10,7 +10,6 @@
 }
 
 #name {
-  font-size: 18px;
   font-size: clamp(15px, 12px + 0.7vw, 18px);
   color: #000;
   padding-top: 15px;
@@ -18,7 +17,6 @@
 
 #role {
   padding-bottom: 5px;
-  font-size: 16px;
   font-size: clamp(12px, 10px + 0.5vw, 15px);
   color: #c4c4c4;
 }
