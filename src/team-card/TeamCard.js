@@ -6,7 +6,7 @@ import {
   MantineProvider,
   Title,
   SimpleGrid,
-  Center,
+  Container,
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import "@mantine/core/styles.css";
@@ -24,7 +24,7 @@ function TeamCard({ title, team_members }) {
 
   return (
     <MantineProvider theme={theme}>
-      <Center>
+      <Container size="80%">
         <Title size={titleSize} c="#0078E8">
           {title}
         </Title>
@@ -39,7 +39,7 @@ function TeamCard({ title, team_members }) {
             />
           ))}
         </SimpleGrid>
-      </Center>
+      </Container>
     </MantineProvider>
   );
 }
