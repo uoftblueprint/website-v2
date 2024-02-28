@@ -1,17 +1,25 @@
-.mantine-Accordion-root {
-    color: #0078e8;
-    text-align: center;
-    font-size: 36px;
-  }
-  
-  .question {
-    font-weight: bold;
-    text-align: center;
-    font-size: 48px;
-    color: #0078e8;
-  }
-  
-  .answer {
-    font-size: 36px;
-  }
-  
+.mantine-Container-root {
+  color: #0078e8;
+  text-align: center;
+  font-size: 36px;
+}
+
+.mantine-Accordion-item {
+  border: none;
+}
+
+.mantine-Accordion-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.question {
+  font-weight: bold;
+  text-align: center;
+  font-size: 48px;
+  color: #0078e8;
+}
+
+.answer {
+  font-size: 36px;
+}

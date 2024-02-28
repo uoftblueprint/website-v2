@@ -1,4 +1,4 @@
-import { Accordion } from "@mantine/core";
+import { Accordion, Container, Title, Divider } from "@mantine/core";
 import "./for-students-FAQ.css";
 
 function FaqCard({ faq_info }) {
@@ -13,9 +13,13 @@ function FaqCard({ faq_info }) {
   ));
 
   return (
-    <Accordion multiple variant="filled" defaultValue="Apples">
-      {items}
-    </Accordion>
+    <Container>
+      <Title>FAQ</Title>
+
+      <Divider my="lg"></Divider>
+
+      <Accordion>{items}</Accordion>
+    </Container>
   );
 }
 
