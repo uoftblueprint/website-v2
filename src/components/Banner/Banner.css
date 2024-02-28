@@ -74,4 +74,8 @@
 		--subtitle-fs: 14px;
 		--logo-size: 100px;
 	}
+
+	.banner-text-container {
+		max-width: 100%;
+	}
 }
