@@ -1,0 +1,17 @@
+.mantine-Accordion-root {
+    color: #0078e8;
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .question {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+    color: #0078e8;
+  }
+  
+  .answer {
+    font-size: 36px;
+  }
+  

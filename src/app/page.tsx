@@ -1,16 +1,13 @@
 "use client";
-import { ChaptersCard } from "@/chapters-card/ChaptersCard";
+import { Demo } from "@/for-students-FAQ/question.js";
+import { MantineProvider } from "@mantine/core";
 
 export default function Home() {
   return (
-    <div>
-      {
-        <ChaptersCard
-          name="gaaaab"
-          description="bennnnn"
-          link="https://google.com"
-        />
-      }
-    </div>
+    <MantineProvider>
+      <div>
+        <Demo></Demo>
+      </div>
+    </MantineProvider>
   );
 }
