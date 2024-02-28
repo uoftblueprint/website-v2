@@ -43,7 +43,7 @@
 }
 
 .banner-text-container {
-	max-width: 70%;
+	max-width: 55%;
 	line-clamp: 2;
 	width: auto;
 	display: flex;
@@ -66,6 +66,16 @@
 		--title-fs: 45px;
 		--subtitle-fs: 22px;
 	}
+
+	.banner-text-container {
+		max-width: 65%;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.banner-text-container {
+		max-width: 95%;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -73,9 +83,5 @@
 		--title-fs: 26px;
 		--subtitle-fs: 14px;
 		--logo-size: 100px;
-	}
-
-	.banner-text-container {
-		max-width: 100%;
 	}
 }
