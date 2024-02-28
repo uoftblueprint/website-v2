@@ -23,7 +23,7 @@ function FaqCard({ faq_info }) {
 
       <Divider my="lg"></Divider>
 
-      <Accordion>{items}</Accordion>
+      <Accordion variant="separated">{items}</Accordion>
     </Container>
   );
 }
