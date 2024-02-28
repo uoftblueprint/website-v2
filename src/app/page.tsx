@@ -2,24 +2,21 @@
 import FaqCard from "@/for-students-FAQ/for-students-FAQ.js";
 import { MantineProvider } from "@mantine/core";
 
-const groceries = [
+const faqInfo = [
   {
-    emoji: "🍎",
-    value: "Apples",
-    description:
-      "Crisp and refreshing fruit. Apples are known for their versatility and nutritional benefits. They come in a variety of flavors and are great for snacking, baking, or adding to salads.",
+    question: "Insert interesting question question mark incoming1?",
+    answer:
+      "1Blah blah blah more stuff more information blah description I hope this answered your question. Hello to the developer that is building this out.",
   },
   {
-    emoji: "🍌",
-    value: "Bananas",
-    description:
-      "Naturally sweet and potassium-rich fruit. Bananas are a popular choice for their energy-boosting properties and can be enjoyed as a quick snack, added to smoothies, or used in baking.",
+    question: "Insert interesting question question mark incoming2?",
+    answer:
+      "2Blah blah blah more stuff more information blah description I hope this answered your question. Hello to the developer that is building this out.",
   },
   {
-    emoji: "🥦",
-    value: "Broccoli",
-    description:
-      "Nutrient-packed green vegetable. Broccoli is packed with vitamins, minerals, and fiber. It has a distinct flavor and can be enjoyed steamed, roasted, or added to stir-fries.",
+    question: "Insert interesting question question mark incoming3?",
+    answer:
+      "3Blah blah blah more stuff more information blah description I hope this answered your question. Hello to the developer that is building this out.",
   },
 ];
 
@@ -27,7 +24,7 @@ export default function Home() {
   return (
     <MantineProvider>
       <div>
-        <FaqCard faq_info={groceries}></FaqCard>
+        <FaqCard faq_info={faqInfo}></FaqCard>
       </div>
     </MantineProvider>
   );
