@@ -20,8 +20,22 @@ export default function Banner({
 				rowGap={"20px"}
 				className="banner-flex"
 			>
-				<h1 className="banner-title">{title}</h1>
-				<div className="banner-text">{text}</div>
+				<h1
+					className="banner-title"
+					style={{
+						filter: "drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.3)",
+					}}
+				>
+					{title}
+				</h1>
+				<div
+					className="banner-text"
+					style={{
+						filter: "drop-shadow(0px 3px 1px rgba(0, 0, 0, 0.3)",
+					}}
+				>
+					{text}
+				</div>
 				{button.text ? (
 					<Button
 						size={"xl"}
