@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
-import { Burger, Button, Container, Transition } from "@mantine/core";
+import { Burger, Button, Container, createTheme } from "@mantine/core";
 import "@/components/Navbar/Navbar.css";
 import "@/components/Navbar/SideNavMenu.css";
 import "@mantine/core/styles.css";
@@ -35,11 +35,11 @@ function Navbar({ opened, toggleOpened, links }) {
         />
       </a>
       <div className="nav-menu_container">
-        <Container visibleFrom="sm">{items}</Container>
+        <Container visibleFrom="md">{items}</Container>
         <Burger
           opened={opened}
           onClick={toggleOpened}
-          hiddenFrom="sm"
+          hiddenFrom="md"
           size="md"
           color="#FFFFFF"
         />
