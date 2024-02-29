@@ -2,7 +2,6 @@
 import { Inter } from "next/font/google";
 import "@mantine/core/styles.css";
 import Footer from "@/components/Footer/Footer";
-import Navbar from "@/components/Navbar/Navbar";
 import { MantineProvider, AppShell } from "@mantine/core";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,10 +13,10 @@ export default function RootLayout({ children }) {
         <MantineProvider>
           <AppShell
             header={{ height: "8vh" }}
-            footer={{ height: "17.6875rem" }} // adjust based on footer height
+            footer={{ height: "20vw" }} // adjust based on footer height
             style={{ position: "relative" }}
           >
-            <AppShell.Header>{<Navbar></Navbar>}</AppShell.Header>
+            <AppShell.Header>{/* add navbar here! */}</AppShell.Header>
 
             <AppShell.Main>{children}</AppShell.Main>
 
