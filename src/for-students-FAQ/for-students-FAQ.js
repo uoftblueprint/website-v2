@@ -1,10 +1,4 @@
-import {
-  Accordion,
-  Container,
-  Title,
-  Divider,
-  Image,
-} from "@mantine/core";
+import { Accordion, Container, Title, Divider, Image } from "@mantine/core";
 import "./for-students-FAQ.css";
 
 function FaqCard({ faq_info }) {
@@ -19,7 +13,7 @@ function FaqCard({ faq_info }) {
   ));
 
   return (
-    <Container fluid p="lg">
+    <Container fluid>
       <Title>FAQ</Title>
 
       <Divider my="lg"></Divider>
