@@ -3,7 +3,6 @@ import {
   Container,
   Title,
   Divider,
-  Text,
   Image,
 } from "@mantine/core";
 import "./for-students-FAQ.css";
