@@ -1,7 +1,6 @@
 "use client";
 import FaqCard from "@/for-students-FAQ/for-students-FAQ.js";
 import { MantineProvider } from "@mantine/core";
-import Demo from "@/for-students-FAQ/Demo.jsx";
 
 const faqInfo = [
   {
@@ -26,7 +25,6 @@ export default function Home() {
     <MantineProvider>
       <div>
         <FaqCard faq_info={faqInfo}></FaqCard>
-        {/* <Demo faq_info={faqInfo}></Demo> */}
       </div>
     </MantineProvider>
   );
