@@ -10,7 +10,6 @@
 .mantine-Container-root {
   text-align: center;
   font-size: var(--regFont);
-  font-family: "Poppins", sans-serif;
   background-color: #e7f3ff;
   padding: 5% 7%;
 }
@@ -35,8 +34,6 @@
 .mantine-Accordion-chevron {
   width: var(--questionFont);
   height: var(--questionFont);
-
-  /* align-self: start; */
   margin-left: 5px;
 }
 
@@ -54,5 +51,4 @@
 .question {
   text-align: center;
   font-size: var(--questionFont);
-  font-family: "Poppins", sans-serif;
 }

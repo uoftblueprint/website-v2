@@ -4,7 +4,7 @@ import "./for-students-FAQ.css";
 function FaqCard({ faq_info }) {
   const items = faq_info.map((faq, index) => (
     <Accordion.Item key={index} value={faq.question}>
-      <Accordion.Control size="600px" className="question">
+      <Accordion.Control className="question">
         <b>{faq.question}</b>
       </Accordion.Control>
 
@@ -26,7 +26,6 @@ function FaqCard({ faq_info }) {
 
       <Accordion
         variant="separated"
-        // classNames={chevronStyles}
         chevron={<Image src="chevron-down.png" />}
       >
         {items}
