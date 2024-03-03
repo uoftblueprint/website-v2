@@ -1,46 +1,32 @@
 "use client";
 
 import Profile from "./Profile";
-import {
-  createTheme,
-  MantineProvider,
-  Title,
-  SimpleGrid,
-  Container,
-} from "@mantine/core";
+import { Title, SimpleGrid, Container } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import "@mantine/core/styles.css";
 import "./TeamCard.css";
-
-const theme = createTheme({
-  breakpoints: {
-    xs: "10em",
-  },
-});
 
 function TeamCard({ title, team_members }) {
   const small = useMediaQuery("(max-width: 500px)");
   const titleSize = small ? "20px" : "30px";
 
   return (
-    <MantineProvider theme={theme}>
-      <Container size="80%">
-        <Title size={titleSize} c="#0078E8">
-          {title}
-        </Title>
+    <Container size="80%">
+      <Title size={titleSize} c="#0078E8">
+        {title}
+      </Title>
 
-        <SimpleGrid spacing="lg" cols={{ lg: 6, sm: 4, xs: 2 }}>
-          {team_members.map((team_member, index) => (
-            <Profile
-              key={index}
-              name={team_member.name}
-              role={team_member.role}
-              profilePicture={team_member.profilePicture}
-            />
-          ))}
-        </SimpleGrid>
-      </Container>
-    </MantineProvider>
+      <SimpleGrid spacing="lg" cols={{ lg: 6, md: 4, sm: 3, xs: 2, base: 2 }}>
+        {team_members.map((team_member, index) => (
+          <Profile
+            key={index}
+            name={team_member.name}
+            role={team_member.role}
+            profilePicture={team_member.profilePicture}
+          />
+        ))}
+      </SimpleGrid>
+    </Container>
   );
 }
 
