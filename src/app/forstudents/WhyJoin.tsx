@@ -10,7 +10,7 @@ function WhyJoin({ img }) {
       className="whyjoin"
       direction={{ sm: "row", base: "column" }}
     >
-      <Container w={{ sm: "40%", base: "100%" }} p={0}>
+      <Container w={{ base: "100%" }} h={{ sm: "100%", base: "auto" }} p={0}>
         <Image src={img} alt="why join img" />
       </Container>
       <div className="whyjoin-text">

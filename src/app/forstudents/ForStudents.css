@@ -6,7 +6,7 @@
 .whyjoin-text {
   color: var(--clr-hl1);
   text-align: right;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 @media (max-width: 780px) {
