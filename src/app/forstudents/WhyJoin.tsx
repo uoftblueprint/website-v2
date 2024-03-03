@@ -1,5 +1,4 @@
 import { Container, Flex, Image } from "@mantine/core";
-import React from "react";
 import "@/app/forstudents/ForStudents.css";
 
 function WhyJoin({ img }) {
