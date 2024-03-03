@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-
 .mantine-SimpleGrid-root {
   align-items: start;
 }
 
 .mantine-Title-root {
-  font-size: 400px !important;
-  font-family: "Poppins", sans-serif !important;
+  font-size: clamp(20px, 20px + 1vw, 48px);
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
