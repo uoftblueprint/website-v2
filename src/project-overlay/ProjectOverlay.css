@@ -13,12 +13,20 @@
   height: 500px;
 }
 
-.title {
+.title,
+.years,
+.section-header,
+.section-description,
+.member-name,
+.member-role {
   color: #0078e8;
-  font-size: 30px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .header {
@@ -28,30 +36,20 @@
 }
 
 .years {
-  color: #0078e8;
-  /* text-align: center; */
   font-size: 13px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   padding-top: 4px;
 }
 
 .section-header {
-  color: #0078e8;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   padding-bottom: 4px;
 }
 
 .section-description {
-  color: #0078e8;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .section {
@@ -59,18 +57,12 @@
 }
 
 .member-name {
-  color: #0078e8;
   font-size: 10px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   padding-bottom: 2px;
 }
 
 .member-role {
-  color: #0078e8;
   font-size: 9px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }

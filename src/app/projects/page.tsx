@@ -1,10 +1,14 @@
 "use client";
-
+import { useDisclosure } from "@mantine/hooks";
 import ProjectOverlay from "@/project-overlay/ProjectOverlay";
+import { Button } from "@mantine/core";
 
 export default function ProjectsPage() {
+  const [isOpened, { open, close }] = useDisclosure(false);
   return (
     <div>
+      {/* demo of how modal functionality, will change when implementing page */}
+      <Button onClick={open}>Open modal</Button>
       <ProjectOverlay
         name="Project Name"
         years={["2021-2022", "2023"]}
@@ -20,6 +24,10 @@ export default function ProjectsPage() {
           { name: "NAME5", role: "ROLE" },
           { name: "NAME6", role: "ROLE" },
         ]}
+        webLink=""
+        githubLink=""
+        isOpened={isOpened}
+        closeModal={close}
       />
     </div>
   );

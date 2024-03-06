@@ -1,4 +1,3 @@
-import { useDisclosure } from "@mantine/hooks";
 import {
   Modal,
   Button,
@@ -23,16 +22,18 @@ export type ProjectOverlayProps = {
   nonprofitDescription: string;
   imageSrc: string;
   team: TeamMember[];
+  webLink: string;
+  githubLink: string;
+  isOpened: boolean;
+  closeModal: () => void;
 };
 
 export default function ProjectOverlay(props: ProjectOverlayProps) {
-  const [opened, { open, close }] = useDisclosure(false);
-
   return (
     <>
       <Modal
-        opened={opened}
-        onClose={close}
+        opened={props.isOpened}
+        onClose={props.closeModal}
         size={"xl"}
         centered
         withCloseButton={false}
@@ -88,19 +89,17 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
           </Grid.Col>
         </Grid>
       </Modal>
-
-      <Button onClick={open}>Open modal</Button>
     </>
   );
 }
 
 function TeamsGrid(team: TeamMember[]) {
   const teamMembers = team.map((member: TeamMember) => (
-    <Grid.Col span={2} key={member.name}>
+    <Grid.Col span={{ base: 10, md: 6, lg: 6 }} key={member.name}>
       {TeamMember(member.name, member.role)}
     </Grid.Col>
   ));
-  return <Grid columns={10}>{teamMembers}</Grid>;
+  return <Grid columns={30}>{teamMembers}</Grid>;
 }
 
 function TeamMember(name: string, role: string) {
