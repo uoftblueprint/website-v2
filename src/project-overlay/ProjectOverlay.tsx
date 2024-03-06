@@ -11,7 +11,21 @@ import {
 } from "@mantine/core";
 import "./ProjectOverlay.css";
 
-export default function ProjectOverlay() {
+export type TeamMember = {
+  name: string;
+  role: string;
+};
+
+export type ProjectOverlayProps = {
+  name: string;
+  years: string[];
+  projectDescription: string;
+  nonprofitDescription: string;
+  imageSrc: string;
+  team: TeamMember[];
+};
+
+export default function ProjectOverlay(props: ProjectOverlayProps) {
   const [opened, { open, close }] = useDisclosure(false);
 
   return (
@@ -26,13 +40,13 @@ export default function ProjectOverlay() {
       >
         <Grid gutter={"sm"}>
           <Grid.Col span={4}>
-            <Image radius="md" h={"100%"} src="/the-period-purse.jpeg" />
+            <Image radius="md" h={"100%"} src={props.imageSrc} />
           </Grid.Col>
           <Grid.Col span="auto" className="modal-content">
             <Modal.Header className="header">
               <Flex direction={"column"}>
-                <Modal.Title className="title">Project Name</Modal.Title>
-                <Text className="years">2022-2023</Text>
+                <Modal.Title className="title">{props.name}</Modal.Title>
+                <Text className="years">{props.years.join(", ")}</Text>
               </Flex>
               <Flex gap="xs">
                 <ActionIcon
@@ -56,15 +70,19 @@ export default function ProjectOverlay() {
             <Modal.Body style={{ gap: "16px" }}>
               <Flex direction={"column"}>
                 <Text className="section-header">DESCRIPTION OF PROJECT</Text>
-                <Text className="section-description">Description</Text>
+                <Text className="section-description">
+                  {props.projectDescription}
+                </Text>
               </Flex>
               <Flex direction={"column"}>
                 <Text className="section-header">ABOUT NON-PROFIT</Text>
-                <Text className="section-description">Description</Text>
+                <Text className="section-description">
+                  {props.nonprofitDescription}
+                </Text>
               </Flex>
               <Flex direction={"column"}>
                 <Text className="section-header">TEAM</Text>
-                {TeamsGrid()}
+                {TeamsGrid(props.team)}
               </Flex>
             </Modal.Body>
           </Grid.Col>
@@ -76,32 +94,22 @@ export default function ProjectOverlay() {
   );
 }
 
-function TeamsGrid() {
-  return (
-    <Grid columns={10}>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-      <Grid.Col span={2}>{TeamMember()}</Grid.Col>
-    </Grid>
-  );
+function TeamsGrid(team: TeamMember[]) {
+  const teamMembers = team.map((member: TeamMember) => (
+    <Grid.Col span={2} key={member.name}>
+      {TeamMember(member.name, member.role)}
+    </Grid.Col>
+  ));
+  return <Grid columns={10}>{teamMembers}</Grid>;
 }
 
-function TeamMember() {
+function TeamMember(name: string, role: string) {
   return (
     <Flex gap={"4"}>
       <Avatar variant="light" radius="xs" src="" />
       <Flex direction={"column"} justify={"center"}>
-        <Text className="member-name">NAME</Text>
-        <Text className="member-role">ROLE</Text>
+        <Text className="member-name">{name}</Text>
+        <Text className="member-role">{role}</Text>
       </Flex>
     </Flex>
   );
