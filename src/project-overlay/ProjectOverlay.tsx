@@ -10,13 +10,13 @@ import {
 } from "@mantine/core";
 import "./ProjectOverlay.css";
 
-export type TeamMember = {
+type TeamMember = {
   name: string;
   role: string;
   imageSrc: string;
 };
 
-export type ProjectOverlayProps = {
+type ProjectOverlayProps = {
   name: string;
   years: string[];
   projectDescription: string;
