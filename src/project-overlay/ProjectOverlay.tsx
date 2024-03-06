@@ -13,6 +13,7 @@ import "./ProjectOverlay.css";
 export type TeamMember = {
   name: string;
   role: string;
+  imageSrc: string;
 };
 
 export type ProjectOverlayProps = {
@@ -96,16 +97,16 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
 function TeamsGrid(team: TeamMember[]) {
   const teamMembers = team.map((member: TeamMember) => (
     <Grid.Col span={{ base: 10, md: 6, lg: 6 }} key={member.name}>
-      {TeamMember(member.name, member.role)}
+      {TeamMember(member.name, member.role, member.imageSrc)}
     </Grid.Col>
   ));
   return <Grid columns={30}>{teamMembers}</Grid>;
 }
 
-function TeamMember(name: string, role: string) {
+function TeamMember(name: string, role: string, imageSrc: string) {
   return (
     <Flex gap={"4"}>
-      <Avatar variant="light" radius="xs" src="" />
+      <Avatar variant="light" radius="xs" src={imageSrc} />
       <Flex direction={"column"} justify={"center"}>
         <Text className="member-name">{name}</Text>
         <Text className="member-role">{role}</Text>
