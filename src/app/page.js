@@ -4,8 +4,6 @@ import _ from "@/config/firebase";
 
 export default function Home() {
     return (
-        <div>
-            {/* add components here! */}
-        </div>
+        
     );
 }
