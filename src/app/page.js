@@ -12,4 +12,4 @@ export default function Home() {
           <Image alt="Group of People" src="team at work_solid I 1.png"></Image>
         </Container>
     );
-}
+    }
