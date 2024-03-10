@@ -18,7 +18,7 @@
 
 .text {
   font-size: calc(15px + 0.75vw);
-  max-width: 80%;
+  max-width: max(250px, 80%);
   /* figure out how to get max-width to match image width? and also make width good on mobile */
 }
 
