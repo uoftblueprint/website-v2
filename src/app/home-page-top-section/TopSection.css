@@ -1,13 +1,27 @@
 .mantine-Container-root * {
   color: #0078e8;
   text-align: center;
+  padding-bottom: 20px;
+}
+
+.mantine-Container-root {
   padding: 0 5% 30px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
-  font-size: calc(20px + 1vw);
+  font-size: calc(18px + 2vw);
 }
 
 .text {
-  font-size: calc(15px + 0.5vw);
+  font-size: calc(15px + 0.75vw);
+  max-width: 80%;
+  /* figure out how to get max-width to match image width? and also make width good on mobile */
+}
+
+.image {
+  width: 80%;
 }
