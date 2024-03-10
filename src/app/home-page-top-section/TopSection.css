@@ -1,0 +1,13 @@
+.mantine-Container-root * {
+  color: #0078e8;
+  text-align: center;
+  padding: 0 5% 30px 5%;
+}
+
+.title {
+  font-size: calc(20px + 1vw);
+}
+
+.text {
+  font-size: calc(15px + 0.5vw);
+}
