@@ -7,16 +7,16 @@ function WhyJoin({ img }) {
       align="center"
       justify="space-between"
       className="whyjoin"
-      direction={{ md: "row", base: "column" }}
-      columnGap={"30px"}
+      direction={{ xs: "row", base: "column" }}
+      columnGap={{ md: "60px", base: "30px" }}
     >
-      <Container w={{ base: "100%" }} h={{ md: "100%", base: "auto" }} p={0}>
+      <Container w={{ base: "100%" }} h={{ sm: "100%", base: "auto" }} p={0}>
         <Image src={img} alt="why join img" />
       </Container>
       <Container
         className="whyjoin-text"
-        w={{ md: "100%", base: "100%" }}
-        h={{ md: "100%", base: "auto" }}
+        w={{ sm: "100%", base: "100%" }}
+        h={{ sm: "100%", base: "auto" }}
         p={0}
       >
         <h2>Why join?</h2>

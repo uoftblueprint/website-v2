@@ -6,33 +6,38 @@
 .whyjoin-text {
   color: var(--clr-hl1);
   text-align: right;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .whyjoin-text > h2 {
   font-size: 72px;
 }
+
+@media (max-width: 480px) {
+  .whyjoin-text > p {
+    text-align: justify;
+  }
+}
 @media (max-width: 780px) {
   .whyjoin-text {
-    max-width: 100%;
-    font-size: 24px;
+    font-size: 16px;
   }
 
   .whyjoin-text > h2 {
-    font-size: 56px;
+    font-size: 32px;
   }
 
   .whyjoin {
-    padding: 60px;
+    padding: 40px;
   }
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 781px) and (max-width: 1280px) {
   .whyjoin-text {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .whyjoin-text > h2 {
-    font-size: 64px;
+    font-size: 48px;
   }
 }
