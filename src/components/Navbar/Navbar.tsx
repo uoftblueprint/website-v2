@@ -1,6 +1,5 @@
-import React from "react";
 import Image from "next/image";
-import { Burger, Button, Container, createTheme } from "@mantine/core";
+import { Burger, Button, Container } from "@mantine/core";
 import "@/components/Navbar/Navbar.css";
 import "@/components/Navbar/SideNavMenu.css";
 import "@mantine/core/styles.css";
@@ -13,6 +12,7 @@ function Navbar({ opened, toggleOpened, links }) {
       href={link.link}
       color="white"
       classNames={{ label: "nav-link" }}
+      key={link.label}
     >
       {link.label}
     </Button>
