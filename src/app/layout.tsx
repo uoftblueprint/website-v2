@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Inter } from "next/font/google";
 import "@mantine/core/styles.css";
 import { MantineProvider, AppShell } from "@mantine/core";
