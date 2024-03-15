@@ -5,8 +5,6 @@ import "@mantine/core/styles.css";
 import { MantineProvider, AppShell } from "@mantine/core";
 import Navbar from "@/components/Navbar/Navbar";
 import SideNavMenu from "@/components/Navbar/SideNavMenu";
-import Navbar from "@/components/Navbar/Navbar";
-import SideNavMenu from "@/components/Navbar/SideNavMenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
