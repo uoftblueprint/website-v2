@@ -16,7 +16,7 @@ function SideNavMenu({ links }) {
   ));
 
   items.push(
-    <Button variant="filled" color="white" className="nav-join-btn">
+    <Button variant="filled" color="white" className="nav-join-btn" key="join">
       Join our Team!
     </Button>,
   );

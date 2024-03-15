@@ -19,7 +19,12 @@ function Navbar({ opened, toggleOpened, links }) {
   ));
 
   items.push(
-    <Button variant="filled" color="#FFFFFF" className="nav-join-btn">
+    <Button
+      variant="filled"
+      color="#FFFFFF"
+      className="nav-join-btn"
+      key="join"
+    >
       Join our Team!
     </Button>,
   );
