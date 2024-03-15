@@ -1,8 +1,11 @@
 "use client";
 import React, { useState } from "react";
+import React, { useState } from "react";
 import { Inter } from "next/font/google";
 import "@mantine/core/styles.css";
 import { MantineProvider, AppShell } from "@mantine/core";
+import Navbar from "@/components/Navbar/Navbar";
+import SideNavMenu from "@/components/Navbar/SideNavMenu";
 import Navbar from "@/components/Navbar/Navbar";
 import SideNavMenu from "@/components/Navbar/SideNavMenu";
 
