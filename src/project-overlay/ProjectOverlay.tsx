@@ -7,7 +7,9 @@ import {
   Image,
   ActionIcon,
   Avatar,
+  em,
 } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 import "./ProjectOverlay.css";
 
 type TeamMember = {
@@ -30,6 +32,8 @@ type ProjectOverlayProps = {
 };
 
 export default function ProjectOverlay(props: ProjectOverlayProps) {
+  const isMobile = useMediaQuery(`(max-width: ${"430px"})`);
+
   return (
     <>
       <Modal
@@ -41,7 +45,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
         radius={15}
       >
         <Grid gutter={"sm"}>
-          <Grid.Col span={4}>
+          <Grid.Col span={isMobile ? 12 : 4}>
             <Image radius="md" h={"100%"} src={props.imageSrc} />
           </Grid.Col>
           <Grid.Col span="auto" className="modal-content">
@@ -54,7 +58,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
                 <ActionIcon
                   component="a"
                   size={45}
-                  href={""}
+                  href={props.webLink}
                   variant="transparent"
                 >
                   <Image src="/globe-fill.svg" alt="Web Icon" />
@@ -62,7 +66,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
                 <ActionIcon
                   component="a"
                   size={45}
-                  href={""}
+                  href={props.githubLink}
                   variant="transparent"
                 >
                   <Image src="/mark-github-24.svg" alt="GitHub Icon" />
@@ -96,7 +100,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
 
 function TeamsGrid(team: TeamMember[]) {
   const teamMembers = team.map((member: TeamMember) => (
-    <Grid.Col span={{ base: 10, md: 6, lg: 6 }} key={member.name}>
+    <Grid.Col span={{ xs: 15, sm: 10, md: 6, lg: 6 }} key={member.name}>
       {TeamMember(member.name, member.role, member.imageSrc)}
     </Grid.Col>
   ));
