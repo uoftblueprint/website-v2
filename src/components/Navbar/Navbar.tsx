@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Burger, Button, Center, Container, Flex } from "@mantine/core";
+import { Burger, Button, Flex } from "@mantine/core";
 import "@/components/Navbar/Navbar.css";
 import "@/components/Navbar/SideNavMenu.css";
 import "@mantine/core/styles.css";
