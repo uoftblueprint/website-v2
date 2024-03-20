@@ -1,0 +1,24 @@
+.text {
+  color: #0078e8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 4vw;
+  padding-top: 4vw;
+  margin: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 2vw; */
+}
+
+.grid{
+    /* padding-left: 4vw;
+    padding-right: 4vw; */
+    padding: 4vw;
+}
