@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Burger, Button, Container } from "@mantine/core";
+import { Burger, Button, Center, Container, Flex } from "@mantine/core";
 import "@/components/Navbar/Navbar.css";
 import "@/components/Navbar/SideNavMenu.css";
 import "@mantine/core/styles.css";
@@ -20,10 +20,13 @@ function Navbar({ opened, toggleOpened, links }) {
 
   items.push(
     <Button
-      variant="filled"
+      variant="outline"
       color="#FFFFFF"
-      className="nav-join-btn"
+      classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
+      h="50px"
+      component="a"
+      href="/"
     >
       Join our Team!
     </Button>,
@@ -40,7 +43,9 @@ function Navbar({ opened, toggleOpened, links }) {
         />
       </a>
       <div className="nav-menu_container">
-        <Container visibleFrom="md">{items}</Container>
+        <Flex visibleFrom="md" justify={"end"} align={"center"}>
+          {items}
+        </Flex>
         <Burger
           opened={opened}
           onClick={toggleOpened}
