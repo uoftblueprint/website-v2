@@ -1,5 +1,5 @@
 .nav{
-    height: 8vh;
+    height: 96px;
     width: 100%;
     background-color: var(--clr-hl1);
     display: flex;
@@ -19,6 +19,7 @@
     text-decoration: underline 1px rgba(255, 255, 255, 0);
     text-underline-offset: 0.2em;
     transition: text-decoration-color .2s, text-underline-offset .2s;
+    font-size: 18px;
 }
 
 .nav-link:hover{
@@ -36,14 +37,16 @@
     height: 40px;
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .nav-join-btn{
-    --button-radius: 20px;
-    --button-height: 40px;
-    background-color: transparent;
-    color: var(--clr-light); 
+    --button-radius: 26px;
+    --button-height: 52px;
+    color: var(--clr-hl1); 
     transition: color .3s ease-in-out, background-color .3s ease-in-out;
+    font-size: 18px;
+
 }
 
 .nav-join-btn:hover{

@@ -1,0 +1,24 @@
+.side-nav{
+    --clr-light: #FFFFFF;
+    --clr-hl1: #006DEC;
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.side-menu{
+    padding: 20px;
+    background-color: var(--clr-hl1);
+    width: 75vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 10px;
+
+}
+
+.side-nav-link{
+    --button-padding-x: 0px;
+}

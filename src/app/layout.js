@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
             style={{ position: "relative" }}
             navbar={{
               width: 300,
-              breakpoint: "md",
+              breakpoint: "sm",
               collapsed: { mobile: !isSideNavOpened, desktop: true },
             }}
             transitionDuration={0}
