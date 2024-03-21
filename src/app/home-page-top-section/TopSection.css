@@ -1,10 +1,10 @@
-.mantine-Container-root * {
+.container * {
   color: #0078e8;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.mantine-Container-root {
+.container {
   padding: 0 5% 30px 5%;
   display: flex;
   flex-direction: column;

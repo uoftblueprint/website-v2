@@ -5,7 +5,7 @@ export default function TopSection() {
   // Top Section of Page
   // Figure out how to center on home page
   return (
-    <Container size="90%">
+    <Container className="container" size="90%">
       <Title className="title">Hi! 👋 We’re Blueprint.</Title>
       <Text className="text">
         We’re a group of passionate students at the University of Toronto
