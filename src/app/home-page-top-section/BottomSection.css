@@ -1,39 +1,39 @@
-.mantine-Container-root * {
+.container * {
     color: #0078e8;
     text-align: center;
     padding-bottom: 20px;
   }
   
-  .mantine-Container-root {
-    padding: 0 5% 30px 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.container {
+  padding: 0 5% 30px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .bottom-section {
-    padding: 10%;
-    border-radius: 250px 250px 0px 0px;
-    background: linear-gradient(180deg, #D1E8FF 0%, #FFF 100%);
-  }
-  
-  .title {
-    font-size: calc(18px + 2vw);
-  }
-  
-  .text {
-    font-size: calc(15px + 0.75vw);
-    max-width: max(250px, 80%);
-    /* figure out how to get max-width to match image width? and also make width good on mobile */
-  }
-  
-  .image {
-    width: 70%;
-    margin: 10px 50px;
-  }
+.bottom-section {
+  padding: 10%;
+  border-radius: 250px 250px 0px 0px;
+  background: linear-gradient(180deg, #D1E8FF 0%, #FFF 100%);
+}
 
-  .divider {
-    line-height: 50px;
-  }
+.title {
+  font-size: calc(18px + 2vw);
+}
+
+.text {
+  font-size: calc(15px + 0.75vw);
+  max-width: max(250px, 80%);
+  /* figure out how to get max-width to match image width? and also make width good on mobile */
+}
+
+.image {
+  width: 70%;
+  margin: 10px 50px;
+}
+
+.divider {
+  line-height: 50px;
+}
   
