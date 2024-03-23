@@ -3,7 +3,7 @@ import "./BottomSection.css";
 
 export default function BottomSection() {
   return (
-    <Container size="100%" className="bottom-section">
+    <Container size="100%" className="bottom-section container">
       <Title className="title">How We Do It</Title>
 
       <Flex

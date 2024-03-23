@@ -1,26 +1,15 @@
 "use client";
 import TopSection from "./home-page-top-section/TopSection.js";
-import Bottomsection from "./home-page-top-section/BottomSection.js";
-import HeroBanner from "@/components/Banner/HeroBanner.tsx";
-import TeamCard from "src/team-card/TeamCard.js";
+import Bottomsection from "./home-page-top-section/BottomSection.js"
+import HeroBanner from "@/components/Banner/HeroBanner.jsx";
 
-let testing = [
-  { name: "Michael Jia", role: "Product Manager", profilePicture: "" },
-  { name: "testing", role: "Product Manager", profilePicture: "" },
-  { name: "testing", role: "Product Manager", profilePicture: "" },
-  { name: "testing", role: "Product Manager", profilePicture: "" },
-  { name: "testing", role: "Product Manager", profilePicture: "" },
-  { name: "testing", role: "Product Manager", profilePicture: "" },
-  { name: "testing", role: "Product Manager", profilePicture: "" },
-];
 
 export default function Home() {
   return (
-    <>
+    <div>
       <HeroBanner></HeroBanner>
-      <TopSection />
-      <Bottomsection />
-      {/* <TeamCard title="Testing" team_members={testing}></TeamCard> */}
-    </>
+      <TopSection/>
+      <Bottomsection/>
+    </div>
   );
 }
