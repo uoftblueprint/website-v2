@@ -6,7 +6,7 @@ import HeroBanner from "@/components/Banner/HeroBanner.tsx";
 export default function Home() {
   return (
     <div>
-      <HeroBanner></HeroBanner>
+      {/* <HeroBanner></HeroBanner> */}
       <TopSection />
       <Bottomsection />
     </div>

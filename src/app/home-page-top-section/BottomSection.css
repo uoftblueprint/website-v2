@@ -1,9 +1,8 @@
 .container * {
-    color: #0078e8;
-    text-align: center;
-    padding-bottom: 20px;
-  }
-  
+  color: #0078e8;
+  text-align: center;
+}
+
 .container {
   padding: 0 5% 30px 5%;
   display: flex;
@@ -15,7 +14,7 @@
 .bottom-section {
   padding: 10%;
   border-radius: 250px 250px 0px 0px;
-  background: linear-gradient(180deg, #D1E8FF 0%, #FFF 100%);
+  background: linear-gradient(180deg, #d1e8ff 0%, #fff 100%);
 }
 
 .title {
@@ -36,4 +35,3 @@
 .divider {
   line-height: 50px;
 }
-  
