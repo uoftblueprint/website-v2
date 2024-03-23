@@ -1,5 +1,5 @@
 import { Container, Title, Text, Image } from "@mantine/core";
-import "./TopSection.module.css";
+import "./TopSection.css";
 
 export default function TopSection() {
   // Top Section of Page
