@@ -1,0 +1,28 @@
+.container * {
+  color: #0078e8;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container {
+  padding: 0 5% 30px 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.title {
+  font-size: calc(18px + 2vw);
+}
+
+.text {
+  font-size: calc(15px + 0.75vw);
+  max-width: max(250px, 80%);
+  /* figure out how to get max-width to match image width? and also make width good on mobile */
+}
+
+.image {
+  width: 80%;
+}
