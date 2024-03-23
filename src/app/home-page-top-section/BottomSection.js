@@ -1,9 +1,10 @@
 import { Container, Title, Text, Image, Flex, Button, Divider} from "@mantine/core";
 import "./BottomSection.css";
 
+
 export default function BottomSection() {
   return (
-    <Container size="100%" className="bottom-section container">
+    <Container size="100%" className="container bottom-section">
       <Title className="title">How We Do It</Title>
 
       <Flex
