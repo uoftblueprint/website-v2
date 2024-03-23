@@ -13,8 +13,8 @@ export default function TopSection() {
       </Text>
       <Image
         className="image"
-        alt="Group of Developpers"
-        src="people_images/group.svg"
+        alt="Group of People"
+        src="/people_images/teamwork.svg"
       ></Image>
     </Container>
   );
