@@ -1,9 +1,9 @@
-import { Container, Title, Text, Image, Flex, Button } from "@mantine/core";
+import { Container, Title, Text, Image, Flex, Button, Divider} from "@mantine/core";
 import "./BottomSection.css";
 
 export default function BottomSection() {
   return (
-    <Container size="90%">
+    <Container size="100%" className="bottom-section">
       <Title className="title">How We Do It</Title>
 
       <Flex
@@ -15,6 +15,7 @@ export default function BottomSection() {
             alt="Developer"
             src="/people_images/developer.svg"
           />
+        
 
           <Title>Students</Title>
           <Text>
@@ -23,11 +24,23 @@ export default function BottomSection() {
           </Text>
           
           {/* Button is currently not happy :( */}
-          <Button variant="light">
+          <Button
+            variant="light"
+            rightSection={<Image className= {"arrow"} src="/right-right.svg"/>}
+            component="a"
+            href="https://www.google.com/maps"
+            target="_blank"
+          >
             Join Us
           </Button>
 
         </Container>
+
+        <Divider
+            orientation="vertical"
+            color="#2F80ED"
+            className="divider"
+          />
 
         <Container>
           
@@ -43,7 +56,13 @@ export default function BottomSection() {
             for real-life stakeholders? Join our growing team of passionate students in tech to make a difference!
           </Text>
 
-          <Button variant="light">
+          <Button
+            variant="light"
+            rightSection={<Image className= {"arrow"} src="/right-right.svg"/>}
+            component="a"
+            href="https://www.google.com/maps"
+            target="_blank"
+          >
             Join Us
           </Button>
         </Container>

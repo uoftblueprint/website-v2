@@ -11,6 +11,12 @@
     justify-content: center;
     align-items: center;
   }
+
+  .bottom-section {
+    padding: 10%;
+    border-radius: 250px 250px 0px 0px;
+    background: linear-gradient(180deg, #D1E8FF 0%, #FFF 100%);
+  }
   
   .title {
     font-size: calc(18px + 2vw);
@@ -23,6 +29,11 @@
   }
   
   .image {
-    margin: 50px;
+    width: 70%;
+    margin: 10px 50px;
+  }
+
+  .divider {
+    line-height: 50px;
   }
   

@@ -14,7 +14,7 @@ export default function TopSection() {
       <Image
         className="image"
         alt="Group of People"
-        src="team at work_solid I 1.png"
+        src="/people_images/teamwork.svg"
       ></Image>
     </Container>
   );
