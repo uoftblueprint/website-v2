@@ -13,7 +13,7 @@ const infoCAN = [
 ]
 
 const rowCAN = infoCAN.map((info)=> (
-  <Grid.Col span={4} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
+  <Grid.Col span={4} key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
 ));
 
 //USA
@@ -27,7 +27,7 @@ const infoUSA = [
 
 
 const rowUSA = infoUSA.map((info)=> (
-  <Grid.Col span={4} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
+  <Grid.Col span={4} key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
 ));
 
 
