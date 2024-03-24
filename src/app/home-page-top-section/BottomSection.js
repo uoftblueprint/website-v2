@@ -32,7 +32,9 @@ export default function BottomSection() {
           {/* Button is currently not happy :( */}
           <Button
             variant="light"
-            rightSection={<Image className={"arrow"} src="/right-right.svg" />}
+            rightSection={
+              <Image className={"arrow"} src="people_images/arrow-right.svg" />
+            }
             component="a"
             href="https://www.google.com/maps"
             target="_blank"
@@ -52,13 +54,16 @@ export default function BottomSection() {
 
           <Title>Non-Profit Partners</Title>
           <Text>
-            Do you want to give back to your community while building real-life technological solutions
-            for real-life stakeholders? Join our growing team of passionate students in tech to make a difference!
+            Do you want to give back to your community while building real-life
+            technological solutions for real-life stakeholders? Join our growing
+            team of passionate students in tech to make a difference!
           </Text>
 
           <Button
             variant="light"
-            rightSection={<Image className={"arrow"} src="/right-right.svg" />}
+            rightSection={
+              <Image className={"arrow"} src="people_images/arrow-right.svg" />
+            }
             component="a"
             href="https://www.google.com/maps"
             target="_blank"

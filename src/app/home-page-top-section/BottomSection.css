@@ -34,4 +34,6 @@
 
 .divider {
   line-height: 50px;
+  height: 100px !important;
+  width: 100px !important;
 }
