@@ -13,7 +13,7 @@ export default function BottomSection() {
   return (
     <Container
       size="100%"
-      className={`${styles.container} ${styles.BottomSection}`}
+      className={`${styles.container} ${styles["bottom-section"]}`}
     >
       <Title className={styles.title}>How We Do It</Title>
 
