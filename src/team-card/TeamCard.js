@@ -23,6 +23,9 @@ function TeamCard({ title, team_members }) {
             name={team_member.name}
             role={team_member.role}
             profilePicture={team_member.profilePicture}
+            linkedinLink={
+              team_member.linkedinLink ? team_member.linkedinLink : ""
+            }
           />
         ))}
       </SimpleGrid>
