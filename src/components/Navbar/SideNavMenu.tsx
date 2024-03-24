@@ -8,7 +8,7 @@ function SideNavMenu({ links }) {
       component="a"
       href={link.link}
       color="white"
-      className="nav-link side-nav-link"
+      classNames={{ label: "nav-link", root: "side-nav-link" }}
       key={link.label}
     >
       {link.label}
@@ -16,7 +16,15 @@ function SideNavMenu({ links }) {
   ));
 
   items.push(
-    <Button variant="filled" color="white" className="nav-join-btn" key="join">
+    <Button
+      variant="outline"
+      color="#FFFFFF"
+      classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
+      key="join"
+      h="50px"
+      component="a"
+      href="/"
+    >
       Join our Team!
     </Button>,
   );
