@@ -1,13 +1,13 @@
 import { Container, Title, Text, Image } from "@mantine/core";
-import "./TopSection.css";
+import styles from "./TopSection.module.css";
 
 export default function TopSection() {
   // Top Section of Page
   // Figure out how to center on home page
   return (
-    <Container className="container" size="90%">
-      <Title className="title">Hi! 👋 We’re Blueprint.</Title>
-      <Text c="#0078e8" className="text">
+    <Container className={styles.container} size="90%">
+      <Title className={styles.title}>Hi! 👋 We’re Blueprint.</Title>
+      <Text c="#0078e8" className={styles.text}>
         We’re a group of passionate students at the University of Toronto
         dedicated to building software to give back to our community!
       </Text>

@@ -7,17 +7,20 @@ import {
   Button,
   Divider,
 } from "@mantine/core";
-import "./BottomSection.css";
+import styles from "./BottomSection.module.css";
 
 export default function BottomSection() {
   return (
-    <Container size="100%" className="container bottom-section">
-      <Title className="title">How We Do It</Title>
+    <Container
+      size="100%"
+      className={`${styles.container} ${styles.BottomSection}`}
+    >
+      <Title className={styles.title}>How We Do It</Title>
 
       <Flex justify="center">
-        <Container className="container">
+        <Container className={styles.container}>
           <Image
-            className="image"
+            className={styles.image}
             alt="Developer"
             src="/people_images/developer.svg"
           />
@@ -33,7 +36,10 @@ export default function BottomSection() {
           <Button
             variant="light"
             rightSection={
-              <Image className={"arrow"} src="people_images/arrow-right.svg" />
+              <Image
+                className={styles.arrow}
+                src="people_images/arrow-right.svg"
+              />
             }
             component="a"
             href="https://www.google.com/maps"
@@ -43,11 +49,15 @@ export default function BottomSection() {
           </Button>
         </Container>
 
-        <Divider orientation="vertical" color="#2F80ED" className="divider" />
+        <Divider
+          orientation="vertical"
+          color="#2F80ED"
+          className={styles.divider}
+        />
 
-        <Container className="container">
+        <Container className={styles.container}>
           <Image
-            className="image"
+            className={styles.image}
             alt="Healthcare Worker"
             src="/people_images/medical.svg"
           />
@@ -62,7 +72,10 @@ export default function BottomSection() {
           <Button
             variant="light"
             rightSection={
-              <Image className={"arrow"} src="people_images/arrow-right.svg" />
+              <Image
+                className={styles.arrow}
+                src="people_images/arrow-right.svg"
+              />
             }
             component="a"
             href="https://www.google.com/maps"
