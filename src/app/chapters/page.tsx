@@ -2,8 +2,8 @@
 import "@/app/chapters/chapters.css"
 import Banner from "@/components/Banner/Banner";
 import { ChaptersCard } from "@/chapters-card/ChaptersCard";
-import {Grid} from "@mantine/core"
-import Link from "next/link";
+import {Grid} from "@mantine/core";
+import Footer from "@/components/Footer/Footer"
 
 //CANADA 
 const infoCAN = [
@@ -45,7 +45,7 @@ export default function ChaptersPage() {
 
       <h1 className="text">🇨🇦 Canada</h1>
         
-      <Grid justify="space-around" gutter={"lg"} className={"grid"}>
+      <Grid justify="flex-start" align={"flex-start"} gutter={"lg"} className={"grid"}>
         {rowCAN}
       </Grid>
 
@@ -55,6 +55,9 @@ export default function ChaptersPage() {
         {rowUSA}
 
       </Grid>
+      <Footer></Footer>
+
+      
     </div>
   );
 }
