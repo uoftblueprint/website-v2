@@ -1,7 +1,7 @@
 .text {
   color: #0078e8;
   font-family: 'Poppins', sans-serif;
-  font-size: 72px;
+  font-size: 5vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -9,6 +9,7 @@
   padding-top: 4vw;
   margin: 0;
 }
+
 
 .card{
     display: flex;
