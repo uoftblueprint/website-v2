@@ -21,7 +21,7 @@ export default function Home() {
       <TopSection />
       <Bottomsection />
       {/* <ChaptersCard name="adsf" description="asdf" link=""></ChaptersCard> */}
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
