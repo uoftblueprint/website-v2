@@ -2,7 +2,8 @@
 import TopSection from "./home-page-top-section/TopSection.js";
 import Bottomsection from "./home-page-top-section/BottomSection.js";
 import HeroBanner from "@/components/Banner/HeroBanner.tsx";
-import { ProjectsCard } from "src/projects-card/ProjectsCard.js";
+import Footer from "src/components/Footer/Footer.js";
+import { ChaptersCard } from "src/chapters-card/ChaptersCard.tsx";
 import { Text } from "@mantine/core";
 
 let team_data = [
@@ -19,6 +20,8 @@ export default function Home() {
       <HeroBanner></HeroBanner>
       <TopSection />
       <Bottomsection />
+      {/* <ChaptersCard name="adsf" description="asdf" link=""></ChaptersCard> */}
+      <Footer></Footer>
     </div>
   );
 }

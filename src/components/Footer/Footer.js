@@ -6,7 +6,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="main-footer">
-      <Group className="footer-menu" gap={'xs'}>
+      <Group className="footer-menu" gap={"xs"}>
         <a className="logo" href="/">
           <Image
             src="/logo-with-text.svg"
