@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, Image, Text, Button, Center, Anchor } from "@mantine/core";
 import "./RoleCard.css";
 
