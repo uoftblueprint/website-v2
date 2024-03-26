@@ -1,13 +1,11 @@
 import {
   Modal,
-  Button,
   Grid,
   Text,
   Flex,
   Image,
   ActionIcon,
   Avatar,
-  em,
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import "./ProjectOverlay.css";
