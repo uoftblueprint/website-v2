@@ -1,52 +1,64 @@
-.nav{
-    height: 8vh;
-    width: 100%;
-    background-color: var(--clr-hl1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: fixed;
-    top: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-    --clr-light: #FFFFFF;
-    --clr-hl1: #006DEC;
+.nav {
+  height: 96px;
+  width: 100%;
+  background-color: var(--clr-hl1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+
+  --clr-light: #ffffff;
+  --clr-hl1: #0078e8;
+  font-family: "Poppins", sans-serif;
 }
 
-.nav-link{
-    text-decoration: underline 1px rgba(255, 255, 255, 0);
-    text-underline-offset: 0.2em;
-    transition: text-decoration-color .2s, text-underline-offset .2s;
+.nav-link {
+  text-decoration: underline 1px rgba(255, 255, 255, 0);
+  text-underline-offset: 0.2em;
+  transition:
+    text-decoration-color 0.2s,
+    text-underline-offset 0.2s;
+  font-size: 18px;
 }
 
-.nav-link:hover{
-    text-decoration: underline 1px var(--clr-light);
-    text-underline-offset: 0.4em;
+.nav-link:hover {
+  text-decoration: underline 1px var(--clr-light);
+  text-underline-offset: 0.4em;
 }
 
-.nav-logo_tag{
-    height: 40px;
-    display: flex;
-    align-items: center;
+.nav-logo_tag {
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.nav-menu_container{
-    height: 40px;
-    display: flex;
-    align-items: center;
+.nav-menu_container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.nav-join-btn{
-    --button-radius: 20px;
-    --button-height: 40px;
-    background-color: transparent;
-    color: var(--clr-light); 
-    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+.nav-join-btn {
+  --button-radius: 26px;
+  --button-height: 52px;
+  color: var(--clr-hl1);
+  transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
-.nav-join-btn:hover{
-    background-color: var(--clr-light);
-    color: var(--clr-hl1);
+.nav-join-link {
+  font-size: 18px;
+}
+
+.nav-join-btn:hover {
+  background-color: var(--clr-light);
+  color: var(--clr-hl1);
 }
