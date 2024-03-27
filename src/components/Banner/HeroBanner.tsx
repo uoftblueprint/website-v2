@@ -1,5 +1,5 @@
 import { Container, Flex } from "@mantine/core";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "@/components/Banner/Banner.css";
 import Image from "next/image";
 
