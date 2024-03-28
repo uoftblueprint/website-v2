@@ -1,24 +1,26 @@
-.side-nav{
-    --clr-light: #FFFFFF;
-    --clr-hl1: #006DEC;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.4);
+.side-nav {
+  --clr-light: #ffffff;
+  --clr-hl1: #0078e8;
+
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Poppins", sans-serif;
 }
 
-.side-menu{
-    padding: 20px;
-    background-color: var(--clr-hl1);
-    width: 75vw;
-    height: 100vh;
+.side-menu {
+  padding: 20px;
+  background-color: var(--clr-hl1);
+  width: 75vw;
+  height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    row-gap: 10px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 10px;
 }
 
-.side-nav-link{
-    --button-padding-x: 0px;
+.side-nav-link {
+  --button-padding-x: 0px;
 }

@@ -3,7 +3,7 @@ import "./for-students-FAQ.css";
 
 function FaqCard({ faq_info }) {
   const items = faq_info.map((faq, index) => (
-    <Accordion.Item key={index} value={faq.question}>
+    <Accordion.Item className="accordion-item" key={index} value={faq.question}>
       <Accordion.Control className="question">
         <b>{faq.question}</b>
       </Accordion.Control>
@@ -13,10 +13,10 @@ function FaqCard({ faq_info }) {
   ));
 
   return (
-    <Container fluid>
-      <Title>FAQ</Title>
+    <Container className="faq-container" fluid>
+      <Title className="faq-title">FAQ</Title>
 
-      <Divider my="lg"></Divider>
+      <Divider className="divider" my="lg"></Divider>
 
       <p>
         Here are some frequently asked questions that we’ve compiled! If you
