@@ -8,9 +8,10 @@ import {
   Avatar,
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
+import "@mantine/core/styles.css";
 import "./ProjectOverlay.css";
 
-type TeamMember = {
+export type TeamMember = {
   name: string;
   role: string;
   imageSrc: string;
