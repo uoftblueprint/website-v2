@@ -3,7 +3,6 @@ import {
   Title,
   Text,
   Image,
-  Flex,
   Button,
   Divider,
 } from "@mantine/core";
@@ -11,25 +10,32 @@ import "./BottomSection.css";
 
 export default function BottomSection() {
   return (
-    <Container size="100%" className="container bottom-section">
+    <Container size="100%" className="bottom-section">
       <Title className="title">How We Do It</Title>
 
-      <Flex justify="center">
-        <Container className="container">
-          <Image
+      <Container className="container">
+        <Image
             className="image"
             alt="Developer"
             src="/people_images/developer.svg"
-          />
+        />
 
-          <Title>Students</Title>
-          <Text>
+        <Image
+          className="image"
+          alt="Healthcare Worker"
+          src="/people_images/medical.svg"
+        />
+      </Container>
+
+      <Container style={{ alignItems: 'flex-start'}} className="container">
+
+        <Container style={{ flexDirection: 'column'}} className="container">
+          <Title className="subtitle">Students</Title>
+          <Text className="text">
             Do you want to give back to your community while building real-life
             technological solutions for real-life stakeholders? Join our growing
             team of passionate students in tech to make a difference!
           </Text>
-
-          {/* Button is currently not happy :( */}
           <Button
             variant="light"
             rightSection={
@@ -43,22 +49,15 @@ export default function BottomSection() {
           </Button>
         </Container>
 
-        <Divider orientation="vertical" color="#2F80ED" className="divider" />
+        <Divider orientation="vertical" color="#2F80ED" className="divider"/>
 
-        <Container className="container">
-          <Image
-            className="image"
-            alt="Healthcare Worker"
-            src="/people_images/medical.svg"
-          />
-
-          <Title>Non-Profit Partners</Title>
-          <Text>
+        <Container style={{ display: 'flex', flexDirection: 'column' }} className="container">
+          <Title className="subtitle">Non-Profit Partners</Title>
+          <Text className="text">
             Do you want to give back to your community while building real-life
             technological solutions for real-life stakeholders? Join our growing
             team of passionate students in tech to make a difference!
           </Text>
-
           <Button
             variant="light"
             rightSection={
@@ -68,10 +67,10 @@ export default function BottomSection() {
             href="https://www.google.com/maps"
             target="_blank"
           >
-            Join Us
+            Contact Us
           </Button>
         </Container>
-      </Flex>
+      </Container>
     </Container>
   );
 }

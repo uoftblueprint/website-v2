@@ -1,39 +1,52 @@
-.container * {
+.container {
+  padding: 0 5% 30px 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: #0078e8;
   text-align: center;
 }
 
-.container {
-  padding: 0 5% 30px 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .bottom-section {
-  padding: 10%;
+  padding: 5% 10% 10% 10%;
   border-radius: 250px 250px 0px 0px;
   background: linear-gradient(180deg, #d1e8ff 0%, #fff 100%);
+  justify-content: center;
+  align-items: center;
+  color: #0078e8;
+  text-align: center;
 }
 
 .title {
   font-size: calc(18px + 2vw);
+  padding: 2%;
+}
+
+.subtitle {
+  text-align: center;
+  padding-bottom: 5%;
+  font-family: "Poppins"; /*Remove when we have global styling?*/
+  font-size: calc(10px + 2vw);
+  font-weight: 500;
 }
 
 .text {
-  font-size: calc(15px + 0.75vw);
-  max-width: max(250px, 80%);
+  font-size: calc(7px + 0.75vw);
+  max-width: max(500px, 80%);
+  margin-bottom: 10%;
   /* figure out how to get max-width to match image width? and also make width good on mobile */
 }
 
 .image {
-  width: 70%;
+  width: 35%;
   margin: 10px 50px;
 }
 
 .divider {
-  line-height: 50px;
-  justify-self: end;
-  height: 100px !important;
+  height: 200px !important;
+}
+
+.arrow {
+  width: 70%;
 }
