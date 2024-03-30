@@ -1,5 +1,5 @@
 import { Container, Flex, Button } from "@mantine/core";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "@/components/Banner/Banner.css";
 
 export default function Banner({

@@ -3,7 +3,6 @@ import "@/app/chapters/chapters.css"
 import Banner from "@/components/Banner/Banner";
 import { ChaptersCard } from "@/chapters-card/ChaptersCard";
 import {Grid} from "@mantine/core";
-import Footer from "@/components/Footer/Footer"
 
 //CANADA 
 const infoCAN = [
@@ -55,7 +54,6 @@ export default function ChaptersPage() {
         {rowUSA}
 
       </Grid>
-      <Footer></Footer>
 
       
     </div>

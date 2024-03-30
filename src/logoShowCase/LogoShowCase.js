@@ -1,6 +1,5 @@
 import { Grid } from "@mantine/core";
 import "./logoShowCase.css";
-import "@mantine/core/styles.css";
 import { Image } from "@mantine/core";
 
 const imgRowOne = [
