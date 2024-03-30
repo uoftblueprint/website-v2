@@ -24,11 +24,6 @@ let cards_info = [
 
 export default function Home() {
   return (
-    // <ProjectsCard
-    //   name={cards_info[0].name}
-    //   description={cards_info[0].description}
-    //   image={"period-purse2.png"}
-    // ></ProjectsCard>
     <>
       <HeroBanner></HeroBanner>
       <TopSection />
