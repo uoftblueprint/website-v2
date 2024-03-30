@@ -1,21 +1,29 @@
 "use client";
 import TopSection from "./home-page-top-section/TopSection.js";
 import Bottomsection from "./home-page-top-section/BottomSection.js";
-import HeroBanner from "@/components/Banner/HeroBanner.tsx";
-import Footer from "src/components/Footer/Footer.js";
-import { ChaptersCard } from "src/chapters-card/ChaptersCard.tsx";
-import { Text } from "@mantine/core";
+import ProjectCardsGrid from "./home-page-top-section/ProjectCardsGrid.js";
 
+let cards_info = [
+  {
+    name: "The Period Purse",
+    description:
+      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
+    image: "/the-period-purse.jpeg",
+  },
+  {
+    name: "Home for Heroes",
+    description:
+      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
+    image: "/the-period-purse.jpeg",
+  },
+];
 
 export default function Home() {
   return (
-    <div>
-      {/* <ProjectsCard name="asdf" description="asdf" image=""></ProjectsCard> */}
-      <HeroBanner></HeroBanner>
+    <>
       <TopSection />
       <Bottomsection />
-      {/* <ChaptersCard name="adsf" description="asdf" link=""></ChaptersCard> */}
-      {/* <Footer></Footer> */}
-    </div>
+      <ProjectCardsGrid cards_info={cards_info} />
+    </>
   );
 }

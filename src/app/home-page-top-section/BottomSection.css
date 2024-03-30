@@ -1,6 +1,14 @@
+:root {
+  --radius-size: calc(60px + 10vw);
+}
+
 .container * {
   color: #0078e8;
   text-align: center;
+}
+
+.container > * {
+  margin-bottom: 20px;
 }
 
 .container {
@@ -13,7 +21,7 @@
 
 .bottom-section {
   padding: 10%;
-  border-radius: 250px 250px 0px 0px;
+  border-radius: var(--radius-size) var(--radius-size) 0px 0px;
   background: linear-gradient(180deg, #d1e8ff 0%, #fff 100%);
 }
 
