@@ -1,29 +1,25 @@
 .mantine-Card-root {
     flex-shrink: 0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    box-shadow: 0vw 0.5vw 0.5vw 0vw rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
 }
 
 .mantine-Card-section {
     margin: 0;
 }
 
-/* .mantine-Anchor-root {
-    font-size: 24px;
-    font-weight: 500;
-} */
 
 .card-font{
-    font-size: 24px;
+    font-size: 1.5vw;
     font-weight: 500;
 }
 
 .chapter-name {
-    font-size: 36px;
+    font-size: 2.4vw;
     font-weight: 700;
 }
 
 .chapter-description {
-    font-size: 24px;
+    font-size: 1.8vw;
     font-weight: 400;
 }

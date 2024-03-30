@@ -3,7 +3,7 @@ import "../chapters-card/ChaptersCard.css";
 
 export function ChaptersCard({ name, description, link }) {
   return (
-    <Card padding="lg">
+    <Card padding="md">
       <Card.Section c="#0078E8" className={"chapter-name"}>
         {name}
       </Card.Section>
