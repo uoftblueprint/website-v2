@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.image {
+.project-image {
     height: 250px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -46,7 +46,7 @@
         border-radius: 27px;
     }
     
-    .image {
+    .project-image {
         height: 175px;
     }
     
@@ -80,7 +80,7 @@
         border-radius: 15px;
     }
     
-    .image {
+    .project-image {
         height: 100px;
     }
     

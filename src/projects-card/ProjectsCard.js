@@ -10,7 +10,7 @@ export function ProjectsCard({name, description, image, link = null}) {
                     src={image}
                     radius="md"
                     alt= {name}
-                    className={"image"}
+                    className={"project-image"}
                 />
             </CardSection>
 
