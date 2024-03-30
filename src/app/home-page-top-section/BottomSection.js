@@ -3,7 +3,6 @@ import {
   Title,
   Text,
   Image,
-  Flex,
   Button,
   Divider,
 } from "@mantine/core";
@@ -11,76 +10,67 @@ import "./BottomSection.css";
 
 export default function BottomSection() {
   return (
-    <Container size="100%" className="container bottom-section">
+    <Container size="100%" className="bottom-section">
       <Title className="title">How We Do It</Title>
-      <Flex wrap="wrap">
-        <Flex justify="center">
-          <Container className="container">
-            <Image
-              className="image"
-              alt="Developer"
-              src="/people_images/developer.svg"
-            />
 
-            <Title>Students</Title>
-            <Text>
-              Do you want to give back to your community while building
-              real-life technological solutions for real-life stakeholders? Join
-              our growing team of passionate students in tech to make a
-              difference!
-            </Text>
+      <Container className="container">
+        <Image
+            className="image"
+            alt="Developer"
+            src="/people_images/developer.svg"
+        />
 
-            {/* Button is currently not happy :( */}
-            <Button
-              variant="light"
-              rightSection={
-                <Image
-                  className={"arrow"}
-                  src="people_images/arrow-right.svg"
-                />
-              }
-              component="a"
-              href="https://www.google.com/maps"
-              target="_blank"
-            >
-              Join Us
-            </Button>
-          </Container>
+        <Image
+          className="image"
+          alt="Healthcare Worker"
+          src="/people_images/medical.svg"
+        />
+      </Container>
 
-          <Divider orientation="vertical" color="#2F80ED" className="divider" />
+      <Container style={{ alignItems: 'flex-start'}} className="container">
 
-          <Container className="container">
-            <Image
-              className="image"
-              alt="Healthcare Worker"
-              src="/people_images/medical.svg"
-            />
+        <Container style={{ flexDirection: 'column'}} className="container">
+          <Title className="subtitle">Students</Title>
+          <Text className="text">
+            Do you want to give back to your community while building real-life
+            technological solutions for real-life stakeholders? Join our growing
+            team of passionate students in tech to make a difference!
+          </Text>
+          <Button
+            variant="light"
+            rightSection={
+              <Image className={"arrow"} src="people_images/arrow-right.svg" />
+            }
+            component="a"
+            href="https://www.google.com/maps"
+            target="_blank"
+          >
+            Join Us
+          </Button>
+        </Container>
 
-            <Title>Non-Profit Partners</Title>
-            <Text>
-              Do you want to give back to your community while building
-              real-life technological solutions for real-life stakeholders? Join
-              our growing team of passionate students in tech to make a
-              difference!
-            </Text>
+        <Divider orientation="vertical" color="#2F80ED" className="divider"/>
 
-            <Button
-              variant="light"
-              rightSection={
-                <Image
-                  className={"arrow"}
-                  src="people_images/arrow-right.svg"
-                />
-              }
-              component="a"
-              href="https://www.google.com/maps"
-              target="_blank"
-            >
-              Join Us
-            </Button>
-          </Container>
-        </Flex>
-      </Flex>
+        <Container style={{ display: 'flex', flexDirection: 'column' }} className="container">
+          <Title className="subtitle">Non-Profit Partners</Title>
+          <Text className="text">
+            Do you want to give back to your community while building real-life
+            technological solutions for real-life stakeholders? Join our growing
+            team of passionate students in tech to make a difference!
+          </Text>
+          <Button
+            variant="light"
+            rightSection={
+              <Image className={"arrow"} src="people_images/arrow-right.svg" />
+            }
+            component="a"
+            href="https://www.google.com/maps"
+            target="_blank"
+          >
+            Contact Us
+          </Button>
+        </Container>
+      </Container>
     </Container>
   );
 }
