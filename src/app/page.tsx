@@ -2,6 +2,7 @@
 import TopSection from "./home-page-top-section/TopSection.js";
 import Bottomsection from "./home-page-top-section/BottomSection.js";
 import ProjectCardsGrid from "./home-page-top-section/ProjectCardsGrid.js";
+import { ProjectsCard } from "@/projects-card/ProjectsCard.js";
 
 let cards_info = [
   {
@@ -9,18 +10,25 @@ let cards_info = [
     description:
       "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
     image: "/the-period-purse.jpeg",
+    link: "https://www.google.com/",
   },
   {
     name: "Home for Heroes",
     description:
       "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
     image: "/the-period-purse.jpeg",
+    link: "https://www.google.com/",
   },
 ];
 
 export default function Home() {
   return (
     <>
+      {/* <ProjectsCard
+        name={cards_info[0].name}
+        description={cards_info[0].description}
+        image={"the-period-purse.jpeg"}
+      ></ProjectsCard> */}
       <TopSection />
       <Bottomsection />
       <ProjectCardsGrid cards_info={cards_info} />
