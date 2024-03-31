@@ -1,8 +1,8 @@
-.mantine-SimpleGrid-root {
+.team-grid {
   align-items: start;
 }
 
-.mantine-Title-root {
+.team-title {
   font-size: clamp(20px, 20px + 1vw, 48px);
   text-align: center;
   padding-bottom: 30px;

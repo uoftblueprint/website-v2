@@ -3,18 +3,18 @@
   --questionFont: clamp(20px, 15px + 0.9vw, 48px);
 }
 
-.mantine-Title-root {
+.faq-title {
   font-size: 48px;
 }
 
-.mantine-Container-root {
+.faq-container {
   text-align: center;
   font-size: var(--regFont);
   background-color: #e7f3ff;
   padding: 5% 7%;
 }
 
-.mantine-Container-root * {
+.faq-container * {
   background-color: #e7f3ff;
   color: #0078e8;
 }
@@ -41,7 +41,7 @@
   transform: rotate(-180deg);
 }
 
-.mantine-Divider-root {
+.divider {
   border-color: #0078e8 !important;
   height: 2px;
   width: 200px;

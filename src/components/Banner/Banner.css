@@ -1,88 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .non-hero {
-    height: 90vh;
+  height: 90vh;
 }
 
 .hero {
-    padding-top: 10%;
-    height: 105vh;
+  height: 95vh;
 }
 
 .image-banner {
-    background-size: cover;
+  background-size: cover;
 }
 
 .banner-container {
-    background-color: #0078e8;
-    border-radius: 0 0 50px 50px;
+  background-color: #0078e8;
+  border-radius: 0 0 50px 50px;
 
-    color: white;
-    font-family: "Poppins", sans-serif;
+  color: white;
+  font-family: "Poppins", sans-serif;
 
-    --title-fs: 72px;
-    --subtitle-fs: 30px;
-    --logo-size: 230px;
+  --title-fs: 72px;
+  --subtitle-fs: 30px;
+  --logo-size: 230px;
 }
 
 .banner-logo-container {
-    width: var(--logo-size);
-    height: var(--logo-size);
-    position: relative;
+  width: var(--logo-size);
+  height: var(--logo-size);
+  position: relative;
 }
 
 .banner-title {
-    font-size: var(--title-fs);
-    text-align: center;
+  font-size: var(--title-fs);
+  text-align: center;
 }
 
 .banner-text {
-    font-size: var(--subtitle-fs);
-    text-align: center;
-    max-width: 80vw;
+  font-size: var(--subtitle-fs);
+  text-align: center;
+  max-width: 80vw;
 }
 
 .banner-text-container {
-    max-width: 55%;
-    line-clamp: 2;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  max-width: 55%;
+  line-clamp: 2;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .banner-button {
-    --button-radius: 32px;
-    --button-border-width: 3px;
-    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.4));
+  --button-radius: 32px;
+  --button-border-width: 3px;
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.4));
 }
 
 .banner-flex {
-    padding-bottom: 10vh;
+  padding-bottom: 10vh;
+}
+
+.banner-button-label {
+  font-size: var(--subtitle-fs);
 }
 
 @media screen and (max-width: 1080px) {
-    .banner-container {
-        --title-fs: 45px;
-        --subtitle-fs: 22px;
-    }
+  .banner-container {
+    --title-fs: 45px;
+    --subtitle-fs: 22px;
+  }
 
-    .banner-text-container {
-        max-width: 65%;
-    }
+  .banner-text-container {
+    max-width: 65%;
+  }
 }
 
 @media screen and (max-width: 780px) {
-    .banner-text-container {
-        max-width: 95%;
-    }
+  .banner-text-container {
+    max-width: 95%;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .banner-container {
-        --title-fs: 26px;
-        --subtitle-fs: 14px;
-        --logo-size: 100px;
-    }
+  .banner-container {
+    --title-fs: 26px;
+    --subtitle-fs: 14px;
+    --logo-size: 100px;
+  }
 }
