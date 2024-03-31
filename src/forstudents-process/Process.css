@@ -26,6 +26,14 @@
   width: 20vw;
 }
 
-@media (max-width: 780px) { 
+.caption-container{
+    padding-top: 1vw;
+}
+
+@media (max-width: 500px) { 
+    .caption-container{
+        padding-top: 0;
+        margin: -1vw;
+    }
     
 }

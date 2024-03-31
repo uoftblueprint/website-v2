@@ -19,7 +19,7 @@ function Process({
     <Grid.Col span={"content"}>
       <div className="img-text-container">
         <Image src={info.img} alt={info.title + " img"} />
-        <div style={{ paddingTop: "1vw" }}>
+        <div className="caption-container">
           <Anchor
             href={info.link}
             className="text"
