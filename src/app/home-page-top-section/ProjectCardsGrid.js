@@ -26,7 +26,6 @@ function CardGrid({ cards_info }) {
         <Title className="project-cards-title">Current Projects</Title>
         <SimpleGrid cols={{ sm: 2, base: 1 }} spacing="lg">
           {cards_info.map((project, index) => (
-            <Container className="max-width-card">
             <ProjectsCard
               
               key={index}
@@ -35,7 +34,6 @@ function CardGrid({ cards_info }) {
               image={project.image}
               link={project.link ? project.link : null}
             />
-            </Container>
           ))}
         </SimpleGrid>
       </Container>

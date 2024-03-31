@@ -25,9 +25,9 @@ let cards_info = [
 export default function Home() {
   return (
     <>
-      <HeroBanner></HeroBanner>
-      <TopSection />
-      <Bottomsection />
+      {/* <HeroBanner></HeroBanner> */}
+      {/* <TopSection /> */}
+      {/* <Bottomsection /> */}
       <ProjectCardsGrid cards_info={cards_info} />
     </>
   );

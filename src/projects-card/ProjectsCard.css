@@ -1,8 +1,14 @@
+.container-test {
+  /* max-height: 50%; */
+}
+
 .mantine-Card-root {
   flex-shrink: 0;
   align-items: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+  position: relative;
+  overflow: hidden;
 }
 
 .mantine-Card-section {
@@ -10,9 +16,11 @@
 }
 
 .project-image {
-    height: 250px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+  /* width: 100%; */
+  /* object-fit: cover; */
+  /* height: 250px; */
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .project-name {
@@ -40,25 +48,25 @@
 }
 
 @media (max-width: 992px) {
-    .mantine-Card-root {
-        padding: 20px;
-        box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
-        border-radius: 27px;
-    }
-    
-    .project-image {
-        height: 175px;
-    }
-    
-    .project-name {
-        padding-top: 7px;
-        font-size: 33px;
-    }
-    
-    .project-description {
-        padding-bottom: 22px;
-        font-size: 20px;
-    }
+  .mantine-Card-root {
+    padding: 20px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+  }
+
+  .project-image {
+    /* height: 175px; */
+  }
+
+  .project-name {
+    padding-top: 7px;
+    font-size: 33px;
+  }
+
+  .project-description {
+    padding-bottom: 22px;
+    font-size: 20px;
+  }
 
   .read-more-button {
     height: 22px;
@@ -74,25 +82,27 @@
 }
 
 @media (max-width: 576px) {
-    .mantine-Card-root {
-        padding: 10px;
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-        border-radius: 15px;
-    }
-    
-    .project-image {
-        height: 100px;
-    }
-    
-    .project-name {
-        padding-top: 5px;
-        font-size: 20px;
-    }
-    
-    .project-description {
-        padding-bottom: 15px;
-        font-size: 12px;
-    }
+  .mantine-Card-root {
+    padding: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .project-image {
+    /* height: 100px; */
+  }
+
+  .project-name {
+    padding-top: 5px;
+    font-size: 20px;
+  }
+
+  .project-description {
+    padding-bottom: 15px;
+    font-size: 12px;
+  }
 
   .read-more-button {
     height: 15px;

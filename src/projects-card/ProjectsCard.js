@@ -1,18 +1,23 @@
 import { Card, CardSection, Image, Button } from "@mantine/core";
-import "@mantine/core/styles.css";
+// import "@mantine/core/styles.css";
 import "../projects-card/ProjectsCard.css";
 
-export function ProjectsCard({name, description, image, link = null}) {
-    return (
-        <Card padding="lg">
-            <CardSection>
-                <Image
-                    src={image}
-                    radius="md"
-                    alt= {name}
-                    className={"project-image"}
-                />
-            </CardSection>
+// let mystyles = {
+//   width: "300px",
+//   margin: "0 auto",
+//   overflow: "hidden",
+//   position: "relative",
+//   height: "50%",
+// };
+let mystyles = {};
+
+export function ProjectsCard({ name, description, image, link = null }) {
+  return (
+    <Card padding="lg">
+      <CardSection style={mystyles} className="container-test">
+        {/* className={"project-image"}  */}
+        <Image src={image} radius="md" alt={name} className={"project-image"} />
+      </CardSection>
 
       <CardSection c="#0078E8" className={"project-name"}>
         {name}
