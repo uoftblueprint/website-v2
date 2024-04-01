@@ -4,6 +4,28 @@
   background: linear-gradient(180deg, #d1e8ff 0%, #fff 100%);
   justify-content: center;
   align-items: center;
-  color: #0078e8;
   text-align: center;
+}
+
+.impact-facts > * {
+  margin: auto;
+  flex: 1;
+}
+
+.impact-number {
+  font-size: 160px;
+  margin: 0;
+}
+
+.impact-number-container {
+  /* max-width: 300px; */
+  min-width: 275px;
+}
+
+.grey-blue-text {
+  color: #508abf;
+}
+
+.about-title {
+  color: #0078e8;
 }

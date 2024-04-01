@@ -1,34 +1,39 @@
-import { Container, Stack, Group, Title, Text } from "@mantine/core";
+import { Container, Stack, Flex, Title, Text } from "@mantine/core";
 import "./white-section.css";
 
 export default function WhiteSection() {
   return (
-    <Container size="100%" className="bottom-section">
+    <Container size="100%" className="bottom-section grey-blue-text">
       <Stack>
-        <Title>Our Impact</Title>
+        <Title className="about-title">Our Impact</Title>
         <Text>
           Since 2020, over 100+ students have joined the UofT Blueprint family.
           Together, we have partnered with 8 NPOs over 3 years delivering
           custom-built websites and mobile apps.
         </Text>
 
-        <Group>
-          <Stack>
-            <Text>4</Text>
+        <Flex justify="center" className="impact-facts" wrap="wrap">
+          <Stack className="impact-number-container">
+            <Text c="#4CA3F4" className="impact-number">
+              4
+            </Text>
             <Text>years</Text>
           </Stack>
 
-          <Stack>
-            <Text>8</Text>
+          <Stack className="impact-number-container">
+            <Text c="#0078E8" className="impact-number">
+              8
+            </Text>
             <Text>NPOs</Text>
           </Stack>
 
-          <Stack>
-            <Text>100+</Text>
+          <Stack className="impact-number-container">
+            <Text c="#4CA3F4" className="impact-number">
+              100+
+            </Text>
             <Text>students</Text>
           </Stack>
-        </Group>
-        
+        </Flex>
       </Stack>
     </Container>
   );
