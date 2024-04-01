@@ -1,6 +1,10 @@
+:root {
+  --corner-radius: calc(30px + 10vw);
+}
+
 .bottom-section {
   padding: 5% 10% 10% 10%;
-  border-radius: 250px 250px 0px 0px;
+  border-radius: var(--corner-radius) var(--corner-radius) 0px 0px;
   background: linear-gradient(180deg, #d1e8ff 0%, #fff 100%);
   justify-content: center;
   align-items: center;
@@ -8,13 +12,14 @@
 }
 
 .impact-facts > * {
-  margin: auto;
+  margin: 50px auto;
   flex: 1;
 }
 
 .impact-number {
-  font-size: 160px;
+  font-size: calc(50px + 5vw);
   margin: 0;
+  line-height: 1;
 }
 
 .impact-number-container {

@@ -1,4 +1,4 @@
-import { Container, Stack, Flex, Title, Text } from "@mantine/core";
+import { Container, Stack, SimpleGrid, Title, Text } from "@mantine/core";
 import "./white-section.css";
 
 export default function WhiteSection() {
@@ -12,7 +12,12 @@ export default function WhiteSection() {
           custom-built websites and mobile apps.
         </Text>
 
-        <Flex justify="center" className="impact-facts" wrap="wrap">
+        <SimpleGrid
+          cols={{ sm: 3, xs: 1 }}
+          justify="center"
+          className="impact-facts"
+          wrap="wrap"
+        >
           <Stack className="impact-number-container">
             <Text c="#4CA3F4" className="impact-number">
               4
@@ -33,7 +38,7 @@ export default function WhiteSection() {
             </Text>
             <Text>students</Text>
           </Stack>
-        </Flex>
+        </SimpleGrid>
       </Stack>
     </Container>
   );
