@@ -4,7 +4,7 @@ import Bottomsection from "./home-page-top-section/BottomSection.js";
 import ProjectCardsGrid from "./home-page-top-section/ProjectCardsGrid.js";
 import HeroBanner from "@/components/Banner/HeroBanner.tsx";
 
-let cards_info = [
+const cards_info = [
   {
     name: "The Period Purse",
     description:

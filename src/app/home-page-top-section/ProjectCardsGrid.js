@@ -6,15 +6,6 @@ function CardGrid({ cards_info }) {
   // card_info consists of objects which contain the following properties:
   // project image, project title, project description, project link
 
-  let card = [
-    {
-      name: "The Period Purse",
-      description:
-        "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
-      image: "period-purse2.png",
-    },
-  ];
-
   return (
     <Container fluid className="cards-grid">
       <Title className="project-cards-title">Current Projects</Title>
