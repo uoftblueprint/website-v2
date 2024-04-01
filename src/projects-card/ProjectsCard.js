@@ -1,5 +1,4 @@
 import { Card, CardSection, Image, Button } from "@mantine/core";
-import "@mantine/core/styles.css";
 import "../projects-card/ProjectsCard.css";
 
 export function ProjectsCard({name, description, image, link = null}) {
