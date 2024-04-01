@@ -5,7 +5,7 @@ import "../projects-card/ProjectsCard.css";
 export function ProjectsCard({name, description, image, link = null}) {
     return (
         <Card padding="lg">
-            <CardSection>
+            <CardSection className={"image-container"}>
                 <Image
                     src={image}
                     radius="md"

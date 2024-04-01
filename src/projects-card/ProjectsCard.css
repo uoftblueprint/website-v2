@@ -9,6 +9,11 @@
   margin: 0;
 }
 
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .project-image {
     height: 250px;
     border-bottom-right-radius: 0px;
