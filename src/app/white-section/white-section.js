@@ -7,6 +7,7 @@ import {
   Image,
 } from "@mantine/core";
 import "./white-section.css";
+// import Process from "../forstudents-process/Process.tsx";
 
 export default function WhiteSection() {
   return (
@@ -59,6 +60,7 @@ export default function WhiteSection() {
           Originally defined by Cal Blueprint, we at UofT Blueprint continue to
           follow and uphold the five core Blueprint values.
         </Text>
+        {/* <Proc> */}
       </Stack>
     </Container>
   );
