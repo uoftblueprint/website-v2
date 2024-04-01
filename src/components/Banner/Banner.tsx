@@ -1,7 +1,7 @@
 import { Container, Flex, Button } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "@/components/Banner/Banner.css";
 
 export default function Banner({
