@@ -2,7 +2,7 @@
 
 import { Center, Avatar, Text, Anchor } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "./Profile.css";
 
 function Profile({ name, role, profilePicture, linkedinLink = "" }) {
@@ -10,7 +10,7 @@ function Profile({ name, role, profilePicture, linkedinLink = "" }) {
   const avatarSize = small ? "70px" : "120px";
 
   return (
-    <Center>
+    <Center className="center-container">
       {linkedinLink ? (
         <Anchor href={linkedinLink} target="_blank">
           <Avatar size={avatarSize} src={profilePicture} />
@@ -19,8 +19,12 @@ function Profile({ name, role, profilePicture, linkedinLink = "" }) {
         <Avatar size={avatarSize} src={profilePicture} />
       )}
 
-      <Text id="name">{name}</Text>
-      <Text id="role">{role}</Text>
+      <Text className="profile-text" id="name">
+        {name}
+      </Text>
+      <Text className="profile-text" id="role">
+        {role}
+      </Text>
     </Center>
   );
 }

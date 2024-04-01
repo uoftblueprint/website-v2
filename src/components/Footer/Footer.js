@@ -1,12 +1,12 @@
 import { Group, Anchor } from "@mantine/core";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "./Footer.css";
 import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="main-footer">
-      <Group className="footer-menu" gap={'xs'}>
+      <Group className="footer-menu" gap={"xs"}>
         <a className="logo" href="/">
           <Image
             src="/logo-with-text.svg"
