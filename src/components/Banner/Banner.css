@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .non-hero {
-  height: 90vh;
+  height: 100vh;
 }
 
 .hero {
-  height: 95vh;
+  height: 105vh;
 }
 
 .image-banner {
@@ -52,17 +52,18 @@
 }
 
 .banner-button {
+  margin-top: 5vh;
   --button-radius: 32px;
   --button-border-width: 3px;
   filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.4));
 }
 
 .banner-flex {
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
 }
 
 .banner-button-label {
-  font-size: var(--subtitle-fs);
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -76,16 +77,24 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 720px) {
   .banner-text-container {
     max-width: 95%;
+  }
+
+  .banner-flex {
+    padding-top: 10vh;
+  }
+
+  .banner-button-label {
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .banner-container {
-    --title-fs: 26px;
-    --subtitle-fs: 14px;
+    --title-fs: 32px;
+    --subtitle-fs: 16px;
     --logo-size: 100px;
   }
 }
