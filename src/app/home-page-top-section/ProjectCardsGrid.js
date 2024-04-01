@@ -16,28 +16,20 @@ function CardGrid({ cards_info }) {
   ];
 
   return (
-    <>
-      {/* <ProjectsCard
-        name={card[0].name}
-        description={card[0].description}
-        image={card[0].image}
-      ></ProjectsCard> */}
-      <Container fluid className="cards-grid">
-        <Title className="project-cards-title">Current Projects</Title>
-        <SimpleGrid cols={{ sm: 2, base: 1 }} spacing="lg">
-          {cards_info.map((project, index) => (
-            <ProjectsCard
-              
-              key={index}
-              name={project.name}
-              description={project.description}
-              image={project.image}
-              link={project.link ? project.link : null}
-            />
-          ))}
-        </SimpleGrid>
-      </Container>
-    </>
+    <Container fluid className="cards-grid">
+      <Title className="project-cards-title">Current Projects</Title>
+      <SimpleGrid cols={{ sm: 2, base: 1 }} spacing="lg">
+        {cards_info.map((project, index) => (
+          <ProjectsCard
+            key={index}
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            link={project.link ? project.link : null}
+          />
+        ))}
+      </SimpleGrid>
+    </Container>
   );
 }
 

@@ -1,3 +1,7 @@
+:root {
+  --corner-radius: calc(30px + 10vw);
+}
+
 .container {
   padding: 0 5% 30px 5%;
   display: flex;
@@ -10,7 +14,7 @@
 
 .bottom-section {
   padding: 5% 10% 10% 10%;
-  border-radius: 250px 250px 0px 0px;
+  border-radius: var(--corner-radius) var(--corner-radius) 0px 0px;
   background: linear-gradient(180deg, #d1e8ff 0%, #fff 100%);
   justify-content: center;
   align-items: center;
@@ -39,8 +43,8 @@
 }
 
 .image {
-  /* width: 35%; */
-  /* margin: 10px 50px; */
+  width: 35%;
+  margin: 10px 50px;
 }
 
 .divider {
