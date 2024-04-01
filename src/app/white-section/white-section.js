@@ -11,11 +11,38 @@ import Process from "src/forstudents-process/Process.tsx";
 
 export default function WhiteSection() {
   return (
+    <>
+    <Container className="top-section">
+        <Title className="about-title top-title">About Us</Title>
+        <Text className="heading-text">Something something about Blueprint being cool!</Text>
+        <Image
+            className="top-image"
+            src="/about_page/team_at_work.svg"
+        />
+    </Container>
     <Container size="100%" className="bottom-section grey-blue-text">
+      <Stack className="image-wrapper top-wrapper">
+        <Image
+          className="medal-img overlay star"
+          src="./about_page/star.svg"
+          alt="star"
+        ></Image>
+        <Title className="about-title">Our Mission</Title>
+        <Text className="heading-text">
+        At UofT Blueprint, we want to leverage the tech skills of our students
+        and give back to the community around us.
+        </Text>
+        <Image
+          className="mission-image"
+          src="./about_page/replace_stock_image.png"
+          alt="stock photo"
+        ></Image>
+      </Stack>
+
       <Stack className="image-wrapper">
         <Image
           className="medal-img overlay"
-          src="medal-star.svg"
+          src="./about_page/medal-star.svg"
           alt="medal"
         ></Image>
         <Title className="about-title">Our Impact</Title>
@@ -73,5 +100,6 @@ export default function WhiteSection() {
         {/* <Process></Process> */}
       </Stack>
     </Container>
+  </>
   );
 }
