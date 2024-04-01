@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
   --corner-radius: calc(30px + 10vw);
 }
@@ -18,13 +20,10 @@
 
 .impact-number {
   font-size: calc(50px + 5vw);
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   line-height: 1;
-}
-
-.impact-number-container {
-  /* max-width: 300px; */
-  min-width: 275px;
 }
 
 .grey-blue-text {
@@ -33,4 +32,33 @@
 
 .about-title {
   color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: calc(30px + 1vw);
+  z-index: 1;
+}
+
+.heading-text {
+  max-width: 80%;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(10px + 1vw);
+  z-index: 1;
+}
+
+.image-wrapper {
+  position: relative;
+  margin: 50px 0 50px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.medal-img {
+  width: calc(100px + 12vw);
 }

@@ -1,12 +1,24 @@
-import { Container, Stack, SimpleGrid, Title, Text } from "@mantine/core";
+import {
+  Container,
+  Stack,
+  SimpleGrid,
+  Title,
+  Text,
+  Image,
+} from "@mantine/core";
 import "./white-section.css";
 
 export default function WhiteSection() {
   return (
     <Container size="100%" className="bottom-section grey-blue-text">
-      <Stack>
+      <Stack className="image-wrapper">
+        <Image
+          className="medal-img overlay"
+          src="medal-star.svg"
+          alt="medal"
+        ></Image>
         <Title className="about-title">Our Impact</Title>
-        <Text>
+        <Text className="heading-text">
           Since 2020, over 100+ students have joined the UofT Blueprint family.
           Together, we have partnered with 8 NPOs over 3 years delivering
           custom-built websites and mobile apps.
@@ -39,6 +51,14 @@ export default function WhiteSection() {
             <Text>students</Text>
           </Stack>
         </SimpleGrid>
+      </Stack>
+
+      <Stack>
+        <Title className="about-title">Our Values</Title>
+        <Text className="heading-text">
+          Originally defined by Cal Blueprint, we at UofT Blueprint continue to
+          follow and uphold the five core Blueprint values.
+        </Text>
       </Stack>
     </Container>
   );
