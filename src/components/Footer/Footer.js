@@ -1,4 +1,5 @@
 import { Group, Anchor } from "@mantine/core";
+import "@mantine/core/styles.layer.css";
 import "./Footer.css";
 import Image from "next/image";
 
