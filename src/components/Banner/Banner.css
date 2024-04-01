@@ -10,6 +10,7 @@
 
 .image-banner {
   background-size: cover;
+  background-position: center;
 }
 
 .banner-container {
@@ -21,7 +22,7 @@
 
   --title-fs: 72px;
   --subtitle-fs: 30px;
-  --logo-size: 230px;
+  --logo-size: 200px;
 }
 
 .banner-logo-container {
