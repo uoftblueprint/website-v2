@@ -11,7 +11,7 @@ export default function HeroBanner() {
         align={"center"}
         h={"100%"}
         direction={"column"}
-        rowGap={"10px"}
+        pb="15vh"
       >
         <div className="banner-logo-container">
           <Image
