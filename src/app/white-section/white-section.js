@@ -7,7 +7,7 @@ import {
   Image,
 } from "@mantine/core";
 import "./white-section.css";
-// import Process from "../forstudents-process/Process.tsx";
+import Process from "src/forstudents-process/Process.tsx";
 
 export default function WhiteSection() {
   return (
@@ -54,13 +54,23 @@ export default function WhiteSection() {
         </SimpleGrid>
       </Stack>
 
-      <Stack>
+      <Stack className="image-wrapper">
         <Title className="about-title">Our Values</Title>
         <Text className="heading-text">
           Originally defined by Cal Blueprint, we at UofT Blueprint continue to
           follow and uphold the five core Blueprint values.
         </Text>
-        {/* <Proc> */}
+        {/* <Process></Process> */}
+      </Stack>
+
+      <Stack className="image-wrapper">
+        <Title className="about-title">Our Sponsors</Title>
+        <Text className="heading-text">
+          Thank you to our sponsors for giving us the opportunity to give back
+          to our university community by holding events for our club members and
+          the greater UofT community!
+        </Text>
+        {/* <Process></Process> */}
       </Stack>
     </Container>
   );
