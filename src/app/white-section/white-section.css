@@ -39,6 +39,7 @@
 }
 
 .heading-text {
+  color: #4B7DAC;
   max-width: 80%;
   align-self: center;
   font-family: "Poppins", sans-serif;
@@ -49,6 +50,11 @@
 .image-wrapper {
   position: relative;
   margin: 50px 0 50px 0;
+  align-items: center;
+}
+
+.top-wrapper {
+  margin: 150px 0 50px 0;
 }
 
 .overlay {
@@ -59,6 +65,32 @@
   max-height: 100%;
 }
 
+.star {
+  transform: translate(-50%, -37%);
+}
+
 .medal-img {
   width: calc(100px + 12vw);
+}
+
+.mission-image {
+  width: 75%;
+  z-index: 1;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #E7F3FF;
+  text-align: center;
+}
+
+.top-title {
+  padding: 10% 0 2%;
+}
+
+.top-image {
+  margin-top: 2%;
 }
