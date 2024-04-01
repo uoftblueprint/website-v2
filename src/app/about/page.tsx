@@ -1,5 +1,6 @@
 "use client";
 import WhiteSection from "../white-section/white-section.js";
+import "./about.css"
 import ImageBanner from "@/components/Banner/ImageBanner.tsx";
 
 export default function About() {
