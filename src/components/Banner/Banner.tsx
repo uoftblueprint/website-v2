@@ -10,11 +10,12 @@ export default function Banner({
 }) {
   // button is an optional prop that defines if button exists or not.
   const bannerSize = useMediaQuery(`(max-width:  480px)`) ? "md" : "xl";
+  const justify = useMediaQuery(`(max-width:  720px)`) ? "center" : "end";
 
   return (
     <Container fluid className="non-hero banner-container">
       <Flex
-        justify={"end"}
+        justify={justify}
         align={"center"}
         h={"100%"}
         direction={"column"}
