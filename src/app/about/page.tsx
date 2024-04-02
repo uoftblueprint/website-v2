@@ -1,13 +1,13 @@
 "use client";
-import WhiteSection from "../white-section/white-section.js";
-import "./about.css"
+import WhiteSection from "./white-section/white-section.js";
+import "./about.css";
 import ImageBanner from "@/components/Banner/ImageBanner.tsx";
 
 export default function About() {
-  return  (
+  return (
     <div>
-      <ImageBanner src={"/about_page/blueprint-family-photo.png"}/>
-      <WhiteSection/>
+      <ImageBanner src={"/about_page/blueprint-family-photo.png"} />
+      <WhiteSection />
     </div>
-  )
+  );
 }
