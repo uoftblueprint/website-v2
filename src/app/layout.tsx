@@ -5,6 +5,7 @@ import "@mantine/core/styles.layer.css";
 import { MantineProvider, AppShell } from "@mantine/core";
 import Navbar from "@/components/Navbar/Navbar";
 import SideNavMenu from "@/components/Navbar/SideNavMenu";
+import Footer from "@/components/Footer/Footer"
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
         <MantineProvider>
           <AppShell
             header={{ height: "96px" }}
-            footer={{ height: "283px" }} // adjust based on footer height
+            footer={{ height: "10vw" }} // adjust based on footer height
             style={{ position: "relative" }}
             navbar={{
               width: 300,
@@ -48,7 +49,7 @@ export default function RootLayout({ children }) {
             <AppShell.Main>{children}</AppShell.Main>
 
             <AppShell.Footer style={{ position: "absolute" }}>
-              {/* add footer here! */}
+              {<Footer></Footer>}
             </AppShell.Footer>
           </AppShell>
         </MantineProvider>
