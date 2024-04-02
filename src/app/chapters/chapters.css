@@ -1,25 +1,25 @@
 .text {
   color: #0078e8;
-  font-family: 'Poppins', sans-serif;
-  font-size: 5vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   padding-left: 4vw;
   padding-top: 4vw;
-  padding-bottom: 2vw;
   margin-bottom: 0;
+  margin: 0;
 }
 
-
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
 }
 
-.grid{
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-bottom: 4vw;
+.grid {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 4vw;
 }

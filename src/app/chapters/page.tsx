@@ -44,13 +44,13 @@ export default function ChaptersPage() {
 
       <h1 className="text">🇨🇦 Canada</h1>
         
-      <Grid justify="flex-start" align={"flex-start"} gutter={"lg"} className={"grid"}>
+      <Grid justify="flex-start" align={"flex-start"} gutter="3vw" className={"grid"}>
         {rowCAN}
       </Grid>
 
       <h1 className="text">🇺🇸 USA</h1>
 
-      <Grid justify="flex-start" align={"flex-start"} gutter={"lg"} className={"grid"}>
+      <Grid justify="flex-start" align={"flex-start"} gutter="3vw" className={"grid"}>
         {rowUSA}
 
       </Grid>
