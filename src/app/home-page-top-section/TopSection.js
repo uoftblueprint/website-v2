@@ -2,8 +2,6 @@ import { Container, Title, Text, Image } from "@mantine/core";
 import styles from "./TopSection.module.css";
 
 export default function TopSection() {
-  // Top Section of Page
-  // Figure out how to center on home page
   {
     console.log(Text.classes);
   }

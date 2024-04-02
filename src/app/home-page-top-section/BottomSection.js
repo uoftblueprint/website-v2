@@ -10,48 +10,111 @@ import "./BottomSection.css";
 
 export default function BottomSection() {
   return (
-    <Container size="100%" className="bottom-section">
-      <Title className="title">How We Do It</Title>
+    <>
+      <div className="desktop-view">
+        <Container size="100%" className="bottom-section">
+        <Title className="title">How We Do It</Title>
 
-      <Container className="container">
-        <Image
+        <Container className="container">
+          <Image
+              className="image"
+              alt="Developer"
+              src="/people_images/developer.svg"
+          />
+
+          <Image
             className="image"
-            alt="Developer"
-            src="/people_images/developer.svg"
-        />
+            alt="Healthcare Worker"
+            src="/people_images/medical.svg"
+          />
+        </Container>
 
-        <Image
-          className="image"
-          alt="Healthcare Worker"
-          src="/people_images/medical.svg"
-        />
+        <Container style={{ alignItems: 'flex-start'}} className="container">
+
+          <Container style={{ flexDirection: 'column'}} className="container">
+            <Title className="subtitle">Students</Title>
+            <Text className="text">
+              Do you want to give back to your community while building real-life
+              technological solutions for real-life stakeholders? Join our growing
+              team of passionate students in tech to make a difference!
+            </Text>
+            <Button
+              className="home-button"
+              size="md"
+              variant="light"
+              rightSection={
+                <Image className={"arrow"} src="people_images/arrow-right.svg" />
+              }
+              component="a"
+              href="/for-students"
+            >
+              Join Us
+            </Button>
+          </Container>
+
+          <Divider orientation="vertical" color="#2F80ED" className="divider"/>
+
+          <Container style={{ display: 'flex', flexDirection: 'column' }} className="container">
+            <Title className="subtitle">Non-Profit Partners</Title>
+            <Text className="text">
+              Do you want to give back to your community while building real-life
+              technological solutions for real-life stakeholders? Join our growing
+              team of passionate students in tech to make a difference!
+            </Text>
+            <Button
+              className="home-button"
+              size="md"
+              variant="light"
+              rightSection={
+                <Image className={"arrow"} src="people_images/arrow-right.svg" />
+              }
+              component="a"
+              href="/for-partners"
+            >
+              Contact Us
+            </Button>
+          </Container>
+        </Container>
       </Container>
+    </div>
 
-      <Container style={{ alignItems: 'flex-start'}} className="container">
+    <div className="mobile-view">
+      <Container size="100%" className="bottom-section">
+        <Title className="title">How We Do It</Title>
 
         <Container style={{ flexDirection: 'column'}} className="container">
+          <Image
+              className="image"
+              alt="Developer"
+              src="/people_images/developer.svg"
+          />
           <Title className="subtitle">Students</Title>
-          <Text className="text">
-            Do you want to give back to your community while building real-life
-            technological solutions for real-life stakeholders? Join our growing
-            team of passionate students in tech to make a difference!
-          </Text>
-          <Button
-            variant="light"
-            rightSection={
-              <Image className={"arrow"} src="people_images/arrow-right.svg" />
-            }
-            component="a"
-            href="https://www.google.com/maps"
-            target="_blank"
-          >
-            Join Us
+            <Text className="text">
+              Do you want to give back to your community while building real-life
+              technological solutions for real-life stakeholders? Join our growing
+              team of passionate students in tech to make a difference!
+            </Text>
+            <Button
+              className="home-button"
+              size="md"
+              variant="light"
+              rightSection={
+                <Image className={"arrow"} src="people_images/arrow-right.svg" />
+              }
+              component="a"
+              href="https://www.google.com/maps"
+              target="_blank"
+            >
+              Join Us
           </Button>
         </Container>
 
-        <Divider orientation="vertical" color="#2F80ED" className="divider"/>
-
-        <Container style={{ display: 'flex', flexDirection: 'column' }} className="container">
+        <Container style={{ flexDirection: 'column'}} className="container">
+          <Image
+          className="image"
+          alt="Healthcare Worker"
+          src="/people_images/medical.svg"
+          />
           <Title className="subtitle">Non-Profit Partners</Title>
           <Text className="text">
             Do you want to give back to your community while building real-life
@@ -59,6 +122,8 @@ export default function BottomSection() {
             team of passionate students in tech to make a difference!
           </Text>
           <Button
+            className="home-button"
+            size="md"
             variant="light"
             rightSection={
               <Image className={"arrow"} src="people_images/arrow-right.svg" />
@@ -71,6 +136,7 @@ export default function BottomSection() {
           </Button>
         </Container>
       </Container>
-    </Container>
+    </div>
+  </>   
   );
 }
