@@ -27,6 +27,7 @@ export default function WhiteSection() {
         </Text>
         <Image className="top-image" src="/about_page/team_at_work.svg" />
       </Container>
+
       <Container size="100%" className="bottom-section grey-blue-text">
         <Stack className="image-wrapper top-wrapper">
           <Image
@@ -69,21 +70,21 @@ export default function WhiteSection() {
               <Text c="#4CA3F4" className="impact-number">
                 4
               </Text>
-              <Text>years</Text>
+              <Text className="impact-text">years</Text>
             </Stack>
 
             <Stack className="impact-number-container">
               <Text c="#0078E8" className="impact-number">
                 8
               </Text>
-              <Text>NPOs</Text>
+              <Text className="impact-text">NPOs</Text>
             </Stack>
 
             <Stack className="impact-number-container">
               <Text c="#4CA3F4" className="impact-number">
                 100+
               </Text>
-              <Text>students</Text>
+              <Text className="impact-text">students</Text>
             </Stack>
           </SimpleGrid>
         </Stack>
@@ -98,7 +99,7 @@ export default function WhiteSection() {
             {values_info.map((value_info) => (
               <Stack>
                 <Image src={value_info.img} alt="value images"></Image>
-                <Text>{value_info.title}</Text>
+                <Text className="impact-text">{value_info.title}</Text>
               </Stack>
             ))}
           </Group>
@@ -106,12 +107,22 @@ export default function WhiteSection() {
 
         <Stack className="image-wrapper sponsors-section">
           <Title className="about-title">Our Sponsors</Title>
-          <Text className="heading-text">
+          <Text className="heading-text" mb="30px">
             Thank you to our sponsors for giving us the opportunity to give back
             to our university community by holding events for our club members
             and the greater UofT community!
           </Text>
-          <Button>Become a Sponsor</Button>
+          <Button
+            rightSection={<Image className={"arrow"} src="chevron-right.svg" />}
+            radius="lg"
+            href=""
+            component="a"
+            target="_blank"
+            size="md"
+            mb="30px"
+          >
+            Become a Sponsor
+          </Button>
           <Group justify="center" align="center">
             <Image
               className="sponsor-image"
