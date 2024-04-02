@@ -44,9 +44,9 @@ export default function ProjectsPage() {
             githubLink=""
           />
           <ProjectsCardWModal
-            name="The Period Purse"
-            description="A Menstrual Tracking application for iOS and Android, built by youth for youth."
-            image={"/the-period-purse.jpeg"}
+            name="Homes for Heroes"
+            description="A CRM application used to help organize homes for Canadian veterans."
+            image={"/homes-for-heroes.jpeg"}
             hasOverlay={true}
             years={["2021-2022", "2023"]}
             projectDescription="Description"
@@ -93,9 +93,9 @@ export default function ProjectsPage() {
             githubLink=""
           />
           <ProjectsCardWModal
-            name="The Period Purse"
-            description="A Menstrual Tracking application for iOS and Android, built by youth for youth."
-            image={"/the-period-purse.jpeg"}
+            name="Homes for Heroes"
+            description="A CRM application used to help organize homes for Canadian veterans."
+            image={"/homes-for-heroes.jpeg"}
             hasOverlay={true}
             years={["2021-2022", "2023"]}
             projectDescription="Description"
