@@ -1,5 +1,5 @@
 import { Container, Flex } from "@mantine/core";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "@/components/Banner/Banner.css";
 import Image from "next/image";
 
@@ -11,7 +11,7 @@ export default function HeroBanner() {
         align={"center"}
         h={"100%"}
         direction={"column"}
-        rowGap={"10px"}
+        pb="15vh"
       >
         <div className="banner-logo-container">
           <Image

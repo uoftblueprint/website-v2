@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Burger, Button, Flex } from "@mantine/core";
 import "@/components/Navbar/Navbar.css";
 import "@/components/Navbar/SideNavMenu.css";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 
 function Navbar({ opened, toggleOpened, links }) {
   const items = links.map((link) => (
@@ -21,7 +21,7 @@ function Navbar({ opened, toggleOpened, links }) {
   items.push(
     <Button
       variant="outline"
-      color="#FFFFFF"
+      color="white"
       classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
       h="50px"

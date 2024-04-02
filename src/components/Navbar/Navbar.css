@@ -56,9 +56,13 @@
 
 .nav-join-link {
   font-size: 18px;
+  color: var(--clr-light);
+}
+
+.nav-join-link:hover {
+  color: var(--clr-hl1);
 }
 
 .nav-join-btn:hover {
   background-color: var(--clr-light);
-  color: var(--clr-hl1);
 }

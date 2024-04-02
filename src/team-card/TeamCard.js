@@ -2,7 +2,7 @@
 
 import Profile from "./Profile";
 import { Title, SimpleGrid, Container } from "@mantine/core";
-import "@mantine/core/styles.css";
+import "@mantine/core/styles.layer.css";
 import "./TeamCard.css";
 
 function TeamCard({ title, team_members }) {
