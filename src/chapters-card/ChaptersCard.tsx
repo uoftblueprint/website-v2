@@ -3,7 +3,7 @@ import "../chapters-card/ChaptersCard.css";
 
 export function ChaptersCard({ name, description, link }) {
   return (
-    <Card padding="lg">
+    <Card>
       <Card.Section c="#0078E8" className={"chapter-name"}>
         {name}
       </Card.Section>
@@ -12,7 +12,7 @@ export function ChaptersCard({ name, description, link }) {
         {description}
       </Card.Section>
 
-      <Card.Section style={{ paddingTop: "16px" }}>
+      <Card.Section className="link-container">
         <Anchor href={link} target="_blank" c="#0078E8" underline="hover" className="card-font">
           Learn more
         </Anchor>

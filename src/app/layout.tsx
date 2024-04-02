@@ -1,13 +1,13 @@
 "use client";
 import { useState } from "react";
-import { Inter } from "next/font/google";
-import "@mantine/core/styles.css";
+import { Poppins } from "next/font/google";
+import "@mantine/core/styles.layer.css";
 import { MantineProvider, AppShell } from "@mantine/core";
 import Navbar from "@/components/Navbar/Navbar";
 import SideNavMenu from "@/components/Navbar/SideNavMenu";
-import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/Footer/Footer"
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 const links = [
   { link: "/about", label: "About" },
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <MantineProvider>
           <AppShell
             header={{ height: "96px" }}
