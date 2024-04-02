@@ -39,7 +39,7 @@
 }
 
 .heading-text {
-  color: #4B7DAC;
+  color: #4b7dac;
   max-width: 80%;
   align-self: center;
   font-family: "Poppins", sans-serif;
@@ -83,7 +83,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #E7F3FF;
+  color: #e7f3ff;
   text-align: center;
 }
 
@@ -93,4 +93,8 @@
 
 .top-image {
   margin-top: 2%;
+}
+
+.sponsor-image {
+  width: 40%;
 }
