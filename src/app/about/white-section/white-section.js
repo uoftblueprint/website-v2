@@ -9,7 +9,6 @@ import {
   Button,
 } from "@mantine/core";
 import "./white-section.css";
-import Process from "src/forstudents-process/Process.tsx";
 
 export default function WhiteSection() {
   const values_info = [
@@ -97,7 +96,7 @@ export default function WhiteSection() {
           </Text>
           <Group justify="center" gap="5vw">
             {values_info.map((value_info) => (
-              <Stack>
+              <Stack key={value_info.title}>
                 <Image src={value_info.img} alt="value images"></Image>
                 <Text className="impact-text">{value_info.title}</Text>
               </Stack>
