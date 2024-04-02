@@ -17,7 +17,9 @@ type ProjectsCardProps = {
   githubLink: string;
 };
 
-export default function ProjectsCard(props: ProjectsCardProps): JSX.Element {
+export default function ProjectsCardWModal(
+  props: ProjectsCardProps,
+): JSX.Element {
   const [isOpened, { open, close }] = useDisclosure(false);
   return (
     <>

@@ -1,5 +1,5 @@
 "use client";
-import ProjectsCard from "@/projects-card/ProjectsCard";
+import ProjectsCardWModal from "@/projects-card/ProjectsCardWModal";
 import { SimpleGrid, Stack, Title } from "@mantine/core";
 import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";
@@ -22,7 +22,7 @@ export default function ProjectsPage() {
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
-          <ProjectsCard
+          <ProjectsCardWModal
             name="The Period Purse"
             description="A Menstrual Tracking application for iOS and Android, built by youth for youth."
             image={"/the-period-purse.jpeg"}
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
             webLink=""
             githubLink=""
           />
-          <ProjectsCard
+          <ProjectsCardWModal
             name="The Period Purse"
             description="A Menstrual Tracking application for iOS and Android, built by youth for youth."
             image={"/the-period-purse.jpeg"}
@@ -71,7 +71,7 @@ export default function ProjectsPage() {
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
-          <ProjectsCard
+          <ProjectsCardWModal
             name="The Period Purse"
             description="A Menstrual Tracking application for iOS and Android, built by youth for youth."
             image={"/the-period-purse.jpeg"}
@@ -91,7 +91,7 @@ export default function ProjectsPage() {
             webLink=""
             githubLink=""
           />
-          <ProjectsCard
+          <ProjectsCardWModal
             name="The Period Purse"
             description="A Menstrual Tracking application for iOS and Android, built by youth for youth."
             image={"/the-period-purse.jpeg"}
