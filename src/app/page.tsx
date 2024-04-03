@@ -15,7 +15,7 @@ const cards_info = [
   {
     name: "Home for Heroes",
     description:
-      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
+      "A CRM application used to help organize homes for Canadian veterans.",
     image: "/homes-for-heroes.jpeg",
     link: "https://www.google.com/",
   },
