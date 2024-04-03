@@ -16,14 +16,7 @@ const cards_info = [
     name: "Home for Heroes",
     description:
       "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
-    image: "/the-period-purse.jpeg",
-    link: "https://www.google.com/",
-  },
-  {
-    name: "Home for Heroes",
-    description:
-      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
-    image: "/the-period-purse.jpeg",
+    image: "/homes-for-heroes.jpeg",
     link: "https://www.google.com/",
   },
 ];
