@@ -1,52 +1,33 @@
 "use client";
-import TeamCard from "src/team-card/TeamCard.js";
-import FAQ from "src/for-students-FAQ/for-students-FAQ.js";
+import TopSection from "./home-page-top-section/TopSection.js";
+import Bottomsection from "./home-page-top-section/BottomSection.js";
+import ProjectCardsGrid from "./home-page-top-section/ProjectCardsGrid.js";
+import HeroBanner from "@/components/Banner/HeroBanner.tsx";
 
-const temp_data = [
+const cards_info = [
   {
-    name: "Michael Jia",
-    role: "Product Manager",
-    profilePicture: "",
+    name: "The Period Purse",
+    description:
+      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
+    image: "/the-period-purse.jpeg",
+    link: "/projects",
   },
   {
-    name: "Michael Jia",
-    role: "Product Manager",
-    profilePicture: "",
+    name: "Home for Heroes",
+    description:
+      "A CRM application used to help organize homes for Canadian veterans.",
+    image: "/homes-for-heroes.jpeg",
+    link: "/projects",
   },
-  {
-    name: "Michael Jia",
-    role: "Product Manager",
-    profilePicture: "",
-  },
-  {
-    name: "Michael Jia",
-    role: "Product Manager",
-    profilePicture: "",
-  },
-  {
-    name: "Michael Jia",
-    role: "Product Manager",
-    profilePicture: "",
-  },
-  {
-    name: "Michael Jia",
-    role: "Product Manager",
-    profilePicture: "",
-  },
-];
-
-const faqQuestions = [
-  { question: "how are you today1", answer: "fine thankyou1" },
-  { question: "how are you today2", answer: "fine thankyou2" },
-  { question: "how are you today3", answer: "fine thankyou3" },
-  { question: "how are you today4", answer: "fine thankyou4" },
 ];
 
 export default function Home() {
   return (
     <>
-      <TeamCard title="Testing Title" team_members={temp_data}></TeamCard>
-      <FAQ faq_info={faqQuestions}></FAQ>
+      <HeroBanner />
+      <TopSection />
+      <Bottomsection />
+      <ProjectCardsGrid cards_info={cards_info}></ProjectCardsGrid>
     </>
   );
 }
