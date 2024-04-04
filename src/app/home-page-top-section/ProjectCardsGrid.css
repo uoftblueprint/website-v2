@@ -1,0 +1,15 @@
+.cards-grid {
+  width: 85%;
+  margin: 0 auto 100px auto;
+}
+
+.max-width-card {
+  max-width: 600px;
+}
+
+.project-cards-title {
+  text-align: center;
+  color: #0078e8;
+  font-size: calc(20px + 3vw);
+  padding-bottom: 30px;
+}
