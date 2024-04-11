@@ -197,6 +197,12 @@ const members_int = [
     linkedinLink: "https://www.linkedin.com/in/sarah-wang4/",
     profilePicture: "team/int/sarah.jpg",
   },
+  {
+    name: "Jack Fan",
+    role: "Software Developer",
+    linkedinLink: "https://www.linkedin.com/in/jackkfan/",
+    profilePicture: "team/int/jack.jpg",
+  },
 ];
 
 export default function TeamPage() {
