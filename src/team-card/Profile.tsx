@@ -1,14 +1,12 @@
 "use client";
-
 import { Center, Avatar, Text, Anchor } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import "@mantine/core/styles.layer.css";
 import "./Profile.css";
 
-function Profile({ name, role, profilePicture, linkedinLink = "" }) {
+function ProfileContainer({ name, role, profilePicture, linkedinLink = "" }) {
   const small = useMediaQuery("(max-width: 500px)");
   const avatarSize = small ? "70px" : "120px";
-
   return (
     <Center className="center-container">
       {linkedinLink ? (
@@ -29,4 +27,4 @@ function Profile({ name, role, profilePicture, linkedinLink = "" }) {
   );
 }
 
-export default Profile;
+export default ProfileContainer;
