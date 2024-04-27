@@ -1,0 +1,6 @@
+Changelog:
+- Refactored the "For-Students" pages to "Join" to link pages
+- Readjusted centre-ing on Process Component and added bottom padding
+- Added and configured RoleGrid for Open Roles components
+- Changed WhyJoin.css to match Process text size
+- Changed for-studentsFAQ.css to match Process text size and weight

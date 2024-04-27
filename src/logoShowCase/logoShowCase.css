@@ -1,8 +1,9 @@
 .main-container{
-    height: 55vw;
+    height: 38vw;
     flex-shrink: 0;
     border-radius: 0vw 0vw 21vw 21vw;
     background: #E7F3FF;
+    overflow: hidden;
 
 }
 .main-text{

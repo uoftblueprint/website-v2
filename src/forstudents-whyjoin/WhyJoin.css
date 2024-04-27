@@ -10,7 +10,7 @@
 }
 
 .whyjoin-text > h2 {
-  font-size: 72px;
+  font-size: 4vw; /*Adjusted to Match the Process text size*/
 }
 
 @media (max-width: 780px) {
