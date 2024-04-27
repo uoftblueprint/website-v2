@@ -1,3 +1,4 @@
+'use client'
 import { Container, Flex, Button } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 
