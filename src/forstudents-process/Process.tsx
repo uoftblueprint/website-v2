@@ -1,5 +1,5 @@
 import "@/forstudents-process/Process.css";
-import { Anchor, Image, Grid } from "@mantine/core";
+import { Anchor, Image, Grid, Flex } from "@mantine/core";
 
 function Process({
   applicationImg,
@@ -34,6 +34,13 @@ function Process({
 
   return (
     <div>
+    <Flex
+      align="center"
+      justify="space-between"
+      className="whyjoin"
+      direction={{ xs: "row", base: "column" }}
+      columnGap={{ md: "60px", base: "30px" }}
+    >
       <div className="text-container">
         <h1 className="text" style={{ fontSize: "4vw", fontWeight: 600 }}>
           Process
@@ -43,8 +50,9 @@ function Process({
           Here&apos;s an overview of how we hire new members!
         </h1>
       </div>
+      </Flex>
 
-      <Grid justify="space-between" className="grid">
+      <Grid justify="space-between" className="grid" style={{ marginBottom: "120px"}}>
         {process}
       </Grid>
     </div>
