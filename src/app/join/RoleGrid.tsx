@@ -1,6 +1,4 @@
 "use client";
-import React from "react";
-import _ from "@/config/firebase";
 import RoleCard from "../../RoleCard/RoleCard";
 import { Flex } from "@mantine/core";
 
