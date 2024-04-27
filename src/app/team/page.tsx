@@ -10,7 +10,7 @@ export default async function TeamPage() {
   // populate profile pictures with cloud storage urls
   await Promise.all(Object.keys(profiles).map(async (team) => {
     await Promise.all(profiles[team].map(async (profile) => {
-      const picture = await getProfilePicture(profile.profileImagePath);
+      const picture = profile.profileImagePath ? await getProfilePicture(profile.profileImagePath) : '';
       profile.profileImage = picture; // Update the profile object directly
     }));
   }));
