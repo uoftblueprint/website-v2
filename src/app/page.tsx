@@ -1,8 +1,8 @@
 "use client";
 import TopSection from "./home-page-top-section/TopSection.js";
-import Bottomsection from "./home-page-top-section/BottomSection.js";
+import BottomSection from "./home-page-top-section/BottomSection.js";
 import ProjectCardsGrid from "./home-page-top-section/ProjectCardsGrid.js";
-import HeroBanner from "@/components/Banner/HeroBanner.tsx";
+import HeroBanner from "@/components/Banner/HeroBanner";
 
 const cards_info = [
   {
@@ -26,7 +26,7 @@ export default function Home() {
     <>
       <HeroBanner />
       <TopSection />
-      <Bottomsection />
+      <BottomSection />
       <ProjectCardsGrid cards_info={cards_info}></ProjectCardsGrid>
     </>
   );

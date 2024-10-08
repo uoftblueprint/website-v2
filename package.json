@@ -10,7 +10,8 @@
     "lint": "eslint \"src/**/*.{js,jsx,tsx,ts}\" --quiet"
   },
   "dependencies": {
-    "@mantine/core": "^7.2.2",
+    "@mantine/core": "^7.13.1",
+    "@mantine/hooks": "^7.13.1",
     "firebase": "^10.8.0",
     "next": "14.0.3",
     "prettier": "^3.2.5",
