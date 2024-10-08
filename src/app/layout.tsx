@@ -5,6 +5,7 @@ import "@mantine/core/styles.layer.css";
 import { MantineProvider, AppShell } from "@mantine/core";
 import Navbar from "@/components/Navbar/Navbar";
 import SideNavMenu from "@/components/Navbar/SideNavMenu";
+import Footer from "@/components/Footer/Footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,7 +49,7 @@ export default function RootLayout({ children }) {
             <AppShell.Main>{children}</AppShell.Main>
 
             <AppShell.Footer style={{ position: "absolute" }}>
-              {/* add footer here! */}
+              {<Footer></Footer>}
             </AppShell.Footer>
           </AppShell>
         </MantineProvider>
