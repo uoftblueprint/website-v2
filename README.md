@@ -43,7 +43,9 @@ npm run dev
 ```
 
 ## Contributors
+
 ### 2023-2024 Team
+
 - Gabriel Vainer (PL)
 - Marco Mai (PM)
 - Elsie Zhu
@@ -53,4 +55,6 @@ npm run dev
 - Michelle Huang
 
 ### 2024-2025 Team
+
 - Jordan Janakievski (PL/PM)
+- Alex Lewis
