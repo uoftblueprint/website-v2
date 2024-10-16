@@ -41,3 +41,16 @@ The following will create a development instance of the website
 ```
 npm run dev
 ```
+
+## Contributors
+### 2023-2024 Team
+- Gabriel Vainer (PL)
+- Marco Mai (PM)
+- Elsie Zhu
+- Sarah Wang
+- Han Xheng Chew
+- Jack Fan
+- Michelle Huang
+
+### 2024-2025 Team
+- Jordan Janakievski (PL/PM)
