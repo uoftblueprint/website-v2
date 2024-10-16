@@ -37,7 +37,7 @@ export default function ChaptersPage() {
       <Banner
         title={"Chapters"}
         text={
-          "Blueprint was founded at UC Berkeley in Spring 2013. Since then they've started scaling their impact and further mission by establishing chapters in different colleges around the world, including us!"
+          "Blueprints was founded at UC Berkeley in Spring 2013. Since then they've started scaling their impact and further mission by establishing chapters in different colleges around the world, including us!"
         }
         button={{ text: "Start a blueprint Chapter!", link: "/chapters" }}
       ></Banner>
