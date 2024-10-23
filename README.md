@@ -54,4 +54,5 @@ npm run dev
 
 ### 2024-2025 Team
 - Jordan Janakievski (PL/PM)
+- Lily Phan
 - Enaya Amir
