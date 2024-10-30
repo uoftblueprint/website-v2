@@ -1,5 +1,5 @@
 import "@/forstudents-process/Process.css";
-import { Anchor, Image, Grid } from "@mantine/core";
+import { Anchor, Image, Grid, Title } from "@mantine/core";
 
 function Process({
   applicationImg,
@@ -16,15 +16,11 @@ function Process({
   ];
 
   const process = info.map((info) => (
-    <Grid.Col span={"content"} key={info.title}>
+    <Grid.Col span={3} key={info.title}>
       <div className="img-text-container">
         <Image src={info.img} alt={info.title + " img"} />
         <div className="caption-container">
-          <Anchor
-            href={info.link}
-            className="text"
-            style={{ fontSize: "1.8vw", fontWeight: 400 }}
-          >
+          <Anchor href={info.link} className="text">
             {info.title}
           </Anchor>
         </div>
@@ -33,18 +29,14 @@ function Process({
   ));
 
   return (
-    <div>
+    <div className="process">
       <div className="text-container">
-        <h1 className="text" style={{ fontSize: "4vw", fontWeight: 600 }}>
-          Process
-        </h1>
-
-        <h1 className="text" style={{ fontSize: "2vw", fontWeight: 400 }}>
+        <Title className="title">Process</Title>
+        <h1 className="text">
           Here&apos;s an overview of how we hire new members!
         </h1>
       </div>
-
-      <Grid justify="space-between" className="grid">
+      <Grid justify="space-between" align="stretch" className="grid">
         {process}
       </Grid>
     </div>
