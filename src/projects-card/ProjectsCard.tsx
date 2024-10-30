@@ -2,7 +2,14 @@ import { Card, CardSection, Image, Button } from "@mantine/core";
 import "@mantine/core/styles.layer.css";
 import "../projects-card/ProjectsCard.css";
 
-export function ProjectsCard({name, description, image, link = null}) {
+interface ProjectsCardProps {
+    name: string;
+    description: string;
+    image: string;
+    link?: string | null;
+}
+
+export function ProjectsCard({name, description, image, link = null}: ProjectsCardProps) {
     return (
       <Card padding="lg" className="project-card">
             <CardSection className={"image-container"}>
