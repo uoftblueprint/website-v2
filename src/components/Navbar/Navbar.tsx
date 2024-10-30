@@ -20,7 +20,7 @@ function Navbar({ opened, toggleOpened, links }) {
 
   items.push(
     <Button
-      variant="outline"
+      variant="filled"
       color="white"
       classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
