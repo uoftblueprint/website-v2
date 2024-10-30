@@ -1,4 +1,4 @@
-import { Card, Image, Text, Button, Center, Anchor } from "@mantine/core";
+import { Card, Image, Text, Button, Center } from "@mantine/core";
 import "./RoleCard.css";
 
 export default function RoleCard({ role, link }) {
@@ -14,19 +14,16 @@ export default function RoleCard({ role, link }) {
         </Text>
       </Center>
       <Center>
-        <Anchor href={link} target="_blank" rel="noopener noreferrer">
-          <Button
-            rightSection={<Image className={"arrow"} src="chevron-right.svg" />}
-            radius="lg"
-            href=""
-            component="a"
-            target="_blank"
-            size="md"
-            mb="30px"
-          >
-            Apply Now
-          </Button>
-        </Anchor>
+        <Button
+          rightSection={<Image className="chevron" src="/chevron-right.svg" />}
+          variant="filled"
+          radius="xl"
+          size="xl"
+          className="buttonWithImage"
+          ref={link}
+        >
+          Apply Now
+        </Button>
       </Center>
     </Card>
   );
