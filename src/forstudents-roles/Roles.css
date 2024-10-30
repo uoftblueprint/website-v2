@@ -1,0 +1,17 @@
+.grid {
+  padding-top: 1vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 4vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.open-roles-title {
+  color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  padding-top: 4vw;
+  padding-bottom: 1vw;
+}
