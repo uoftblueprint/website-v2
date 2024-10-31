@@ -1,7 +1,7 @@
 "use client";
 
 import Banner from "@/components/Banner/Banner";
-import TeamCard from "@/team-card/TeamCard.js";
+import TeamCard from "@/team-card/TeamCard";
 import { Container, Divider, Flex } from "@mantine/core";
 
 const members_tfss = [
