@@ -24,7 +24,6 @@ function Navbar({ opened, toggleOpened, links }) {
       color="white"
       classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
-      w="175px"
       h="50px"
       component="a"
       href="/"
