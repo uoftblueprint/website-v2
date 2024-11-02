@@ -24,6 +24,7 @@ function Navbar({ opened, toggleOpened, links }) {
       color="white"
       classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
+      w="175px"
       h="50px"
       component="a"
       href="/"
@@ -43,13 +44,13 @@ function Navbar({ opened, toggleOpened, links }) {
         />
       </a>
       <div className="nav-menu_container">
-        <Flex visibleFrom="md" justify={"end"} align={"center"}>
+        <Flex visibleFrom="sm" justify={"end"} align={"center"}>
           {items}
         </Flex>
         <Burger
           opened={opened}
           onClick={toggleOpened}
-          hiddenFrom="md"
+          hiddenFrom="sm"
           size="md"
           color="#FFFFFF"
         />
