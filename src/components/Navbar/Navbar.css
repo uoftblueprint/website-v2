@@ -48,7 +48,8 @@
 .nav-join-btn {
   --button-radius: 26px;
   --button-height: 52px;
-  color: var(--clr-light);
+  background-color: var(--clr-light);
+  color: var(--clr-hl1);
   transition:
     color 0.3s ease-in-out,
     background-color 0.3s ease-in-out;
@@ -66,4 +67,5 @@
 /* Add style specifically for a "filled" button */
 .nav-join-btn[data-variant="filled"]:hover {
   background-color: var(--clr-hl1);
+  color: var(--clr-light);
 }
