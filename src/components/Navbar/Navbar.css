@@ -63,6 +63,7 @@
   color: var(--clr-light);
 }
 
-.nav-join-btn:hover {
+/* Add style specifically for a "filled" button */
+.nav-join-btn[data-variant="filled"]:hover {
   background-color: var(--clr-hl1);
 }
