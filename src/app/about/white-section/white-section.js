@@ -113,7 +113,7 @@ export default function WhiteSection() {
           </Text>
           <Button
             rightSection={<Image className={"arrow"} src="chevron-right.svg" />}
-            radius="xl"
+            radius="lg"
             href=""
             component="a"
             target="_blank"
