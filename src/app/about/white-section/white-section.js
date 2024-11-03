@@ -112,8 +112,8 @@ export default function WhiteSection() {
             and the greater UofT community!
           </Text>
           <Button
-            rightSection={<Image className={"arrow"} src="chevron-right.svg" />}
-            radius="lg"
+            rightSection={<Image className={"arrow"} src="/chevron-right.svg" />}
+            radius="xl"
             href=""
             component="a"
             target="_blank"
