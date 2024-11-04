@@ -6,7 +6,7 @@
 }
 
 .roleTitle {
-  font-size: 40px;
+  font-size: 2.5vw;
   line-height: normal;
   font-style: normal;
   font-family: "Poppins", sans-serif;
@@ -16,25 +16,27 @@
 
 .buttonWithImage {
   font-weight: normal;
+  font-size: 1.5vw;
+  width: auto;
+  height: auto;
+  padding: 1rem 1rem;
 }
 
 @media (max-width: 1100px) {
   .roleTitle {
-    font-size: 24px;
     margin-bottom: 0.5rem;
   }
+}
 
-  .roleCard {
-    width: 100%;
-  }
-
-  .buttonWithImage {
-    font-size: 20px;
-  }
+.moniter {
+  width: 4vw;
+  height: 4vw;
 }
 
 .chevron {
   float: right;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
 .arrow {

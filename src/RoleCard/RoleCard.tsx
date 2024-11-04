@@ -6,7 +6,7 @@ export default function RoleCard({ role, link }) {
     // <Card className='roleCard' shadow="lg" radius="xl" p="xl" style={{ width: 'calc(33.333% - 20px)', marginBottom: '20px' }}>
     <Card className="roleCard" shadow="lg" radius="xl" p="xl">
       <Center>
-        <Image src="/monitor.svg" />
+        <Image className="moniter" src="/monitor.svg" />
       </Center>
       <Center my="xs">
         <Text c="#0078E8" fw={500} className="roleTitle">
