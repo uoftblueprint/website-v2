@@ -10,7 +10,11 @@ const info = [
 ];
 
 const row = info.map((info) => (
-  <Grid.Col span={3} key={info.role} className={"card"}>
+  <Grid.Col
+    span={{ xs: 12, sm: 6, md: 4, lg: 3 }}
+    key={info.role}
+    className={"card"}
+  >
     {" "}
     <RoleCard role={info.role} link={info.link}></RoleCard>
   </Grid.Col>
