@@ -24,7 +24,10 @@ function FaqCard({ faq_info }) {
         contact@uoftblueprint.org.
       </p>
 
-      <Accordion variant="separated" chevron={<Image src="chevron-down.png" />}>
+      <Accordion
+        variant="separated"
+        chevron={<Image className="chevron" src="/chevron-down.png" />}
+      >
         {items}
       </Accordion>
     </Container>
