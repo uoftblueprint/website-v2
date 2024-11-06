@@ -38,13 +38,6 @@ export default function WhiteSection() {
       width: "fit-content"
     } as const;
 
-  const grid_style =
-    {
-      paddingLeft: "4vw",
-      paddingRight: "4vw",
-      paddingBottom: "4vw"
-    } as const;
-
   return (
     <>
       <Container className="top-section" style={card_style}>
