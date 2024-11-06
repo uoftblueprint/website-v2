@@ -1,4 +1,4 @@
-import "@/forstudents-process/Process.css";
+import "@/for-students-process/Process.css";
 import { Anchor, Image, Grid, Title } from "@mantine/core";
 
 function Process({

@@ -26,7 +26,7 @@ function Navbar({ opened, toggleOpened, links }) {
       key="join"
       h="50px"
       component="a"
-      href="/forstudents"
+      href="/for-students"
     >
       Join our Team!
     </Button>,

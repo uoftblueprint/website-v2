@@ -1,12 +1,12 @@
 "use client";
 
 import Banner from "@/components/Banner/Banner";
-import Process from "@/forstudents-process/Process";
-import WhyJoin from "@/forstudents-whyjoin/WhyJoin";
-import FaqCard from "@/forstudents-FAQ/FaqCard";
+import Process from "@/for-students-process/Process";
+import WhyJoin from "@/for-students-whyjoin/WhyJoin";
+import FaqCard from "@/for-students-FAQ/FaqCard";
 import { Container, Divider } from "@mantine/core";
-import Alumni from "@/forstudents-alumni/Alumni";
-import Roles from "@/forstudents-roles/Roles";
+import Alumni from "@/for-students-alumni/Alumni";
+import Roles from "@/for-students-roles/Roles";
 
 const faqData = [
   {
@@ -21,7 +21,7 @@ const faqData = [
   },
 ];
 
-export default function ForStudentsPage() {
+export default function forstudentsPage() {
   return (
     <div>
       <div style={{ backgroundColor: "#e7f3ff" }}>
@@ -33,14 +33,14 @@ export default function ForStudentsPage() {
       <Alumni />
       <Roles />
       <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
-      <WhyJoin img={"/forstudents/placeholder.png"} />
+      <WhyJoin img={"/for-students/placeholder.png"} />
       <Container className="process" w="100%">
         <Process
-          applicationImg={"/forstudents/placeholder.png"}
+          applicationImg={"/for-students/placeholder.png"}
           applicationLink={undefined}
-          interviewImg={"/forstudents/placeholder.png"}
+          interviewImg={"/for-students/placeholder.png"}
           interviewLink={undefined}
-          acceptancesImg={"/forstudents/placeholder.png"}
+          acceptancesImg={"/for-students/placeholder.png"}
           acceptancesLink={undefined}
         />
       </Container>
