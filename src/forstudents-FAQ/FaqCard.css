@@ -34,7 +34,6 @@
 .mantine-Accordion-chevron {
   width: var(--questionFont);
   height: var(--questionFont);
-  margin-left: 5px;
 }
 
 .mantine-Accordion-chevron[data-rotate] {
