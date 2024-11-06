@@ -32,11 +32,6 @@
 }
 
 .chevron {
-  float: right;
   width: 1.5vw;
   height: 1.5vw;
-}
-
-.arrow {
-  width: 75%;
 }
