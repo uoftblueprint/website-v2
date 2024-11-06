@@ -9,8 +9,6 @@ import {
   Button,
 } from "@mantine/core";
 import "./white-section.css";
-import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-
 
 export default function WhiteSection() {
   const values_info = [
@@ -19,10 +17,40 @@ export default function WhiteSection() {
     { title: "Team Work", img: "about_page/placeholder.png" },
   ];
 
+  const text_style = {
+    color: "#0078e8",
+      fontFamily: "'Poppins', sans-serif",
+      fontSize: "4vw",
+      fontStyle: "normal",
+      fontWeight: 600,
+      lineHeight: "normal",
+      paddingLeft: "4vw",
+      paddingTop: "4vw",
+      marginBottom: 0,
+      margin: 0
+  } as const;
+
+  const card_style =
+    {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      width: "fit-content"
+    } as const;
+
+  const grid_style =
+    {
+      paddingLeft: "4vw",
+      paddingRight: "4vw",
+      paddingBottom: "4vw"
+    } as const;
+
   return (
     <>
-      <Container className="top-section">
-        <Title className="about-title top-title">About Us</Title>
+      <Container className="top-section" style={card_style}>
+        <Title className="about-title top-title" style={text_style}>
+          About Us
+        </Title>
         <Text className="heading-text">
           Something something about Blueprint being cool!
         </Text>
@@ -63,9 +91,9 @@ export default function WhiteSection() {
 
           <SimpleGrid
             cols={{ sm: 3, xs: 1 }}
-            justify="center"
             className="impact-facts"
-            wrap="wrap"
+            style={{justifyContent:'center',
+            wrap:"wrap"}}
           >
             <Stack className="impact-number-container">
               <Text c="#4CA3F4" className="impact-number">
