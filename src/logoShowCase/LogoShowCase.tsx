@@ -1,9 +1,12 @@
-import { Grid } from "@mantine/core";
+import { Grid, Image } from "@mantine/core";
 import "./logoShowCase.css";
 import "@mantine/core/styles.layer.css";
-import { Image } from "@mantine/core";
 
-const imgRowOne = [
+interface ImageRow {
+    img: string;
+}
+
+const imgRowOne: ImageRow[] = [
   { img: "/logos/meta.svg" },
   { img: "/logos/google.svg" },
   { img: "/logos/stripe.svg" },
@@ -17,7 +20,7 @@ const rowOne = imgRowOne.map((img) => (
   </Grid.Col>
 ));
 
-const imgRowTwo = [
+const imgRowTwo: ImageRow[] = [
   { img: "/logos/intuit.svg" },
   { img: "/logos/intel.svg" },
   { img: "/logos/figma.svg" },
@@ -31,7 +34,7 @@ const rowTwo = imgRowTwo.map((img) => (
   </Grid.Col>
 ));
 
-const imgRowThree = [
+const imgRowThree: ImageRow[] = [
   { img: "/logos/rbc.svg" },
   { img: "/logos/citadel.svg" },
   { img: "/logos/square.svg" },

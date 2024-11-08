@@ -5,7 +5,19 @@ import { Title, SimpleGrid, Container } from "@mantine/core";
 import "@mantine/core/styles.layer.css";
 import "./TeamCard.css";
 
-function TeamCard({ title, team_members }) {
+interface TeamMember {
+    name: string;
+    role: string;
+    profilePicture: string;
+    linkedinLink?: string;
+}
+
+interface TeamCardProps {
+    title: string;
+    team_members: TeamMember[];
+}
+
+function TeamCard({ title, team_members }: TeamCardProps) {
   return (
     <Container size="80%">
       <Title className="team-title" c="#0078E8">
