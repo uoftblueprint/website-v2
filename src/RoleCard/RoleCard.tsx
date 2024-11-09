@@ -6,12 +6,7 @@ export default function RoleCard({ role, link }) {
     // <Card className='roleCard' shadow="lg" radius="xl" p="xl" style={{ width: 'calc(33.333% - 20px)', marginBottom: '20px' }}>
     <Card className="roleCard" shadow="lg" radius="xl" p="xl">
       <Center>
-        <Image
-          className="moniter"
-          src="/monitor.svg"
-          width="4vw"
-          height="4vw"
-        />
+        <Image className="moniter" src="/monitor.svg" w="4vw" h="4vw" />
       </Center>
       <Center my="xs">
         <Text c="#0078E8" fw={500} className="roleTitle">
@@ -24,8 +19,8 @@ export default function RoleCard({ role, link }) {
             <Image
               className="chevron"
               src="/chevron-right.svg"
-              width="1.5vw"
-              height="1.5vw"
+              w="1.5vw"
+              h="1.5vw"
             />
           }
           variant="filled"
