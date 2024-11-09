@@ -34,16 +34,14 @@ export default function forstudentsPage() {
       <Roles />
       <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
       <WhyJoin img={"/for-students/placeholder.png"} />
-      <Container className="process" w="100%">
-        <Process
-          applicationImg={"/for-students/placeholder.png"}
-          applicationLink={undefined}
-          interviewImg={"/for-students/placeholder.png"}
-          interviewLink={undefined}
-          acceptancesImg={"/for-students/placeholder.png"}
-          acceptancesLink={undefined}
-        />
-      </Container>
+      <Process
+        applicationImg={"/for-students/placeholder.png"}
+        applicationLink={undefined}
+        interviewImg={"/for-students/placeholder.png"}
+        interviewLink={undefined}
+        acceptancesImg={"/for-students/placeholder.png"}
+        acceptancesLink={undefined}
+      />
       <FaqCard faq_info={faqData} />
     </div>
   );

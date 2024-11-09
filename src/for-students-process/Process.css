@@ -1,56 +1,40 @@
 .process {
-  padding: 0;
-  margin: 0 2.5vw 0 2.5vw;
-  width: 90vw;
+  margin: 0 4vw 0 4vw;
+}
+
+.process-title {
+  color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 4vw;
+}
+
+.heading-text {
+  color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5vw;
 }
 
 .text {
   color: #0078e8;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
-  font-size: 2vw;
-  font-weight: 100;
+  font-size: 1.5vw;
+  padding-top: 1vw;
 }
 
-.grid {
-  padding-left: 0px;
-  margin-left: 0px;
-}
-
-.title {
-  color: #0078e8;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 4vw;
-  padding: 0;
-}
-
-.text-container {
-  margin: 0;
-  padding: 0;
-}
-
-.img-text-container {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 20vw;
-}
-
-.caption-container {
-  padding: 0;
-  padding-top: 20px;
-}
-
-@media (min-width: 1000px) {
-  .text {
-    font-size: 30px;
+@media (max-width: 1500px) {
+  .process-title {
+    font-size: 40px;
   }
 
-  .img-text-container {
-    width: 250px;
+  .heading-text {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 20px;
   }
 }
