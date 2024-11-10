@@ -4,7 +4,7 @@ import Banner from "@/components/Banner/Banner";
 import Process from "@/for-students-process/Process";
 import WhyJoin from "@/for-students-whyjoin/WhyJoin";
 import FaqCard from "@/for-students-FAQ/FaqCard";
-import { Container, Divider } from "@mantine/core";
+import { Divider } from "@mantine/core";
 import Alumni from "@/for-students-alumni/Alumni";
 import Roles from "@/for-students-roles/Roles";
 
@@ -12,12 +12,12 @@ const faqData = [
   {
     question: "Insert Interesting Question Question Mark Incoming?",
     answer:
-      "Blah blah blah more stuff more information blah description I hope this answered your question. Hello to the developer that is building this out.",
+      "Blah blah blah more stuff more information blah description I hope this answered your question.",
   },
   {
     question: "Another Interesting Question Question Mark Incoming?",
     answer:
-      "Blah blah blah more stuff more information blah description I hope this answered your question. Hello to the developer that is building this out.",
+      "Blah blah blah more stuff more information blah description I hope this answered your question.",
   },
 ];
 

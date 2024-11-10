@@ -31,13 +31,13 @@
   z-index: 1;
 }
 
-.mantine-Accordion-chevron {
+.chevron {
   width: var(--questionFont);
   height: var(--questionFont);
 }
 
 .mantine-Accordion-chevron[data-rotate] {
-  transform: rotate(-180deg);
+  transform: rotateX(-180deg);
 }
 
 .divider {
