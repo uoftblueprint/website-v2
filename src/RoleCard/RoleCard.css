@@ -49,3 +49,9 @@
     height: 50px;
   }
 }
+
+@media (min-width: 1600px) {
+  .buttonWithImage {
+    height: 3.5vw;
+  }
+}
