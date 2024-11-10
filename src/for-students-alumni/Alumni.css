@@ -1,0 +1,21 @@
+.alumni {
+  border-radius: 0px 0px 300px 300px;
+  background-color: #e7f3ff;
+  color: #0078e8;
+  padding: 3vw 0vw 3vw 0vw;
+}
+
+.alumni-title {
+  padding: 0px 0px 2vw 0px;
+  font-size: 3vw;
+}
+
+@media (max-width: 900px) {
+  .alumni-title {
+    font-size: 20px;
+  }
+
+  .alumni {
+    border-radius: 0px 0px 60px 60px;
+  }
+}
