@@ -1,4 +1,5 @@
 import { Center, Title } from "@mantine/core";
+import "./Alumni.css";
 
 function Alumni() {
   return (
@@ -11,7 +12,7 @@ function Alumni() {
       }}
     >
       <Center>
-        <Title className="alumni-title" size="3vw" style={{ padding: "5%" }}>
+        <Title className="alumni-title" size="3vw">
           Our Alumni have gone on to innovate at:
         </Title>
       </Center>
