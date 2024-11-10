@@ -1,9 +1,0 @@
-.alumni-title {
-  padding: 5vw;
-}
-
-@media (max-width: 800px) {
-  .alumni-title {
-    font-size: 20px;
-  }
-}
