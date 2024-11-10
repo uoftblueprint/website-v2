@@ -26,7 +26,7 @@ export default function Roles() {
         <Title
           className="open-roles-title"
           size="4vw"
-          style={{ color: "#0078e8", padding: "4vw 0vw 1vw 0vw" }}
+          style={{ color: "#0078e8", padding: "4vw 0vw 2vw 0vw" }}
         >
           Open Roles
         </Title>
@@ -36,7 +36,7 @@ export default function Roles() {
         justify="space-between"
         align={"center"}
         className={"grid"}
-        style={{ padding: "1vw 4vw 4vw 4vw" }}
+        style={{ padding: "2vw 4vw 4vw 4vw" }}
       >
         {row}
       </Grid>
