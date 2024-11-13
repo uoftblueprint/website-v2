@@ -20,7 +20,7 @@ function Navbar({ opened, toggleOpened, links }) {
 
   items.push(
     <Button
-      variant="outline"
+      variant="filled"
       color="white"
       classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
@@ -43,13 +43,13 @@ function Navbar({ opened, toggleOpened, links }) {
         />
       </a>
       <div className="nav-menu_container">
-        <Flex visibleFrom="md" justify={"end"} align={"center"}>
+        <Flex visibleFrom="sm" justify={"end"} align={"center"}>
           {items}
         </Flex>
         <Burger
           opened={opened}
           onClick={toggleOpened}
-          hiddenFrom="md"
+          hiddenFrom="sm"
           size="md"
           color="#FFFFFF"
         />

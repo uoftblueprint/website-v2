@@ -25,6 +25,7 @@
     text-decoration-color 0.2s,
     text-underline-offset 0.2s;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .nav-link:hover {
@@ -48,6 +49,7 @@
 .nav-join-btn {
   --button-radius: 26px;
   --button-height: 52px;
+  background-color: var(--clr-light);
   color: var(--clr-hl1);
   transition:
     color 0.3s ease-in-out,
@@ -56,13 +58,20 @@
 
 .nav-join-link {
   font-size: 18px;
-  color: var(--clr-light);
-}
-
-.nav-join-link:hover {
+  font-weight: 400;
   color: var(--clr-hl1);
 }
 
-.nav-join-btn:hover {
-  background-color: var(--clr-light);
+.nav-join-link:hover {
+  color: var(--clr-light);
+}
+
+.nav-join-btn:hover .nav-join-link {
+  color: var(--clr-light);
+}
+
+/* Add style specifically for a "filled" button */
+.nav-join-btn[data-variant="filled"]:hover {
+  background-color: var(--clr-hl1);
+  color: var(--clr-light);
 }
