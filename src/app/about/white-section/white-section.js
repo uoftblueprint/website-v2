@@ -22,7 +22,8 @@ export default function WhiteSection() {
       <Container className="top-section">
         <Title className="about-title top-title">About Us</Title>
         <Text className="heading-text">
-          Something something about Blueprint being cool!
+        Blueprint strives to make technology accessible and useful for those who
+        assist communities and promote public welfare
         </Text>
         <Image className="top-image" src="/about_page/team_at_work.svg" />
       </Container>
