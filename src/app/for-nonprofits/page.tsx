@@ -4,21 +4,22 @@ import { SimpleGrid, Stack, Title } from "@mantine/core";
 import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";
 import "@/app/projects/projects.css";
+import Footer from "@/components/Footer/Footer";
 
 export default function ProjectsPage() {
   return (
     <div>
       <Banner
-        title="Projects"
+        title="For Nonprofits"
         text="Since our founding in 2020, we’ve had the pleasure to work with X number of non-profits!"
-        button={{ text: "Contact us", link:"/for-nonprofits" }}
+        button={{ text: "Contact us", link: "" }}
       />
       <Stack className="projects-page-main" gap="lg">
         <Title order={1} className="project-years-header">
           2023-2024
         </Title>
         <SimpleGrid
-          cols={{ base: 1, sm: 2}}
+          cols={2}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
@@ -67,7 +68,7 @@ export default function ProjectsPage() {
           2022-2023
         </Title>
         <SimpleGrid
-          cols={{ base: 1, sm: 2}}
+          cols={2}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
@@ -113,6 +114,7 @@ export default function ProjectsPage() {
           />
         </SimpleGrid>
       </Stack>
+      <Footer></Footer>
     </div>
   );
 }

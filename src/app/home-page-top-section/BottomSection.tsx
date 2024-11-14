@@ -79,7 +79,7 @@ export default function BottomSection() {
                   />
                 }
                 component="a"
-                href="/for-partners"
+                href="/for-nonprofits"
               >
                 Contact Us
               </Button>
