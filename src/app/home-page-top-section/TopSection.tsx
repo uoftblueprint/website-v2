@@ -1,23 +1,18 @@
 import { Container, Title, Text, Image } from "@mantine/core";
 
 export default function TopSection() {
-  {
-    console.log(Text.classes);
-  }
-  const container_style = {
-    padding: "0",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    margin: "50px auto 5% auto",
-    color: "#0078e8",
-    textAlign: "center",
-    paddingBottom: "20px"
-  } as const;
   return (
     <Container
-      size="90%" style={container_style}>
+      size="90%" style={{
+      padding: "0",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      margin: "50px auto 5% auto",
+      color: "#0078e8",
+      textAlign: "center",
+      paddingBottom: "20px"}}>
       <Title
       style={{fontSize: "calc(18px + 2vw)"}}>Hi! 👋 We’re Blueprint.</Title>
       <Text
