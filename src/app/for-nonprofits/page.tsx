@@ -102,7 +102,7 @@ export default function ProjectsPage() {
               margin: "0 0 5vw 0",
               textAlign: "center"
             }}>
-            Let's talk about how we can help you! Reach out to us at contact@uoftblueprint.org or any of our social media accounts.
+            Let&apos;s talk about how we can help you! Reach out to us at contact@uoftblueprint.org or any of our social media accounts.
           </Text>
         </Container>
       </Stack>
