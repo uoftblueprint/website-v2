@@ -8,6 +8,7 @@
 .alumni-title {
   padding: 0px 0px 2vw 0px;
   font-size: 3vw;
+  text-align: center;
 }
 
 @media (max-width: 900px) {

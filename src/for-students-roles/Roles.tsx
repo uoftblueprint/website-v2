@@ -1,6 +1,7 @@
 "use client";
 import RoleCard from "../RoleCard/RoleCard";
 import { Center, Divider, Grid, Title } from "@mantine/core";
+import "./Roles.css";
 
 const info = [
   { role: "Software Developer", link: undefined },
@@ -26,7 +27,10 @@ export default function Roles() {
         <Title
           className="open-roles-title"
           size="4vw"
-          style={{ color: "#0078e8", padding: "4vw 0vw 2vw 0vw" }}
+          style={{
+            color: "#0078e8",
+            padding: "4vw 0vw 2vw 0vw",
+          }}
         >
           Open Roles
         </Title>
