@@ -17,8 +17,8 @@ function SideNavMenu({ links }) {
 
   items.push(
     <Button
-      variant="outline"
-      color="#FFFFFF"
+      variant="filled"
+      color="white"
       classNames={{ label: "nav-join-link", root: "nav-join-btn" }}
       key="join"
       h="50px"

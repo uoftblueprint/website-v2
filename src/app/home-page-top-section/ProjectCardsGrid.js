@@ -1,5 +1,5 @@
 import { Container, SimpleGrid, Title } from "@mantine/core";
-import { ProjectsCard } from "src/projects-card/ProjectsCard.js";
+import { ProjectsCard } from "@/projects-card/ProjectsCard.tsx";
 import "src/app/home-page-top-section/ProjectCardsGrid.css";
 
 function CardGrid({ cards_info }) {
