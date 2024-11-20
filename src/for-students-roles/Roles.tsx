@@ -37,7 +37,7 @@ export default function Roles() {
       </Center>
       <Divider w="30%" color="#e7f3ff" size={"1px"} mx="auto" />
       <Grid
-        justify="space-between"
+        justify="space-evenly"
         align={"center"}
         className={"grid"}
         style={{ padding: "2vw 4vw 4vw 4vw" }}

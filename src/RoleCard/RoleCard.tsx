@@ -3,7 +3,6 @@ import "./RoleCard.css";
 
 export default function RoleCard({ role, link }) {
   return (
-    // <Card className='roleCard' shadow="lg" radius="xl" p="xl" style={{ width: 'calc(33.333% - 20px)', marginBottom: '20px' }}>
     <Card className="roleCard" shadow="lg" radius="xl" p="xl">
       <Center>
         <Image className="moniter" src="/monitor.svg" />
