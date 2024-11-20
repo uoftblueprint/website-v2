@@ -85,8 +85,8 @@ export default function WhiteSection() {
           <SimpleGrid
             cols={{ sm: 3, xs: 1 }}
             className="impact-facts"
-            style={{justifyContent:'center',
-            wrap:"wrap"}}
+            justify-content="center"
+            wrap-content="wrap"
           >
             <Stack className="impact-number-container">
               <Text c="#4CA3F4" className="impact-number">
