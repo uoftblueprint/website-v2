@@ -19,6 +19,7 @@ const Footer = () => {
       href={link.link}
       onClick={(event) => event.preventDefault()}
       size="sm"
+      className="footer-link"
     >
       {link.label}
     </Anchor>
