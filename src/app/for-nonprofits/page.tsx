@@ -14,7 +14,7 @@ export default function ProjectsPage() {
         text="As a partner, Blueprint will work with you to develop techonology that turns your vision into a reality,
          completely free of charge!"
       />
-      <Stack style={{padding: "48px 50px"}} gap="lg">
+      <Stack style={{padding: "2vw 1vw"}} gap="sm">
         <Container className="top-section"
         style={{display: "flex",
                 flexDirection: "column",
@@ -26,7 +26,7 @@ export default function ProjectsPage() {
           style={{color: "#0078e8",
                   fontFamily: "Poppins",
                   fontWeight: 600,
-                  fontSize: "48px",
+                  fontSize: "3vw",
                   zIndex: 1,
                   padding: "10% 0 10%",
                   lineHeight: "normal"}}>
@@ -34,34 +34,38 @@ export default function ProjectsPage() {
           </Title>
         </Container>
         <SimpleGrid
-          cols={2}
-          verticalSpacing={{ base: "md", sm: "sm" }
-          }
+          cols={{base: 1, sm: 2}} spacing="xs"
+          style={{ maxWidth: '80vw', margin: 'auto' }}
         >
           <div>
-            <Image
-              h="120%"
-              w="auto"
-              style={{position: "relative",
-                          alignItems: "start",
-                          padding: "6% 10% 20% 20%"}}
-              src="/about_page/placeholder.png" />
+            <center>
+              <Image
+                style={{
+                  maxWidth: "70%",
+                  height: "auto",
+                  objectFit: "contain",
+                  position: "relative",
+                  alignItems: "end"}}
+                src="/about_page/placeholder.png" />
+            </center>
           </div>
           <div>
-            <Text
-              style={{color: "#0078e8",
-                      fontFamily: "Poppins, sans-serif",
-                      fontSize: 28,
-                      textAlign: "left",
-                      maxWidth: "85%",
-                      paddingTop: "calc(5vw)"}}
-              >
-              Although we want to help as many organizations as
-              possible, we can only work with a few nonprofits at
-              a time because of the amount of resources each
-              partnership requires. As such, we use the following
-              criteria to find projects with the best fit.
-            </Text>
+            <center>
+              <Text
+                style={{color: "#0078e8",
+                        fontFamily: "Poppins, sans-serif",
+                        fontSize: "2vw",
+                        textAlign: "left",
+                        maxWidth: "85%",
+                        justifyContent: "center"}}
+                >
+                Although we want to help as many organizations as
+                possible, we can only work with a few nonprofits at
+                a time because of the amount of resources each
+                partnership requires. As such, we use the following
+                criteria to find projects with the best fit.
+              </Text>
+            </center>
           </div>
         </SimpleGrid>
 
@@ -89,7 +93,7 @@ export default function ProjectsPage() {
             margin:"10% 0 10% 0%",
             fontFamily: "Poppins, sans-serif",
             fontWeight: "bolder",
-            fontSize: 38
+            fontSize: "3vw"
           }}>
             Ready to make an impact?
           </Title>
@@ -98,7 +102,7 @@ export default function ProjectsPage() {
           <Text
             style={{
               fontFamily: "Poppins, sans-serif",
-              fontSize: 26,
+              fontSize: "2vw",
               margin: "0 0 5vw 0",
               textAlign: "center"
             }}>

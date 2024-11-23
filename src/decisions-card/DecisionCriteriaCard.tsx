@@ -13,10 +13,9 @@ export function DecisionCard({criteria, description, image}: CriteriaCardProps) 
       <div>
         <Image
           src={image}
-          radius="md"
-          h={80}
-          w={"auto"}
-          style={{margin: "30% 0% 0% 30%"}}
+          style={{margin: "20% 0% 0% 40%",
+            maxWidth: "35%",
+            height: "auto",}}
           alt= {criteria}
           className={"project-image"}
         />
@@ -25,7 +24,7 @@ export function DecisionCard({criteria, description, image}: CriteriaCardProps) 
            <Title
            style={{color: "#0078e8",
              fontFamily: "Poppins, sans-serif",
-             fontSize: 24,
+             fontSize: "1.8vw",
              fontWeight: "bold",
              margin: "1.5vw 0 0.5vw 0",
              textAlign: "center"}}
@@ -34,7 +33,7 @@ export function DecisionCard({criteria, description, image}: CriteriaCardProps) 
            </Title>
            <Text
            style={{fontFamily: "Poppins, sans-serif",
-             fontSize: 18,
+             fontSize: "1.2vw",
              textAlign: "center"}}>
              {description}
            </Text>
