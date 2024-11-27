@@ -16,10 +16,12 @@
 @media (max-width: 780px) {
   .whyjoin-text {
     font-size: 16px;
+    text-align: center;
   }
 
   .whyjoin-text > h2 {
     font-size: 32px;
+    text-align: center;
   }
 
   .whyjoin {

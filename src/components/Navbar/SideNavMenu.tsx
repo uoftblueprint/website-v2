@@ -23,7 +23,7 @@ function SideNavMenu({ links }) {
       key="join"
       h="50px"
       component="a"
-      href="/"
+      href="/for-students"
     >
       Join our Team!
     </Button>,

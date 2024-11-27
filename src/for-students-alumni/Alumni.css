@@ -1,0 +1,38 @@
+.alumni {
+  border-radius: 0px 0px 300px 300px;
+  background-color: #e7f3ff;
+  color: #0078e8;
+  padding: 3vw 0vw 3vw 0vw;
+}
+
+.alumni-title {
+  padding: 0px 0px 2vw 0px;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.company-logo {
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .alumni {
+    border-radius: 0px 0px 60px 60px;
+  }
+
+  .company-logo {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .alumni-title {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 360px) {
+  .alumni-title {
+    font-size: 14px;
+  }
+}
