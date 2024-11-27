@@ -51,9 +51,10 @@ export default function ChaptersPage() {
         >
           {rowCAN}
         </SimpleGrid>
-
+      </Stack>
         <h1 className="text">🇺🇸 USA</h1>
 
+      <Stack className="chapters-page-main" gap="lg">
         <SimpleGrid cols={{base: 1, xs: 2, md: 3}}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
