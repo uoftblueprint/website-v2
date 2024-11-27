@@ -114,7 +114,6 @@ export default function ProjectsPage() {
           />
         </SimpleGrid>
       </Stack>
-      <Footer></Footer>
     </div>
   );
 }

@@ -26,7 +26,7 @@ const Footer = () => {
   ));
 
   return (
-    <footer className="footer">
+    <footer className="main-footer">
       <Container className="footer-menu">
         <a className="logo" href="/">
           <Image
