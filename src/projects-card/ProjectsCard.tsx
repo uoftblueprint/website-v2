@@ -31,7 +31,7 @@ export function ProjectsCard({name, description, image, link = null}: ProjectsCa
 
       {link ? (
         <Button
-          size="md"
+          size="lg"
           radius="xl"
           className={"read-more-button"}
           variant="filled"

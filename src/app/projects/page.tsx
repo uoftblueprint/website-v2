@@ -19,7 +19,7 @@ export default function ProjectsPage() {
           2023-2024
         </Title>
         <SimpleGrid
-          cols={2}
+          cols={{ base: 1, sm: 2}}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
@@ -68,7 +68,7 @@ export default function ProjectsPage() {
           2022-2023
         </Title>
         <SimpleGrid
-          cols={2}
+          cols={{ base: 1, sm: 2}}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >

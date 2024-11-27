@@ -17,10 +17,33 @@ export default function WhiteSection() {
     { title: "Team Work", img: "about_page/placeholder.png" },
   ];
 
+  const text_style = {
+    color: "#0078e8",
+      fontFamily: "'Poppins', sans-serif",
+      fontSize: "4vw",
+      fontStyle: "normal",
+      fontWeight: 600,
+      lineHeight: "normal",
+      paddingLeft: "4vw",
+      paddingTop: "4vw",
+      marginBottom: 0,
+      margin: 0
+  } as const;
+
+  const card_style =
+    {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      width: "fit-content"
+    } as const;
+
   return (
     <>
-      <Container className="top-section">
-        <Title className="about-title top-title">About Us</Title>
+      <Container className="top-section" style={card_style}>
+        <Title className="about-title top-title" style={text_style}>
+          About Us
+        </Title>
         <Text className="heading-text">
           Something something about Blueprint being cool!
         </Text>
@@ -61,9 +84,9 @@ export default function WhiteSection() {
 
           <SimpleGrid
             cols={{ sm: 3, xs: 1 }}
-            justify="center"
             className="impact-facts"
-            wrap="wrap"
+            justify-content="center"
+            wrap-content="wrap"
           >
             <Stack className="impact-number-container">
               <Text c="#4CA3F4" className="impact-number">
@@ -112,8 +135,8 @@ export default function WhiteSection() {
             and the greater UofT community!
           </Text>
           <Button
-            rightSection={<Image className={"arrow"} src="/chevron-right.svg" />}
-            radius="xl"
+            rightSection={<Image className={"arrow"} src="chevron-right.svg" />}
+            radius="lg"
             href=""
             component="a"
             target="_blank"
