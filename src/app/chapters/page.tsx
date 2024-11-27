@@ -2,7 +2,7 @@
 import "@/app/chapters/chapters.css"
 import Banner from "@/components/Banner/Banner";
 import { ChaptersCard } from "@/chapters-card/ChaptersCard";
-import {Grid} from "@mantine/core";
+import { SimpleGrid, Stack } from "@mantine/core";
 
 //CANADA 
 const infoCAN = [
@@ -12,7 +12,7 @@ const infoCAN = [
 ]
 
 const rowCAN = infoCAN.map((info)=> (
-  <Grid.Col span={4} key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
+  <div key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></div>
 ));
 
 //USA
@@ -26,7 +26,7 @@ const infoUSA = [
 
 
 const rowUSA = infoUSA.map((info)=> (
-  <Grid.Col span={4} key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
+  <div key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></div>
 ));
 
 
@@ -43,18 +43,25 @@ export default function ChaptersPage() {
       ></Banner>
 
       <h1 className="text">🇨🇦 Canada</h1>
-        
-      <Grid justify="flex-start" align={"flex-start"} gutter="3vw" className={"grid"}>
-        {rowCAN}
-      </Grid>
+      <Stack className="chapters-page-main" gap="lg">  
+        <SimpleGrid 
+          cols={{base: 1, xs: 2, md: 3}}
+          spacing={"xl"}
+          verticalSpacing={{ base: "md", sm: "xl" }}
+        >
+          {rowCAN}
+        </SimpleGrid>
 
-      <h1 className="text">🇺🇸 USA</h1>
+        <h1 className="text">🇺🇸 USA</h1>
 
-      <Grid justify="flex-start" align={"flex-start"} gutter="3vw" className={"grid"}>
-        {rowUSA}
+        <SimpleGrid cols={{base: 1, xs: 2, md: 3}}
+          spacing={"xl"}
+          verticalSpacing={{ base: "md", sm: "xl" }}
+        >
+          {rowUSA}
 
-      </Grid>
-
+        </SimpleGrid>
+      </Stack>
       
     </div>
   );
