@@ -26,7 +26,7 @@ const Footer = () => {
   ));
 
   return (
-    <div className="main-footer">
+    <footer className="footer">
       <Container className="footer-menu">
         <a className="logo" href="/">
           <Image
@@ -40,7 +40,7 @@ const Footer = () => {
         <Group className="footer-text">{items}</Group>
       </Container>
       <h5 className="copyright-text"> &copy; Blueprint 2023</h5>
-    </div>
+    </footer>
   );
 };
 
