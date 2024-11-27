@@ -7,7 +7,7 @@
 
 .alumni-title {
   padding: 0px 0px 2vw 0px;
-  font-size: 3vw;
+  font-size: 4vw;
   text-align: center;
 }
 
@@ -22,6 +22,12 @@
 
   .company-logo {
     padding: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .alumni-title {
+    font-size: 52px;
   }
 }
 
