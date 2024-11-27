@@ -65,17 +65,12 @@
       font-size: 18px;
     }
   
-    .read-more-button {
+   /*.read-more-button {
       height: 25px;
       width: 138px;
-      margin-bottom: 5px;
       font-size: 15px;
-    }
+    }*/
   
-    .chevron {
-      height: 10px;
-      width: 10px;
-    }
   }
   
   @media (max-width: 576px) {
@@ -96,18 +91,13 @@
   
     .project-description {
       padding-bottom: 15px;
-      font-size: 12px;
+      font-size: 14px;
     }
   
     .read-more-button {
-      height: 15px;
-      width: 95px;
-      margin-bottom: 2px;
-      font-size: 7px;
+      height: 36px;
+      width: 140px;
+      font-size: 14px;
     }
   
-    .chevron {
-      height: 7px;
-      width: 7px;
-    }
   }
