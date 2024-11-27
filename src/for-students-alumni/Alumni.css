@@ -16,15 +16,17 @@
 }
 
 @media (max-width: 900px) {
-  .alumni-title {
-    font-size: 20px;
-  }
-
   .alumni {
     border-radius: 0px 0px 60px 60px;
   }
 
   .company-logo {
     padding: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .alumni-title {
+    font-size: 14px;
   }
 }
