@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: '100%';
+  height: 100%;
   box-shadow: 0vw 0.5vw 0.5vw 0vw rgba(0, 0, 0, 0.25);
   border-radius: 2vw;
 }
 
 .link-container {
-  padding-top: 1vw;
+  padding-top: 0.5vw;
   padding-bottom: 0.5vw;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .mantine-Card-section {
-  margin: 0;
+  margin: 0.5vw;
 }
 
 .card-font {
@@ -37,4 +37,5 @@
 .chapter-description {
   font-size: max(10px, 1.2vw);
   font-weight: 400;
+  flex-grow: 1
 }
