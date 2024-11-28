@@ -12,7 +12,9 @@ const infoCAN = [
 ]
 
 const rowCAN = infoCAN.map((info)=> (
-  <div key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></div>
+  <div key={info.title} className={"card"} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}> 
+    <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard>
+  </div>
 ));
 
 //USA
@@ -26,7 +28,9 @@ const infoUSA = [
 
 
 const rowUSA = infoUSA.map((info)=> (
-  <div key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></div>
+  <div key={info.title} className={"card"} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}> 
+    <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard>
+  </div>
 ));
 
 
@@ -43,6 +47,7 @@ export default function ChaptersPage() {
       ></Banner>
 
       <h1 className="text">🇨🇦 Canada</h1>
+
       <Stack className="chapters-page-main" gap="lg">  
         <SimpleGrid 
           cols={{base: 1, xs: 2, md: 3}}
@@ -52,7 +57,8 @@ export default function ChaptersPage() {
           {rowCAN}
         </SimpleGrid>
       </Stack>
-        <h1 className="text">🇺🇸 USA</h1>
+      
+      <h1 className="text">🇺🇸 USA</h1>
 
       <Stack className="chapters-page-main" gap="lg">
         <SimpleGrid cols={{base: 1, xs: 2, md: 3}}
@@ -60,7 +66,6 @@ export default function ChaptersPage() {
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
           {rowUSA}
-
         </SimpleGrid>
       </Stack>
       

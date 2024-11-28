@@ -3,7 +3,7 @@ import "../chapters-card/ChaptersCard.css";
 
 export function ChaptersCard({ name, description, link }) {
   return (
-    <Card>
+    <Card className={"card"} style={{ height: '100%' }}>
       <Card.Section c="#0078E8" className={"chapter-name"}>
         {name}
       </Card.Section>
