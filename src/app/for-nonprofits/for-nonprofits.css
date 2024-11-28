@@ -1,0 +1,13 @@
+.responsive-text {
+    color: #0078e8;
+    font-family: "Poppins", sans-serif;
+    font-size: calc(10px + 1.4vw);
+    width: 50vw;
+    text-align: left;
+}
+
+@media screen and (max-width: 1150px) {
+    .responsive-text {
+        text-align: center;
+    }
+}

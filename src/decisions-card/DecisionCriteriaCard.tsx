@@ -9,13 +9,13 @@ interface CriteriaCardProps {
 
 export function DecisionCard({criteria, description, image}: CriteriaCardProps) {
   return (
-    <SimpleGrid cols={2} spacing = "xs">
-      <div>
+    <SimpleGrid cols={2} spacing = "xs" style={{alignItems: 'center'}}>
+      <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
         <Image
           src={image}
-          style={{margin: "20% 0% 0% 40%",
-            maxWidth: "35%",
-            height: "auto",}}
+          style={{
+            width: "35%",
+            height: "auto"}}
           alt= {criteria}
           className={"project-image"}
         />
@@ -24,7 +24,7 @@ export function DecisionCard({criteria, description, image}: CriteriaCardProps) 
            <Title
            style={{color: "#0078e8",
              fontFamily: "Poppins, sans-serif",
-             fontSize: "1.8vw",
+             fontSize: "calc(14px + 1vw)",
              fontWeight: "bold",
              margin: "1.5vw 0 0.5vw 0",
              textAlign: "center"}}
@@ -33,7 +33,7 @@ export function DecisionCard({criteria, description, image}: CriteriaCardProps) 
            </Title>
            <Text
            style={{fontFamily: "Poppins, sans-serif",
-             fontSize: "1.2vw",
+             fontSize: "calc(10px + 0.5vw)",
              textAlign: "center"}}>
              {description}
            </Text>
