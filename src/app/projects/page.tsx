@@ -4,7 +4,6 @@ import { SimpleGrid, Stack, Title } from "@mantine/core";
 import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";
 import "@/app/projects/projects.css";
-import Footer from "@/components/Footer/Footer";
 
 export default function ProjectsPage() {
   return (
@@ -114,7 +113,6 @@ export default function ProjectsPage() {
           />
         </SimpleGrid>
       </Stack>
-      <Footer></Footer>
     </div>
   );
 }
