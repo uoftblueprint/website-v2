@@ -11,15 +11,6 @@
   margin: 0;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: fit-content;
-}
-
-.grid {
-  padding-left: 4vw;
-  padding-right: 4vw;
-  padding-bottom: 4vw;
+.chapters-page-main {
+  padding: 4vw 4vw;
 }
