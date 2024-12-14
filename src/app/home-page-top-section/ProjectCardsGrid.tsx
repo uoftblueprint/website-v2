@@ -6,14 +6,20 @@ function CardGrid({ cards_info }) {
   // project image, project title, project description, project link
 
   return (
-    <Container fluid className="cards-grid"
-               style={{width: "85%", margin: "0 auto 100px auto"}}>
-      <Title className="project-cards-title"
-      style=
-        {{textAlign: "center",
-        color: "#0078e8",
-        fontSize: "calc(20px + 3vw)",
-        paddingBottom: "30px"}}>
+    <Container
+      fluid
+      className="cards-grid"
+      style={{ width: "85%", margin: "0 auto 100px auto" }}
+    >
+      <Title
+        className="project-cards-title"
+        style={{
+          textAlign: "center",
+          color: "#0078e8",
+          fontSize: "calc(20px + 3vw)",
+          paddingBottom: "30px",
+        }}
+      >
         Current Projects
       </Title>
       <SimpleGrid cols={{ sm: 2, base: 1 }} spacing="lg">

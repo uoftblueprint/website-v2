@@ -11,14 +11,14 @@ export default function ProjectsPage() {
       <Banner
         title="Projects"
         text="Since our founding in 2020, we’ve had the pleasure to work with X number of non-profits!"
-        button={{ text: "Contact us", link:"/for-nonprofits" }}
+        button={{ text: "Contact us", link: "/for-nonprofits" }}
       />
       <Stack className="projects-page-main" gap="lg">
         <Title order={1} className="project-years-header">
           2023-2024
         </Title>
         <SimpleGrid
-          cols={{ base: 1, sm: 2}}
+          cols={{ base: 1, sm: 2 }}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
@@ -67,7 +67,7 @@ export default function ProjectsPage() {
           2022-2023
         </Title>
         <SimpleGrid
-          cols={{ base: 1, sm: 2}}
+          cols={{ base: 1, sm: 2 }}
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >

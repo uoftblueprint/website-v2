@@ -1,86 +1,135 @@
 "use client";
-import "@/decisions-card/DecisionCriteriaCard";
-import { Container, Image, SimpleGrid, Grid, Text, Title, Stack } from "@mantine/core";
+import "@/criteria-card/CriteriaCard";
+import {
+  Container,
+  Image,
+  SimpleGrid,
+  Grid,
+  Text,
+  Title,
+  Stack,
+} from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";
-import "./for-nonprofits.css"
-import Footer from "@/components/Footer/Footer";
-import { DecisionCard } from "@/decisions-card/DecisionCriteriaCard";
+import { CriteriaCard } from "../../criteria-card/CriteriaCard";
+import "./for-nonprofits.css";
 
-export default function ProjectsPage() {
-    return (
+export default function NonProfitsPage() {
+  const isLargeScreen = useMediaQuery("(min-width: 992px)");
+
+  return (
     <div>
       <Banner
         title="For Nonprofits"
-        text="As a partner, Blueprint will work with you to develop techonology that turns your vision into a reality,
-         completely free of charge!"
+        text="As a partner, Blueprint will work with you to develop technology that turns your vision into a reality,
+          completely free of charge!"
       />
-      <Stack style={{padding: "2vw 1vw"}} gap="sm">
-        <Container className="top-section"
-        style={{display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "#e7f3ff",
-                textAlign: "center",
-                }}>
+      <Stack align="stretch" justify="center">
+        <Container
+          className="top-section"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            color: "#e7f3ff",
+            textAlign: "center",
+          }}
+        >
           <Title
-          style={{color: "#0078e8",
-                  fontFamily: "Poppins",
-                  fontWeight: 600,
-                  fontSize: "calc(15px + 2vw)",
-                  zIndex: 1,
-                  padding: "10% 0 10%",
-                  lineHeight: "normal"}}>
+            style={{
+              color: "#0078e8",
+              fontFamily: "Poppins",
+              fontWeight: 600,
+              fontSize: "calc(15px + 2vw)",
+              zIndex: 1,
+              padding: "10% 0 10%",
+              lineHeight: "normal",
+            }}
+          >
             Decision Criteria
           </Title>
         </Container>
         <SimpleGrid
-          cols={{base: 1, sm: 2}} spacing="xl"
-          style={{ maxWidth: '80vw', margin: 'auto', display: 'flex', flexWrap:'wrap', justifyContent: 'center'}}
+          cols={{ base: 1, md: 2 }}
+          spacing="xl"
+          style={{
+            maxWidth: "80vw",
+            margin: "auto",
+            display: "flex",
+            flexDirection: isLargeScreen ? "row" : "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
         >
-              <Image
-                style={{
-                  width: "80%",
-                  height: "auto",
-                  position: "relative"}}
-                src="/about_page/placeholder.png" />
-              <Text className={"responsive-text"}>
-                Although we want to help as many organizations as
-                possible, we can only work with a few nonprofits at
-                a time because of the amount of resources each
-                partnership requires. As such, we use the following
-                criteria to find projects with the best fit.
-              </Text>
+          <Image
+            style={{
+              width: isLargeScreen ? "50%" : "80%",
+              height: "auto",
+            }}
+            src="/people_images/teamwork.svg"
+          />
+          <Text className={"responsive-text"}>
+            Although we want to help as many organizations as possible, we can
+            only work with a few nonprofits at a time because of the amount of
+            resources each partnership requires. As such, we use the following
+            criteria to find projects with the best fit.
+          </Text>
         </SimpleGrid>
 
-        <Grid style={{paddingTop: '2vw'}}>
-          <Grid.Col span={{ base: 9, sm: 3.8 }}>
-            <DecisionCard criteria={"Impact"} description={"How much will your project impact the community?"} image={"/nonprofit_page/Impact.svg"}/>
-          </Grid.Col>
-          <Grid.Col span={{ base: 9, sm: 3.8 }}>
-            <DecisionCard criteria={"Necessity"} description={"How vital is your project to your non-profit organization?"} image={"/nonprofit_page/Necessity.svg"}/>
-          </Grid.Col>
-          <Grid.Col span={{ base: 9, sm: 3.8 }}>
-            <DecisionCard criteria={"Scope"} description={"Is your project achievable within the allotted timeline?"} image={"/nonprofit_page/Scope.svg"}/>
-          </Grid.Col>
-          <Grid.Col span={{ base: 9, sm: 3.8 }} offset={{ base: 0, sm: 1.5 }}>
-            <DecisionCard criteria={"Credibility"} description={"Is there evidence that your project will have an impact?"} image={"/nonprofit_page/Credibility.svg"}/>
-          </Grid.Col>
-          <Grid.Col span={{ base: 9, sm: 3.8 }}>
-            <DecisionCard criteria={"Technical Fit"} description={"Does your project use the capabilities of technology?"} image={"/nonprofit_page/Technical.svg"}/>
-          </Grid.Col>
-        </Grid>
-
-        <Container
-        style={{textAlign: "center"}}>
-          <Title
+        <SimpleGrid
+          cols={{ base: 1, sm: 2, md: 3 }}
           style={{
-            margin:"10% 0 10% 0%",
-            fontFamily: "Poppins, sans-serif",
-            fontWeight: "bolder",
-            fontSize: "calc(15px + 2vw)"
-          }}>
+            margin: "5vw 5vw 5vw 5vw",
+            maxWidth: "1400px",
+          }}
+          spacing="lg"
+        >
+          <CriteriaCard
+            criteria={"Impact"}
+            description={"How much will your project impact the community?"}
+            image={"/for-nonprofits/Impact.svg"}
+          />
+          <CriteriaCard
+            criteria={"Necessity"}
+            description={
+              "How vital is your project to your non-profit organization?"
+            }
+            image={"/for-nonprofits/Necessity.svg"}
+          />
+          <CriteriaCard
+            criteria={"Scope"}
+            description={
+              "Is your project achievable within the allotted timeline?"
+            }
+            image={"/for-nonprofits/Scope.svg"}
+          />
+          <CriteriaCard
+            criteria={"Credibility"}
+            description={
+              "Is there evidence that your project will have an impact?"
+            }
+            image={"/for-nonprofits/Credibility.svg"}
+          />
+          <CriteriaCard
+            criteria={"Technical Fit"}
+            description={
+              "Does your project use the capabilities of technology?"
+            }
+            image={"/for-nonprofits/Technical.svg"}
+          />
+        </SimpleGrid>
+
+        <Container style={{ textAlign: "center" }}>
+          <Title
+            style={{
+              marginTop: "10%",
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "bolder",
+              fontSize: "calc(12px + 2vw)",
+            }}
+          >
             Ready to make an impact?
           </Title>
         </Container>
@@ -88,15 +137,17 @@ export default function ProjectsPage() {
           <Text
             style={{
               fontFamily: "Poppins, sans-serif",
-              fontSize: "calc(15px + 1vw)",
+              fontSize: "calc(10px + 1vw)",
               margin: "0 0 5vw 0",
-              textAlign: "center"
-            }}>
-            Let&apos;s talk about how we can help you! Reach out to us at contact@uoftblueprint.org or any of our social media accounts.
+              textAlign: "center",
+            }}
+          >
+            Let&apos;s talk about how we can help you! Reach out to us at {" "}
+            <a href="mailto:contact@uoftblueprint.org">contact@uoftblueprint.org</a> or any of our social media
+            accounts.
           </Text>
         </Container>
       </Stack>
-      <Footer></Footer>
     </div>
   );
 }

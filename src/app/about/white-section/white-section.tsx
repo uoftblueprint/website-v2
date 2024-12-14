@@ -19,24 +19,23 @@ export default function WhiteSection() {
 
   const text_style = {
     color: "#0078e8",
-      fontFamily: "'Poppins', sans-serif",
-      fontSize: "4vw",
-      fontStyle: "normal",
-      fontWeight: 600,
-      lineHeight: "normal",
-      paddingLeft: "4vw",
-      paddingTop: "4vw",
-      marginBottom: 0,
-      margin: 0
+    fontFamily: "'Poppins', sans-serif",
+    fontSize: "4vw",
+    fontStyle: "normal",
+    fontWeight: 600,
+    lineHeight: "normal",
+    paddingLeft: "4vw",
+    paddingTop: "4vw",
+    marginBottom: 0,
+    margin: 0,
   } as const;
 
-  const card_style =
-    {
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "space-between",
-      width: "fit-content"
-    } as const;
+  const card_style = {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    width: "fit-content",
+  } as const;
 
   return (
     <>

@@ -41,7 +41,7 @@ export default function BottomSection() {
                 rightSection={
                   <Image
                     className={"arrow"}
-                    src="/people_images/arrow-right.svg"
+                    src="/icons/arrow-right.svg"
                   />
                 }
                 component="a"
@@ -75,7 +75,7 @@ export default function BottomSection() {
                 rightSection={
                   <Image
                     className={"arrow"}
-                    src="/people_images/arrow-right.svg"
+                    src="/icons/arrow-right.svg"
                   />
                 }
                 component="a"
@@ -112,7 +112,7 @@ export default function BottomSection() {
               rightSection={
                 <Image
                   className={"arrow"}
-                  src="/people_images/arrow-right.svg"
+                  src="/icons/arrow-right.svg"
                 />
               }
               component="a"
@@ -142,7 +142,7 @@ export default function BottomSection() {
               rightSection={
                 <Image
                   className={"arrow"}
-                  src="/people_images/arrow-right.svg"
+                  src="/icons/arrow-right.svg"
                 />
               }
               component="a"

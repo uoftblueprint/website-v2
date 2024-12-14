@@ -1,35 +1,84 @@
 "use client";
-import "@/app/chapters/chapters.css"
+import "@/app/chapters/chapters.css";
 import Banner from "@/components/Banner/Banner";
 import { ChaptersCard } from "@/chapters-card/ChaptersCard";
-import {Grid} from "@mantine/core";
+import { Grid } from "@mantine/core";
 
-//CANADA 
+//CANADA
 const infoCAN = [
-  {title: "University of Waterloo", description: 'UWaterloo was the first Blueprint chapter, founded in 2015 🍁', link:'https://uwblueprint.org/'},
-  {title: "University of Toronto", description: 'The second Canadian chapter to be established, started in 2020 🌿', link: 'https://uoftblueprint.org/'},
-  {title: "Carleton University", description: "The third Blueprint chapter in Canada 🍂", link: "https://carletonblueprint.org/"},
-]
+  {
+    title: "University of Waterloo",
+    description:
+      "UWaterloo was the first Blueprint chapter, founded in 2015 🍁",
+    link: "https://uwblueprint.org/",
+  },
+  {
+    title: "University of Toronto",
+    description:
+      "The second Canadian chapter to be established, started in 2020 🌿",
+    link: "https://uoftblueprint.org/",
+  },
+  {
+    title: "Carleton University",
+    description: "The third Blueprint chapter in Canada 🍂",
+    link: "https://carletonblueprint.org/",
+  },
+];
 
-const rowCAN = infoCAN.map((info)=> (
-  <Grid.Col span={4} key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
+const rowCAN = infoCAN.map((info) => (
+  <Grid.Col span={4} key={info.title} className={"card"}>
+    {" "}
+    <ChaptersCard
+      name={info.title}
+      description={info.description}
+      link={info.link}
+    ></ChaptersCard>
+  </Grid.Col>
 ));
 
 //USA
 const infoUSA = [
-  {title: "UC Berkley", description: 'Blueprint was founded at UC Berkeley in Spring 2013 🏡', link:'https://calblueprint.org/'},
-  {title: "UCLA", description: 'Blueprint at the University of California, Los Angeles was established in 2019 🚀', link: 'https://lablueprint.org/'},
-  {title: "UC Irvine", description: "Our second Southern California Blueprint chapter was established in 2020 ♥️", link: "https://blueprintatuci.github.io/"},
-  {title: "University of Alabama", description: 'Blueprint at University of Alabama was established in 2024 ✨', link:'https://website.sdwight.workers.dev/'},
-  {title: "University of Colorado Boulder", description: 'Blueprint was founded at University of Colorado Boulder in 2020 💕', link: 'https://blueprintboulder.org/'},
+  {
+    title: "UC Berkley",
+    description: "Blueprint was founded at UC Berkeley in Spring 2013 🏡",
+    link: "https://calblueprint.org/",
+  },
+  {
+    title: "UCLA",
+    description:
+      "Blueprint at the University of California, Los Angeles was established in 2019 🚀",
+    link: "https://lablueprint.org/",
+  },
+  {
+    title: "UC Irvine",
+    description:
+      "Our second Southern California Blueprint chapter was established in 2020 ♥️",
+    link: "https://blueprintatuci.github.io/",
+  },
+  {
+    title: "University of Alabama",
+    description:
+      "Blueprint at University of Alabama was established in 2024 ✨",
+    link: "https://website.sdwight.workers.dev/",
+  },
+  {
+    title: "University of Colorado Boulder",
+    description:
+      "Blueprint was founded at University of Colorado Boulder in 2020 💕",
+    link: "https://blueprintboulder.org/",
+  },
 ];
 
-
-const rowUSA = infoUSA.map((info)=> (
-  <Grid.Col span={4} key={info.title} className={"card"}> <ChaptersCard name={info.title} description={info.description} link={info.link}></ChaptersCard></Grid.Col>
+const rowUSA = infoUSA.map((info) => (
+  <Grid.Col span={4} key={info.title} className={"card"}>
+    {" "}
+    <ChaptersCard
+      name={info.title}
+      description={info.description}
+      link={info.link}
+    ></ChaptersCard>
+  </Grid.Col>
 ));
-
-
 
 export default function ChaptersPage() {
   return (
@@ -43,19 +92,26 @@ export default function ChaptersPage() {
       ></Banner>
 
       <h1 className="text">🇨🇦 Canada</h1>
-        
-      <Grid justify="flex-start" align={"flex-start"} gutter="3vw" className={"grid"}>
+
+      <Grid
+        justify="flex-start"
+        align={"flex-start"}
+        gutter="3vw"
+        className={"grid"}
+      >
         {rowCAN}
       </Grid>
 
       <h1 className="text">🇺🇸 USA</h1>
 
-      <Grid justify="flex-start" align={"flex-start"} gutter="3vw" className={"grid"}>
+      <Grid
+        justify="flex-start"
+        align={"flex-start"}
+        gutter="3vw"
+        className={"grid"}
+      >
         {rowUSA}
-
       </Grid>
-
-      
     </div>
   );
 }
