@@ -11,7 +11,7 @@ export default function ProjectsPage() {
       <Banner
         title="Projects"
         text="Since our founding in 2020, we’ve had the pleasure to work with X number of non-profits!"
-        button={{ text: "Contact us", link: "" }}
+        button={{ text: "Contact us", link:"/for-nonprofits" }}
       />
       <Stack className="projects-page-main" gap="lg">
         <Title order={1} className="project-years-header">
