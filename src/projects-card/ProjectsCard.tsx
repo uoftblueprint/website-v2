@@ -3,23 +3,23 @@ import "@mantine/core/styles.layer.css";
 import "../projects-card/ProjectsCard.css";
 
 interface ProjectsCardProps {
-    name: string;
-    description: string;
-    image: string;
-    link?: string | null;
+  name: string;
+  description: string;
+  image: string;
+  link?: string | null;
 }
 
-export function ProjectsCard({name, description, image, link = null}: ProjectsCardProps) {
-    return (
-      <Card padding="lg" className="project-card">
-            <CardSection className={"image-container"}>
-                <Image
-                    src={image}
-                    radius="md"
-                    alt= {name}
-                    className={"project-image"}
-                />
-            </CardSection>
+export function ProjectsCard({
+  name,
+  description,
+  image,
+  link = null,
+}: ProjectsCardProps) {
+  return (
+    <Card padding="lg" className="project-card">
+      <CardSection className={"image-container"}>
+        <Image src={image} radius="md" alt={name} className={"project-image"} />
+      </CardSection>
 
       <CardSection c="#0078E8" className={"project-name"}>
         {name}
