@@ -10,7 +10,7 @@ export default function ProjectsPage() {
     <div>
       <Banner
         title="Projects"
-        text="Since our founding in 2020, we’ve had the pleasure to work with X number of non-profits!"
+        text="Since our founding in 2020, we’ve had the pleasure to work with 10 non-profits!"
         button={{ text: "Contact us", link: "/for-nonprofits" }}
       />
       <Stack className="projects-page-main" gap="lg">
@@ -283,20 +283,21 @@ export default function ProjectsPage() {
         >
           <ProjectsCardWModal
             name="Homes for Heroes"
-            description="TBD"
+            description="A CRM and survey tool to help manage and track the progress of veterans in the program."
             image={"projects/homes-for-heroes.jpeg"}
             hasOverlay={true}
-            years={["2020-2021"]}
-            projectDescription="TBD"
-            nonprofitDescription="TBD"
+            years={["2021-2022"]}
+            projectDescription="We built a CRM and survey tool to help manage and track the progress of veterans in the program."
+            nonprofitDescription="Homes for Heroes looks to provide a caring and comprehensive solution to homelessness for Canadian veterans. They provide transitional housing and support services to veterans in need."
             team={[
-              { name: "NAME", role: "ROLE", imageSrc: "" },
-              { name: "NAME1", role: "ROLE", imageSrc: "" },
-              { name: "NAME2", role: "ROLE", imageSrc: "" },
-              { name: "NAME3", role: "ROLE", imageSrc: "" },
-              { name: "NAME4", role: "ROLE", imageSrc: "" },
-              { name: "NAME5", role: "ROLE", imageSrc: "" },
-              { name: "NAME6", role: "ROLE", imageSrc: "" },
+              { name: "Raymond Chen", role: "Project Lead", imageSrc: "team/alumni/raymond.jpg" },
+              { name: "Mesbah Rafin", role: "Project Lead", imageSrc: "team/alumni/mesbah.jpg" },
+              { name: "Anita Xu", role: "Designer", imageSrc: "team/alumni/anita.jpg" },
+              { name: "Yvonne Rao", role: "Developer", imageSrc: "team/alumni/yvonne.jpg" },
+              { name: "Jeffery Zhan", role: "Developer", imageSrc: "team/alumni/jeffery.jpg" },
+              { name: "Siddarth Dagar", role: "Developer", imageSrc: "team/alumni/siddarth.jpg" },
+              { name: "Sunghyoun Kim", role: "Developer", imageSrc: "team/alumni/sunghyoun.jpg" },
+              { name: "Youssef Soliman", role: "Developer", imageSrc: "team/alumni/youssef.jpg" },
             ]}
             webLink=""
             githubLink="https://github.com/uoftblueprint/HomesForHeroes"
@@ -310,13 +311,15 @@ export default function ProjectsPage() {
             projectDescription="We are building a menstrual tracking application for iOS."
             nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
             team={[
-              { name: "NAME", role: "ROLE", imageSrc: "" },
-              { name: "NAME1", role: "ROLE", imageSrc: "" },
-              { name: "NAME2", role: "ROLE", imageSrc: "" },
-              { name: "NAME3", role: "ROLE", imageSrc: "" },
-              { name: "NAME4", role: "ROLE", imageSrc: "" },
-              { name: "NAME5", role: "ROLE", imageSrc: "" },
-              { name: "NAME6", role: "ROLE", imageSrc: "" },
+              { name: "Chloe Zhao", role: "Project Lead", imageSrc: "team/alumni/chloe.jpg" },
+              { name: "Faye Tan", role: "Project Lead", imageSrc: "team/alumni/faye.jpg" },
+              { name: "Jing Tey", role: "Designer", imageSrc: "" },
+              { name: "Annie Liu", role: "Developer", imageSrc: "team/alumni/annie.jpg" },
+              { name: "Emily Yu", role: "Developer", imageSrc: "team/alumni/emily.jpg" },
+              { name: "Roy Lin", role: "Developer", imageSrc: "team/alumni/roy.jpg" },
+              { name: "Helen Li", role: "Developer", imageSrc: "team/alumni/helen.jpg" },
+              { name: "Edward Han", role: "Developer", imageSrc: "team/alumni/edward.jpg" },
+              { name: "Kenneth Miura", role: "Developer", imageSrc: "team/alumni/kenneth.jpg" },
             ]}
             webLink="https://www.theperiodpurse.com/"
             githubLink="https://github.com/uoftblueprint/the-period-purse-ios"
@@ -335,40 +338,44 @@ export default function ProjectsPage() {
         >
           <ProjectsCardWModal
             name="Merit Award"
-            description="TBD"
+            description="A scholarship application system to handle multiple rounds of interviews."
             image={"projects/merit-award.jpg"}
             hasOverlay={true}
             years={["2020-2021"]}
-            projectDescription="TBD"
-            nonprofitDescription="TBD"
+            projectDescription="We built a scholarship application system that can handle multiple rounds of interviews."
+            nonprofitDescription="Merit Award works to support and inspire low income students to pursue higher education. They have provided over $150,000 in awards each year helping around 200 students. Since their inception in 1996, they have awarded over $1.7 million to over 2,500 students."
             team={[
-              { name: "NAME", role: "ROLE", imageSrc: "" },
-              { name: "NAME1", role: "ROLE", imageSrc: "" },
-              { name: "NAME2", role: "ROLE", imageSrc: "" },
-              { name: "NAME3", role: "ROLE", imageSrc: "" },
-              { name: "NAME4", role: "ROLE", imageSrc: "" },
-              { name: "NAME5", role: "ROLE", imageSrc: "" },
-              { name: "NAME6", role: "ROLE", imageSrc: "" },
+              { name: "Rishab Luthra", role: "Project Lead", imageSrc: "team/alumni/rishab.jpg" },
+              { name: "Trudie Cheung", role: "Product Manager", imageSrc: "team/alumni/trudie.jpg" },
+              { name: "Fiza Mehta", role: "Designer", imageSrc: "team/alumni/fiza.jpg" },
+              { name: "Baker Jackson", role: "Developer", imageSrc: "team/alumni/baker.jpg" },
+              { name: "Song You", role: "Developer", imageSrc: "team/alumni/song.jpg" },
+              { name: "Alexander Shih", role: "Developer", imageSrc: "team/alumni/alexander.jpg" },
+              { name: "Stella Cai", role: "Developer", imageSrc: "team/alumni/stella.jpg" },
+              { name: "Sheree Zhang", role: "Developer", imageSrc: "team/alumni/sheree.jpg" },
             ]}
             webLink="https://www.meritaward.ca/"
             githubLink="https://github.com/uoftblueprint/merit-award"
           />
           <ProjectsCardWModal
             name="Shelter Movers"
-            description="TBD"
+            description="A system to assist in moving and tracking moves."
             image={"projects/shelter-movers.jpg"}
             hasOverlay={true}
             years={["2020-2021"]}
-            projectDescription="TBD"
-            nonprofitDescription="TBD"
+            projectDescription="We built a system to assist in helping track and manage moving locations and individuals."
+            nonprofitDescription="Shelter Movers is a national, volunteer-powered charitable organization providing moving and storage services at no cost to women and children fleeing abuse. With guidance from local shelters and community agencies, they developed a survivor-centred, free moving service to fill a critical gap."
             team={[
-              { name: "NAME", role: "ROLE", imageSrc: "" },
-              { name: "NAME1", role: "ROLE", imageSrc: "" },
-              { name: "NAME2", role: "ROLE", imageSrc: "" },
-              { name: "NAME3", role: "ROLE", imageSrc: "" },
-              { name: "NAME4", role: "ROLE", imageSrc: "" },
-              { name: "NAME5", role: "ROLE", imageSrc: "" },
-              { name: "NAME6", role: "ROLE", imageSrc: "" },
+              { name: "Dakota McInnis", role: "Project Lead", imageSrc: "team/alumni/dakota.jpg" },
+              { name: "Michael Jia", role: "Product Manager", imageSrc: "team/alumni/michael.jpg" },
+              { name: "Anita Xu", role: "Designer", imageSrc: "team/alumni/anita.jpg" },
+              { name: "Tammy Taabassum", role: "Designer", imageSrc: "team/alumni/tammy.jpg" },
+              { name: "Amy Peng", role: "Developer", imageSrc: "team/alumni/amy.jpg" },
+              { name: "Chi-Hong Cheung", role: "Developer", imageSrc: "team/alumni/chihong.jpg" },
+              { name: "Dane Gledhill", role: "Developer", imageSrc: "team/alumni/dane.jpg" },
+              { name: "Rayyana Kambris", role: "Developer", imageSrc: "team/alumni/rayyana.jpg" },
+              { name: "Sakina Gadriwala", role: "Developer", imageSrc: "team/alumni/sakina.jpg" },
+              { name: "Samuel Moor-Smith", role: "Developer", imageSrc: "team/alumni/samuel.jpg" },
             ]}
             webLink="https://www.sheltermovers.com/"
             githubLink="https://github.com/uoftblueprint/shelter-movers"
