@@ -1,7 +1,7 @@
 .text {
   color: #0078e8;
   font-family: "Poppins", sans-serif;
-  font-size: 4vw;
+  font-size: clamp(1.5rem, 3vw, 3rem);
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -12,5 +12,20 @@
 }
 
 .chapters-page-main {
-  padding: 4vw 4vw;
+  padding: 2vw 2vw;
+}
+
+.responsive-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .responsive-container {
+    width: 100%;
+  }
+
+  .text {
+    font-size: clamp(1.5rem, 5vw, 2rem); /* Minimum 1.5rem, preferred 5vw, maximum 2rem */
+  }
 }

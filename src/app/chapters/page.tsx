@@ -2,7 +2,7 @@
 import "@/app/chapters/chapters.css";
 import Banner from "@/components/Banner/Banner";
 import { ChaptersCard } from "@/chapters-card/ChaptersCard";
-import { SimpleGrid, Stack } from "@mantine/core";
+import { Container, SimpleGrid, Stack } from "@mantine/core";
 
 //CANADA
 const infoCAN = [
@@ -94,32 +94,37 @@ export default function ChaptersPage() {
         text={
           "Blueprint was founded at UC Berkeley in Spring 2013. Since then they've started scaling their impact and further mission by establishing chapters in different colleges around the world, including us!"
         }
-        button={{ text: "Start a blueprint Chapter!", link: "https://calblueprint.org/chapters#interest" }}
+        button={{
+          text: "Start a blueprint Chapter!",
+          link: "https://calblueprint.org/chapters#interest",
+        }}
       ></Banner>
 
-      <h1 className="text">🇨🇦 Canada</h1>
+      <Container size="lg" className="responsive-container" fluid>
+        <h1 className="text">🇨🇦 Canada</h1>
 
-      <Stack className="chapters-page-main" gap="lg">
-        <SimpleGrid
-          cols={{ base: 1, xs: 2, md: 3 }}
-          spacing={"xl"}
-          verticalSpacing={{ base: "md", sm: "xl" }}
-        >
-          {rowCAN}
-        </SimpleGrid>
-      </Stack>
+        <Stack className="chapters-page-main" gap="md">
+          <SimpleGrid
+            cols={{ base: 1, xs: 2, md: 3 }}
+            spacing={"xl"}
+            verticalSpacing={{ base: "md", sm: "xl" }}
+          >
+            {rowCAN}
+          </SimpleGrid>
+        </Stack>
 
-      <h1 className="text">🇺🇸 USA</h1>
+        <h1 className="text">🇺🇸 USA</h1>
 
-      <Stack className="chapters-page-main" gap="lg">
-        <SimpleGrid
-          cols={{ base: 1, xs: 2, md: 3 }}
-          spacing={"xl"}
-          verticalSpacing={{ base: "md", sm: "xl" }}
-        >
-          {rowUSA}
-        </SimpleGrid>
-      </Stack>
+        <Stack className="chapters-page-main" gap="md">
+          <SimpleGrid
+            cols={{ base: 1, xs: 2, md: 3 }}
+            spacing={"xl"}
+            verticalSpacing={{ base: "md", sm: "xl" }}
+          >
+            {rowUSA}
+          </SimpleGrid>
+        </Stack>
+      </Container>
     </div>
   );
 }

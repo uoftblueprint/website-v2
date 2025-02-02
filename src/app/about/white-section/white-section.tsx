@@ -136,7 +136,7 @@ export default function WhiteSection() {
           <Button
             rightSection={<Image className={"arrow"} src="chevron-right.svg" />}
             radius="lg"
-            href=""
+            href="mailto:contact@uoftblueprint.org"
             component="a"
             target="_blank"
             size="md"
