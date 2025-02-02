@@ -41,7 +41,7 @@ export default function Banner({
         </div>
         {button.text ? (
           <Button
-            size={bannerSize}
+            size={"md"}
             classNames={{ root: "banner-button", label: "banner-button-label" }}
             color="#0078E8"
             variant="filled"
