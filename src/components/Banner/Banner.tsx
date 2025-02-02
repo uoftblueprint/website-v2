@@ -10,7 +10,6 @@ export default function Banner({
   button = { text: null, link: null },
 }) {
   // button is an optional prop that defines if button exists or not.
-  const bannerSize = useMediaQuery(`(max-width:  480px)`) ? "md" : "xl";
   const justify = useMediaQuery(`(max-width:  720px)`) ? "center" : "end";
 
   return (

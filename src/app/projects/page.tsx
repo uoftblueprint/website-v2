@@ -209,7 +209,7 @@ export default function ProjectsPage() {
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
-        <ProjectsCardWModal
+          <ProjectsCardWModal
             name="The Period Purse"
             description="A menstrual tracking application for Android, built by youth for youth."
             image={"projects/the-period-purse.jpeg"}
@@ -333,7 +333,7 @@ export default function ProjectsPage() {
           spacing={"xl"}
           verticalSpacing={{ base: "md", sm: "xl" }}
         >
-        <ProjectsCardWModal
+          <ProjectsCardWModal
             name="Merit Award"
             description="TBD"
             image={"projects/merit-award.jpg"}

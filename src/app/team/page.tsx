@@ -3,10 +3,17 @@
 import Banner from "@/components/Banner/Banner";
 import TeamCard from "@/team-card/TeamCard";
 import { Button, Container, Divider, Flex, Text, Title } from "@mantine/core";
-import membersData from '@/data/current_members.json';
+import membersData from "@/data/current_members.json";
 
-const { members_btq, members_cfd, members_tces, members_tpp, members_int, members_osc, members_exec } = membersData;
-
+const {
+  members_btq,
+  members_cfd,
+  members_tces,
+  members_tpp,
+  members_int,
+  members_osc,
+  members_exec,
+} = membersData;
 
 export default function TeamPage() {
   return (
@@ -72,11 +79,7 @@ export default function TeamPage() {
 
         <Divider w="40%" color="#0078E8" size={"2px"} />
 
-        <Container
-          className="alumni-button"
-          m={"10vh 0 10vh 0"}
-          fluid
-        >
+        <Container className="alumni-button" m={"10vh 0 10vh 0"} fluid>
           <Container size="80%">
             <Title className="team-title" c="#0078E8">
               Alumni
@@ -84,7 +87,8 @@ export default function TeamPage() {
             <Text
               style={{ fontSize: "calc(12px + 0.45vw)", marginBottom: "20px" }}
             >
-              We would not be here without all of our wonderful alumni! Check them out here.
+              We would not be here without all of our wonderful alumni! Check
+              them out here.
             </Text>
             <Button
               component="a"
