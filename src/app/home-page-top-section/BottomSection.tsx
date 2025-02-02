@@ -39,10 +39,7 @@ export default function BottomSection() {
                 size="md"
                 variant="light"
                 rightSection={
-                  <Image
-                    className={"arrow"}
-                    src="/icons/arrow-right.svg"
-                  />
+                  <Image className={"arrow"} src="/icons/arrow-right.svg" />
                 }
                 component="a"
                 href="/for-students"
@@ -73,10 +70,7 @@ export default function BottomSection() {
                 size="md"
                 variant="light"
                 rightSection={
-                  <Image
-                    className={"arrow"}
-                    src="/icons/arrow-right.svg"
-                  />
+                  <Image className={"arrow"} src="/icons/arrow-right.svg" />
                 }
                 component="a"
                 href="/for-nonprofits"
@@ -110,10 +104,7 @@ export default function BottomSection() {
               size="md"
               variant="light"
               rightSection={
-                <Image
-                  className={"arrow"}
-                  src="/icons/arrow-right.svg"
-                />
+                <Image className={"arrow"} src="/icons/arrow-right.svg" />
               }
               component="a"
               href="/for-students"
@@ -140,13 +131,10 @@ export default function BottomSection() {
               size="md"
               variant="light"
               rightSection={
-                <Image
-                  className={"arrow"}
-                  src="/icons/arrow-right.svg"
-                />
+                <Image className={"arrow"} src="/icons/arrow-right.svg" />
               }
               component="a"
-              href="/for-partners"
+              href="/for-nonprofits"
             >
               Contact Us
             </Button>

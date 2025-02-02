@@ -31,19 +31,19 @@ export function ProjectsCard({
 
       {link ? (
         <Button
-          size="lg"
-          radius="xl"
-          className={"read-more-button"}
-          variant="filled"
-          color="#228BE6"
-          component="a"
-          href={link}
-          rightSection={
-            <Image className={"chevron"} src="/chevron-right.svg" />
-          }
-        >
-          {"Read More"}
-        </Button>
+        size="md"
+        radius="xl"
+        className={"read-more-button"}
+        variant="filled"
+        color="#228BE6"
+        href={link}
+        component="a"
+        rightSection={
+          <Image className={"chevron"} src="/chevron-right.svg" />
+        }
+      >
+        {"Read More"}
+      </Button>
       ) : (
         <></>
       )}

@@ -4,7 +4,6 @@ import {
   Container,
   Image,
   SimpleGrid,
-  Grid,
   Text,
   Title,
   Stack,
@@ -142,9 +141,11 @@ export default function NonProfitsPage() {
               textAlign: "center",
             }}
           >
-            Let&apos;s talk about how we can help you! Reach out to us at {" "}
-            <a href="mailto:contact@uoftblueprint.org">contact@uoftblueprint.org</a> or any of our social media
-            accounts.
+            Let&apos;s talk about how we can help you! Reach out to us at{" "}
+            <a href="mailto:contact@uoftblueprint.org">
+              contact@uoftblueprint.org
+            </a>{" "}
+            or any of our social media accounts.
           </Text>
         </Container>
       </Stack>
