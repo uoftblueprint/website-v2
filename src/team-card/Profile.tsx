@@ -6,13 +6,18 @@ import "@mantine/core/styles.layer.css";
 import "./Profile.css";
 
 interface ProfileProps {
-    name: string;
-    role: string;
-    profilePicture: string;
-    linkedinLink?: string;
+  name: string;
+  role: string;
+  profilePicture: string;
+  linkedinLink?: string;
 }
 
-function Profile({ name, role, profilePicture, linkedinLink = "" }: ProfileProps) {
+function Profile({
+  name,
+  role,
+  profilePicture,
+  linkedinLink = "",
+}: ProfileProps) {
   const small = useMediaQuery("(max-width: 500px)");
   const avatarSize = small ? "70px" : "120px";
 

@@ -4,7 +4,7 @@ import ImageBanner from "@/components/Banner/ImageBanner.tsx";
 
 export default function About() {
   return (
-    <div style={{backgroundColor: "#e7f3ff"}}>
+    <div style={{ backgroundColor: "#e7f3ff" }}>
       <ImageBanner src={"/about_page/blueprint-family-photo.png"} />
       <WhiteSection />
     </div>

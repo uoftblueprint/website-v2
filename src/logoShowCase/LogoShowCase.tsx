@@ -3,7 +3,7 @@ import "./logoShowCase.css";
 import "@mantine/core/styles.layer.css";
 
 interface ImageRow {
-    img: string;
+  img: string;
 }
 
 const imgRowOne: ImageRow[] = [
