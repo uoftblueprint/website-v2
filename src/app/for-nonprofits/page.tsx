@@ -77,7 +77,6 @@ export default function NonProfitsPage() {
           </Text>
         </SimpleGrid>
 
-        {/* TODO: FIX THE CENTERING OF THIS WHOLE SECTION */}
         <Container fluid>
           <SimpleGrid
             cols={{ base: 1, sm: 2, md: 3 }}

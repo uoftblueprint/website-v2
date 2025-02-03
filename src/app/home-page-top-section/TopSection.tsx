@@ -16,6 +16,7 @@ export default function TopSection() {
         paddingBottom: "20px",
       }}
     >
+      {/* TODO: FIX THIS FROM BEING SO HUGE AND BLOWN UP ON LARGE SCREENS */}
       <Title style={{ fontSize: "calc(18px + 2vw)" }}>
         Hi! 👋 We’re Blueprint.
       </Title>

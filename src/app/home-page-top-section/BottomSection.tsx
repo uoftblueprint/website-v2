@@ -4,10 +4,11 @@ import "./BottomSection.css";
 export default function BottomSection() {
   return (
     <>
+    {/* TODO: FIX THIS FROM BEING SO HUGE ON LARGE SCREENS TOO */}
       <div className="desktop-view">
         <Container size="100%" className="bottom-section">
           <Title className="title">How We Do It</Title>
-
+          {/* TODO: FIX WHY THESE IMAGES DO NOT SHOW UP ON DESKTOP VIEW */}
           <Container className="container">
             <Image
               className="image"
@@ -59,6 +60,7 @@ export default function BottomSection() {
               className="container"
             >
               <Title className="subtitle">Non-Profit Partners</Title>
+              {/* TODO: WRITE NEW DESCRIPTION FOR NONPROFIT PARTNERS */}
               <Text className="text">
                 Do you want to give back to your community while building
                 real-life technological solutions for real-life stakeholders?
