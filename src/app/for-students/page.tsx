@@ -8,6 +8,7 @@ import { Divider } from "@mantine/core";
 import Alumni from "@/for-students-alumni/Alumni";
 import Roles from "@/for-students-roles/Roles";
 
+// TODO: ACTUALLY ADD FAQ DATA
 const faqData = [
   {
     question: "Insert Interesting Question Question Mark Incoming?",
@@ -33,7 +34,9 @@ export default function forstudentsPage() {
       <Alumni />
       <Roles />
       <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
+      {/* TODO: FIX WHY JOIN IMAGE */}
       <WhyJoin img={"/for-students/placeholder.png"} />
+      {/* TODO: FIX PROCESS IMAGES */}
       <Process
         applicationImg={"/for-students/placeholder.png"}
         applicationLink={undefined}

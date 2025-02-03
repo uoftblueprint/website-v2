@@ -139,11 +139,11 @@ export default function ProjectsPage() {
           />
           <ProjectsCardWModal
             name="Toronto Community Employment Services"
-            description="TBD"
+            description="A CRM to help manage clients and employers"
             image={"projects/tces.jpg"}
             hasOverlay={true}
             years={["2022-2024"]}
-            projectDescription="TBD"
+            projectDescription="We built a CRM to help manage clients and provide a platform to track job opportunities. TCES is also able to manage the contacts of the employers they work with to better connect their clients."
             nonprofitDescription="Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counseling, workshops and more."
             team={[
               { name: "NAME", role: "ROLE", imageSrc: "" },
@@ -251,11 +251,11 @@ export default function ProjectsPage() {
           />
           <ProjectsCardWModal
             name="Toronto Community Employment Services"
-            description="TBD"
+            description="A CRM to help manage clients and employers"
             image={"projects/tces.jpg"}
             hasOverlay={true}
             years={["2022-2023"]}
-            projectDescription="TBD"
+            projectDescription="We built a CRM to help manage clients and provide a platform to track job opportunities. TCES is also able to manage the contacts of the employers they work with to better connect their clients."
             nonprofitDescription="Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counseling, workshops and more."
             team={[
               { name: "NAME", role: "ROLE", imageSrc: "" },
