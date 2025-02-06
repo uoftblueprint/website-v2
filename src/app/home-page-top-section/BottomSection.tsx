@@ -4,7 +4,7 @@ import "./BottomSection.css";
 export default function BottomSection() {
   return (
     <>
-    {/* TODO: FIX THIS FROM BEING SO HUGE ON LARGE SCREENS TOO */}
+      {/* TODO: FIX THIS FROM BEING SO HUGE ON LARGE SCREENS TOO */}
       <div className="desktop-view">
         <Container size="100%" className="bottom-section">
           <Title className="title">How We Do It</Title>

@@ -31,7 +31,7 @@ type ProjectOverlayProps = {
 };
 
 export default function ProjectOverlay(props: ProjectOverlayProps) {
-  const isMobile = useMediaQuery(`(max-width: ${"430px"})`);
+  const isMobile = useMediaQuery(`(max-width: ${"640px"})`);
 
   return (
     <>
@@ -99,7 +99,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
 
 function TeamsGrid(team: TeamMember[]) {
   const teamMembers = team.map((member: TeamMember) => (
-    <Grid.Col span={{ xs: 15, sm: 10, md: 6, lg: 6 }} key={member.name}>
+    <Grid.Col span={{ xs: 15, sm: 10, md: 8, lg: 8 }} key={member.name}>
       {TeamMember(member.name, member.role, member.imageSrc)}
     </Grid.Col>
   ));

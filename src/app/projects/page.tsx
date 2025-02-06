@@ -160,12 +160,12 @@ export default function ProjectsPage() {
             />
             <ProjectsCardWModal
               name="FoodShare Toronto"
-              description="TBD"
+              description="Improving the UI/UX of the FoodShare website."
               image={"projects/foodshare.jpg"}
               hasOverlay={true}
               years={["2023-2024"]}
-              projectDescription="TBD"
-              nonprofitDescription="TBD"
+              projectDescription="We are working to improve the UI/UX of the FoodShare website."
+              nonprofitDescription="FoodShare is a food justice organization, advocating for the right to food, and working to challenge the systemic barriers that keep people from accessing the food they need to thrive."
               team={[
                 { name: "NAME", role: "ROLE", imageSrc: "" },
                 { name: "NAME1", role: "ROLE", imageSrc: "" },
@@ -180,12 +180,12 @@ export default function ProjectsPage() {
             />
             <ProjectsCardWModal
               name="Toronto Foundation for Student Success"
-              description="TBD"
+              description="A software workflow to streamline the food supply and management process."
               image={"projects/tfss.jpg"}
               hasOverlay={true}
               years={["2023-2024"]}
-              projectDescription="TBD"
-              nonprofitDescription="TBD"
+              projectDescription="We built a software workflow to streamline the food supply and management process for TFSS."
+              nonprofitDescription="Toronto Foundation for Student Success (TFSS) provides food, medical care, emergency funds and after school programs for children in need. Their mission is to remove the barriers for children so every child is nourished and able to learn."
               team={[
                 { name: "NAME", role: "ROLE", imageSrc: "" },
                 { name: "NAME1", role: "ROLE", imageSrc: "" },
@@ -219,33 +219,39 @@ export default function ProjectsPage() {
               projectDescription="We are building a menstrual tracking application for Android."
               nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                { name: "Elena Wang", role: "Project Lead", imageSrc: "" },
+                { name: "Leo Liu", role: "Project Lead", imageSrc: "" },
+                { name: "Yuwei Jiang", role: "Designer", imageSrc: "" },
+                { name: "Kevin Le", role: "Developer", imageSrc: "" },
+                { name: "Madeline Ahn", role: "Developer", imageSrc: "" },
+                { name: "Manpreet Bhatti", role: "Developer", imageSrc: "" },
+                { name: "Manya Mittal", role: "Developer", imageSrc: "" },
+                { name: "Michael Ng", role: "Developer", imageSrc: "" },
+                { name: "Pierre-William Lessard", role: "Developer", imageSrc: "" },
               ]}
               webLink="https://www.theperiodpurse.com/"
               githubLink="https://github.com/uoftblueprint/the-period-purse-android"
             />
             <ProjectsCardWModal
               name="Sistema Toronto"
-              description="TBD"
+              description="A classroom platform to engage with students and manage programs."
               image={"projects/sistema.jpg"}
               hasOverlay={true}
               years={["2022-2023"]}
-              projectDescription="TBD"
-              nonprofitDescription="TBD"
+              projectDescription="We are building a platform to help Sistem Torontoo engage with their students and manage their programs."
+              nonprofitDescription="Sistema Toronto provides musical and intellectual opportunities to children in vulnerable communities, with the goal of transformative social change."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                { name: "Emily Yu", role: "Project Lead", imageSrc: "" },
+                { name: "Ramy Zhang", role: "Project Lead", imageSrc: "" },
+                { name: "Anita Xu", role: "Designer", imageSrc: "team/alumni/anita.jpg" },
+                { name: "Serena Tran", role: "Designer", imageSrc: "" },
+                { name: "Harmit Goswami", role: "Developer", imageSrc: "" },
+                { name: "Sarah Xu", role: "Developer", imageSrc: "" },
+                { name: "Baker Jackson", role: "Developer", imageSrc: "" },
+                { name: "Min Gi Kwon", role: "Developer", imageSrc: "" },
+                { name: "Kurtis Law", role: "Developer", imageSrc: "" },
+                { name: "Helena Glowacki", role: "Developer", imageSrc: "" },
+                { name: "Azamat Khamidov", role: "Developer", imageSrc: "" },
               ]}
               webLink=""
               githubLink="https://github.com/uoftblueprint/sistema"
@@ -259,13 +265,17 @@ export default function ProjectsPage() {
               projectDescription="We built a CRM to help manage clients and provide a platform to track job opportunities. TCES is also able to manage the contacts of the employers they work with to better connect their clients."
               nonprofitDescription="Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counseling, workshops and more."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                { name: "Kenneth Miura", role: "Project Lead", imageSrc: "team/alumni/kenneth.jpg" },
+                { name: "Edward Han", role: "Project Lead", imageSrc: "team/alumni/edward.jpg" },
+                { name: "Emily Gazo", role: "Designer", imageSrc: "" },
+                { name: "Ananmay Sharan", role: "Designer", imageSrc: "" },
+                { name: "Siddarth Dagar", role: "Developer", imageSrc: "" },
+                { name: "Annie Liu", role: "Developer", imageSrc: "" },
+                { name: "Ganesh Asapu", role: "Developer", imageSrc: "" },
+                { name: "Jordan Janakievski", role: "Developer", imageSrc: "team/24-25/exec/jordan.png" },
+                { name: "Helen Li", role: "Developer", imageSrc: "" },
+                { name: "MJ Munkhbayar", role: "Developer", imageSrc: "" },
+                { name: "Thardchi Ganesalingam", role: "Developer", imageSrc: "" },
               ]}
               webLink="https://toronto-jobs.org/"
               githubLink="https://github.com/uoftblueprint/tces"

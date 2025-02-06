@@ -10,16 +10,15 @@ export default function Banner({
   button = { text: null, link: null },
 }) {
   // button is an optional prop that defines if button exists or not.
-  const justify = useMediaQuery(`(max-width:  720px)`) ? "center" : "end";
 
   return (
     <Container fluid className="non-hero banner-container">
       <Flex
-        justify={justify}
+        justify={"center"}
         align={"center"}
-        h={"100%"}
+        h={"80%"}
         direction={"column"}
-        rowGap={"20px"}
+        rowGap={"5px"}
         className="banner-flex"
       >
         <h1

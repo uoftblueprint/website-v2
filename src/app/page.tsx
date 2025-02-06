@@ -28,8 +28,7 @@ const cards_info = [
   },
   {
     name: "City of Brampton",
-    description:
-      "A digital queue system for the public sport courts.",
+    description: "A digital queue system for the public sport courts.",
     image: "projects/btq.jpg",
     link: "/projects",
   },
