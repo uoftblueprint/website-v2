@@ -31,6 +31,7 @@ export default function forstudentsPage() {
           text="Interested in making a change in the community around you? Want to gain experience working in a software development team? Join us!"
         />
       </div>
+      {/* TODO: FIX WHY EVERYTHING IS SO BIG */}
       <Alumni />
       <Roles />
       <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />

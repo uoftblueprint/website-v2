@@ -6,17 +6,17 @@ import HeroBanner from "@/components/Banner/HeroBanner";
 
 const cards_info = [
   {
-    name: "The Period Purse",
-    description:
-      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
-    image: "projects/the-period-purse.jpeg",
-    link: "/projects",
-  },
-  {
     name: "The Centre for Dreams",
     description:
       "A centralized mobile application to send announcements, track absences, schedule events, and have discussions.",
     image: "projects/centre-for-dreams.jpg",
+    link: "/projects",
+  },
+  {
+    name: "The Period Purse",
+    description:
+      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
+    image: "projects/the-period-purse.jpeg",
     link: "/projects",
   },
   {
