@@ -35,13 +35,56 @@ export default function ProjectsPage() {
               projectDescription="We are building a centralized mobile application to send announcements, track absences, schedule events, and have discussions."
               nonprofitDescription="The Centre for Dreams works to integrate those with disabilities back into the society so that they are productive, independent, and respected members of the society. They provide services for adults with developmental disability through educational programs and social skills training (day care programs)."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Sarina Li",
+                  role: "Project Lead",
+                  imageSrc: "team/current/Sarina.png",
+                },
+                {
+                  name: "Emily Zhou",
+                  role: "Product Manager",
+                  imageSrc: "team/current/Emily.jpeg",
+                },
+                {
+                  name: "Amish Mamtani",
+                  role: "Designer",
+                  imageSrc: "team/current/Amish.png",
+                },
+                {
+                  name: "Elsie Zhou",
+                  role: "Developer",
+                  imageSrc: "team/current/Elsie.jpg",
+                },
+                {
+                  name: "Jeff Huang",
+                  role: "Developer",
+                  imageSrc: "team/current/Jeff.jpg",
+                },
+                {
+                  name: "Carlos Solares",
+                  role: "Developer",
+                  imageSrc: "team/current/Carlos.jpg",
+                },
+                {
+                  name: "Eric Lu",
+                  role: "Developer",
+                  imageSrc: "team/current/Eric.png",
+                },
+                {
+                  name: "Nolawi Teklehaimanot",
+                  role: "Developer",
+                  imageSrc: "team/current/Nolawi.jpg",
+                },
+                {
+                  name: "Daniel Xu",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Girik Setya",
+                  role: "Developer",
+                  imageSrc: "team/current/Girik.jpeg",
+                },
               ]}
               webLink="https://www.centrefordreams.ca/"
               githubLink="https://github.com/uoftblueprint/centre-for-dreams"
@@ -55,13 +98,54 @@ export default function ProjectsPage() {
               projectDescription="We are maintaining a cross-platform menstrual tracking application for iOS and Android."
               nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Merrick Liu",
+                  role: "Project Lead",
+                  imageSrc: "team/current/Merrick.jpg",
+                },
+                {
+                  name: "Paridhi Goel",
+                  role: "Product Manager",
+                  imageSrc: "team/current/Paridhi.jpg",
+                },
+                { name: "Patricia Santos", role: "Designer", imageSrc: "" },
+                {
+                  name: "Helen Zhao",
+                  role: "Developer",
+                  imageSrc: "team/current/HelenZhao.jpg",
+                },
+                {
+                  name: "Jack Fan",
+                  role: "Developer",
+                  imageSrc: "team/current/Jack.jpg",
+                },
+                {
+                  name: "Taewoong Oh",
+                  role: "Developer",
+                  imageSrc: "team/current/Taewoong.jpg",
+                },
+                { name: "Joel Lawrence", role: "Developer", imageSrc: "" },
+                {
+                  name: "Muhtasim Khan",
+                  role: "Developer",
+                  imageSrc: "team/current/Muhtasim.jpg",
+                },
+                {
+                  name: "Harpuneet Singh",
+                  role: "Developer",
+                  imageSrc: "team/current/Harpuneet.jpg",
+                },
+                {
+                  name: "Brandon Tai",
+                  role: "Developer",
+                  imageSrc: "team/current/Brandon.jpg",
+                },
+                {
+                  name: "Fred He",
+                  role: "Developer",
+                  imageSrc: "team/current/Fred.jpg",
+                },
+                { name: "Sataphon Obra", role: "Developer", imageSrc: "" },
               ]}
               webLink="https://www.theperiodpurse.com/"
               githubLink="https://github.com/uoftblueprint/the-period-purse-ios"
@@ -75,13 +159,62 @@ export default function ProjectsPage() {
               projectDescription="We are making a public-facing job board where applicants can find jobs to apply for. TCES can create job postings as well as filter through job applications and update the status of job applications."
               nonprofitDescription="Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counseling, workshops and more."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Kashish Mittal",
+                  role: "Project Lead",
+                  imageSrc: "team/current/Kashish.jpg",
+                },
+                {
+                  name: "Mieko Yao",
+                  role: "Product Manager",
+                  imageSrc: "team/current/Mieko.jpg",
+                },
+                {
+                  name: "Olya Jaworsky",
+                  role: "Designer",
+                  imageSrc: "team/current/Olya.jpeg",
+                },
+                {
+                  name: "William Lam",
+                  role: "Developer",
+                  imageSrc: "team/current/William.jpg",
+                },
+                {
+                  name: "Harshith Latchupatula",
+                  role: "Developer",
+                  imageSrc: "team/current/Harshith.jpeg",
+                },
+                {
+                  name: "Jamie Yi",
+                  role: "Developer",
+                  imageSrc: "team/current/Jamie.jpg",
+                },
+                {
+                  name: "Shahmeer Khan",
+                  role: "Developer",
+                  imageSrc: "team/current/Shahmeer.jpg",
+                },
+                {
+                  name: "Dhairya Thakkar",
+                  role: "Developer",
+                  imageSrc: "team/current/Dhairya.jpg",
+                },
+                {
+                  name: "Lana Wehbeh",
+                  role: "Developer",
+                  imageSrc: "team/current/Lana.png",
+                },
+                {
+                  name: "Michelle Huang",
+                  role: "Developer",
+                  imageSrc: "team/current/Michelle.jpg",
+                },
+                { name: "Houman Ebrahimi", role: "Developer", imageSrc: "" },
+                {
+                  name: "Alex Lewis",
+                  role: "Developer",
+                  imageSrc: "team/current/Alex.jpg",
+                },
               ]}
               webLink="https://toronto-jobs.org/"
               githubLink="https://github.com/uoftblueprint/tces"
@@ -95,13 +228,61 @@ export default function ProjectsPage() {
               projectDescription="We are building a digital queue system for the City of Brampton to help manage the demand for public sport courts."
               nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Raunak Madan",
+                  role: "Project Lead",
+                  imageSrc: "team/current/raunak.jpeg",
+                },
+                {
+                  name: "Christie Ko",
+                  role: "Product Manager",
+                  imageSrc: "team/current/Christie.png",
+                },
+                {
+                  name: "Steven Lin",
+                  role: "Designer",
+                  imageSrc: "team/current/Steven.png",
+                },
+                {
+                  name: "Ron Varshavsky",
+                  role: "Developer",
+                  imageSrc: "team/current/Ron.jpg",
+                },
+                {
+                  name: "Aina Merchant",
+                  role: "Developer",
+                  imageSrc: "team/current/Aina.jpeg",
+                },
+                {
+                  name: "Divyansh Kachchhava",
+                  role: "Developer",
+                  imageSrc: "team/current/Divyansh.jpg",
+                },
+                {
+                  name: "Alan Su",
+                  role: "Developer",
+                  imageSrc: "team/current/Alan.jpg",
+                },
+                {
+                  name: "Riyad Valiyev",
+                  role: "Developer",
+                  imageSrc: "team/current/Riyad.png",
+                },
+                {
+                  name: "Stephanie Lu",
+                  role: "Developer",
+                  imageSrc: "team/current/Stephanie.jpg",
+                },
+                {
+                  name: "Jamie Han",
+                  role: "Developer",
+                  imageSrc: "team/current/Jamie.png",
+                },
+                {
+                  name: "Leandro Brasil",
+                  role: "Developer",
+                  imageSrc: "team/current/Leandro.jpg",
+                },
               ]}
               webLink="https://www.brampton.ca/EN/pages/Welcome.aspx"
               githubLink="https://github.com/uoftblueprint/brampton-tennis-queue"
@@ -127,13 +308,66 @@ export default function ProjectsPage() {
               projectDescription="We are building a centralized mobile application to send announcements, track absences, schedule events, and have discussions."
               nonprofitDescription="The Centre for Dreams works to integrate those with disabilities back into the society so that they are productive, independent, and respected members of the society. They provide services for adults with developmental disability through educational programs and social skills training (day care programs)."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Baker Jackson",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/baker.jpg",
+                },
+                {
+                  name: "Ganesh Asapu",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/ganesh.jpg",
+                },
+                {
+                  name: "Julie Nguyen",
+                  role: "Designer",
+                  imageSrc: "team/alumni/julie.jpg",
+                },
+                {
+                  name: "Yuet Ming Wong",
+                  role: "Designer",
+                  imageSrc: "team/alumni/yuet.png",
+                },
+                {
+                  name: "Ryan Li",
+                  role: "Developer",
+                  imageSrc: "team/current/ryan.jpeg",
+                },
+                {
+                  name: "Sarina Li",
+                  role: "Developer",
+                  imageSrc: "team/current/sarina.png",
+                },
+                {
+                  name: "Jason Wang",
+                  role: "Developer",
+                  imageSrc: "team/alumni/jason.jpg",
+                },
+                {
+                  name: "Helen Zhao",
+                  role: "Developer",
+                  imageSrc: "team/current/helenzhao.jpg",
+                },
+                {
+                  name: "Helena Glowacki",
+                  role: "Developer",
+                  imageSrc: "team/alumni/helena.jpeg",
+                },
+                {
+                  name: "Levent Ozay",
+                  role: "Developer",
+                  imageSrc: "team/alumni/levent.jpg",
+                },
+                {
+                  name: "Minh Le",
+                  role: "Developer",
+                  imageSrc: "team/alumni/MinhLe.png",
+                },
+                {
+                  name: "Ram Raghav Sharma",
+                  role: "Developer",
+                  imageSrc: "team/alumni/ram.jpg",
+                },
               ]}
               webLink="https://www.centrefordreams.ca/"
               githubLink="https://github.com/uoftblueprint/centre-for-dreams"
@@ -147,13 +381,46 @@ export default function ProjectsPage() {
               projectDescription="We built a CRM to help manage clients and provide a platform to track job opportunities. TCES is also able to manage the contacts of the employers they work with to better connect their clients."
               nonprofitDescription="Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counseling, workshops and more."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Daniel Dervishi",
+                  role: "Project Lead",
+                  imageSrc: "team/current/daniel.jpg",
+                },
+                {
+                  name: "Jordan Janakievski",
+                  role: "Project Lead",
+                  imageSrc: "team/current/jordan.png",
+                },
+                {
+                  name: "Jake Gu",
+                  role: "Designer",
+                  imageSrc: "team/alumni/jakegu.jpeg",
+                },
+                {
+                  name: "Kevin Le",
+                  role: "Developer",
+                  imageSrc: "team/alumni/kevinle.png",
+                },
+                {
+                  name: "Ron Varshavsky",
+                  role: "Developer",
+                  imageSrc: "team/current/ron.jpg",
+                },
+                {
+                  name: "Emily Zhou",
+                  role: "Developer",
+                  imageSrc: "team/current/emily.jpeg",
+                },
+                {
+                  name: "Selen Tasman",
+                  role: "Developer",
+                  imageSrc: "team/alumni/selin.jpg",
+                },
+                {
+                  name: "Grant Hamblin",
+                  role: "Developer",
+                  imageSrc: "team/alumni/grant.jpg",
+                },
               ]}
               webLink="https://toronto-jobs.org/"
               githubLink="https://github.com/uoftblueprint/tces"
@@ -167,13 +434,56 @@ export default function ProjectsPage() {
               projectDescription="We are working to improve the UI/UX of the FoodShare website."
               nonprofitDescription="FoodShare is a food justice organization, advocating for the right to food, and working to challenge the systemic barriers that keep people from accessing the food they need to thrive."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Youssef Soliman",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/youssef.jpg",
+                },
+                {
+                  name: "Marco Mai",
+                  role: "Product Manager",
+                  imageSrc: "team/alumni/marco.jpg",
+                },
+                {
+                  name: "Rebecca Hsiung",
+                  role: "Designer",
+                  imageSrc: "team/alumni/rebecca.jpg",
+                },
+                {
+                  name: "Jeff Huang",
+                  role: "Developer",
+                  imageSrc: "team/current/jeff.jpg",
+                },
+                {
+                  name: "Sarah Xu",
+                  role: "Developer",
+                  imageSrc: "team/alumni/sarahxu.jpg",
+                },
+                {
+                  name: "Valerie Yip",
+                  role: "Developer",
+                  imageSrc: "team/alumni/valerieyip.png",
+                },
+                {
+                  name: "Caesar Saleh",
+                  role: "Developer",
+                  imageSrc: "team/alumni/caesar.jpg",
+                },
+                {
+                  name: "Sataphon Obra",
+                  role: "Developer",
+                  imageSrc: "team/alumni/sataphon.jpg",
+                },
+                {
+                  name: "York Hay Ng",
+                  role: "Developer",
+                  imageSrc: "team/alumni/yorkhay.jpg",
+                },
+                {
+                  name: "Min Gi Kwon",
+                  role: "Developer",
+                  imageSrc: "team/alumni/MinGiKwon.jpg",
+                },
               ]}
               webLink="https://foodshare.net/"
               githubLink="https://github.com/uoftblueprint/foodshare-inventory"
@@ -187,13 +497,56 @@ export default function ProjectsPage() {
               projectDescription="We built a software workflow to streamline the food supply and management process for TFSS."
               nonprofitDescription="Toronto Foundation for Student Success (TFSS) provides food, medical care, emergency funds and after school programs for children in need. Their mission is to remove the barriers for children so every child is nourished and able to learn."
               team={[
-                { name: "NAME", role: "ROLE", imageSrc: "" },
-                { name: "NAME1", role: "ROLE", imageSrc: "" },
-                { name: "NAME2", role: "ROLE", imageSrc: "" },
-                { name: "NAME3", role: "ROLE", imageSrc: "" },
-                { name: "NAME4", role: "ROLE", imageSrc: "" },
-                { name: "NAME5", role: "ROLE", imageSrc: "" },
-                { name: "NAME6", role: "ROLE", imageSrc: "" },
+                {
+                  name: "Youssef Soliman",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/youssef.jpg",
+                },
+                {
+                  name: "Pierre-William Lessard",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/pierre.jpg",
+                },
+                {
+                  name: "Rebecca Hsiung",
+                  role: "Designer",
+                  imageSrc: "team/alumni/rebecca.jpg",
+                },
+                {
+                  name: "Jeff Huang",
+                  role: "Developer",
+                  imageSrc: "team/current/jeff.jpg",
+                },
+                {
+                  name: "Sarah Xu",
+                  role: "Developer",
+                  imageSrc: "team/alumni/sarahxu.jpg",
+                },
+                {
+                  name: "Valerie Yip",
+                  role: "Developer",
+                  imageSrc: "team/alumni/valerie.jpg",
+                },
+                {
+                  name: "Caesar Saleh",
+                  role: "Developer",
+                  imageSrc: "team/alumni/caesar.jpg",
+                },
+                {
+                  name: "Sataphon Obra",
+                  role: "Developer",
+                  imageSrc: "team/alumni/sataphon.jpg",
+                },
+                {
+                  name: "York Hay Ng",
+                  role: "Developer",
+                  imageSrc: "team/alumni/yorkhay.jpg",
+                },
+                {
+                  name: "Min Gi Kwon",
+                  role: "Developer",
+                  imageSrc: "team/alumni/mingikwon.jpg",
+                },
               ]}
               webLink="https://tfss.ca/"
               githubLink="https://github.com/uoftblueprint/tfss"
@@ -219,15 +572,51 @@ export default function ProjectsPage() {
               projectDescription="We are building a menstrual tracking application for Android."
               nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
               team={[
-                { name: "Elena Wang", role: "Project Lead", imageSrc: "" },
-                { name: "Leo Liu", role: "Project Lead", imageSrc: "" },
-                { name: "Yuwei Jiang", role: "Designer", imageSrc: "" },
-                { name: "Kevin Le", role: "Developer", imageSrc: "" },
-                { name: "Madeline Ahn", role: "Developer", imageSrc: "" },
-                { name: "Manpreet Bhatti", role: "Developer", imageSrc: "" },
-                { name: "Manya Mittal", role: "Developer", imageSrc: "" },
-                { name: "Michael Ng", role: "Developer", imageSrc: "" },
-                { name: "Pierre-William Lessard", role: "Developer", imageSrc: "" },
+                {
+                  name: "Elena Wang",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/elena.jpg",
+                },
+                {
+                  name: "Leo Liu",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/leo.jpeg",
+                },
+                {
+                  name: "Yuwei Jiang",
+                  role: "Designer",
+                  imageSrc: "team/alumni/yuweijiang.jpg",
+                },
+                {
+                  name: "Kevin Le",
+                  role: "Developer",
+                  imageSrc: "team/alumni/kevinle.png",
+                },
+                {
+                  name: "Madeline Ahn",
+                  role: "Developer",
+                  imageSrc: "team/alumni/MadelineAhn.jpg",
+                },
+                {
+                  name: "Manpreet Bhatti",
+                  role: "Developer",
+                  imageSrc: "team/alumni/ManpreetBhatti.jpg",
+                },
+                {
+                  name: "Manya Mittal",
+                  role: "Developer",
+                  imageSrc: "team/alumni/ManyaMittal.jpg",
+                },
+                {
+                  name: "Michael Ng",
+                  role: "Developer",
+                  imageSrc: "team/alumni/MichaelNg.jpg",
+                },
+                {
+                  name: "Pierre-William Lessard",
+                  role: "Developer",
+                  imageSrc: "team/alumni/Pierre.jpg",
+                },
               ]}
               webLink="https://www.theperiodpurse.com/"
               githubLink="https://github.com/uoftblueprint/the-period-purse-android"
@@ -241,17 +630,61 @@ export default function ProjectsPage() {
               projectDescription="We are building a platform to help Sistem Torontoo engage with their students and manage their programs."
               nonprofitDescription="Sistema Toronto provides musical and intellectual opportunities to children in vulnerable communities, with the goal of transformative social change."
               team={[
-                { name: "Emily Yu", role: "Project Lead", imageSrc: "" },
-                { name: "Ramy Zhang", role: "Project Lead", imageSrc: "" },
-                { name: "Anita Xu", role: "Designer", imageSrc: "team/alumni/anita.jpg" },
-                { name: "Serena Tran", role: "Designer", imageSrc: "" },
-                { name: "Harmit Goswami", role: "Developer", imageSrc: "" },
-                { name: "Sarah Xu", role: "Developer", imageSrc: "" },
-                { name: "Baker Jackson", role: "Developer", imageSrc: "" },
-                { name: "Min Gi Kwon", role: "Developer", imageSrc: "" },
-                { name: "Kurtis Law", role: "Developer", imageSrc: "" },
-                { name: "Helena Glowacki", role: "Developer", imageSrc: "" },
-                { name: "Azamat Khamidov", role: "Developer", imageSrc: "" },
+                {
+                  name: "Emily Yu",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/emilyyu.jpg",
+                },
+                {
+                  name: "Ramy Zhang",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/ramyzhang.jpg",
+                },
+                {
+                  name: "Anita Xu",
+                  role: "Designer",
+                  imageSrc: "team/alumni/anita.jpg",
+                },
+                {
+                  name: "Serena Tran",
+                  role: "Designer",
+                  imageSrc: "team/alumni/serenatran.jpg",
+                },
+                {
+                  name: "Harmit Goswami",
+                  role: "Developer",
+                  imageSrc: "team/alumni/harmitgoswami.jpg",
+                },
+                {
+                  name: "Sarah Xu",
+                  role: "Developer",
+                  imageSrc: "team/alumni/sarahxu.jpg",
+                },
+                {
+                  name: "Baker Jackson",
+                  role: "Developer",
+                  imageSrc: "team/alumni/baker.jpg",
+                },
+                {
+                  name: "Min Gi Kwon",
+                  role: "Developer",
+                  imageSrc: "team/alumni/mingikwon.jpg",
+                },
+                {
+                  name: "Kurtis Law",
+                  role: "Developer",
+                  imageSrc: "team/alumni/kurtislaw.jpg",
+                },
+                {
+                  name: "Helena Glowacki",
+                  role: "Developer",
+                  imageSrc: "team/alumni/helena.jpeg",
+                },
+                {
+                  name: "Azamat Khamidov",
+                  role: "Developer",
+                  imageSrc: "team/alumni/azamatkhamidov.jpg",
+                },
               ]}
               webLink=""
               githubLink="https://github.com/uoftblueprint/sistema"
@@ -265,17 +698,61 @@ export default function ProjectsPage() {
               projectDescription="We built a CRM to help manage clients and provide a platform to track job opportunities. TCES is also able to manage the contacts of the employers they work with to better connect their clients."
               nonprofitDescription="Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counseling, workshops and more."
               team={[
-                { name: "Kenneth Miura", role: "Project Lead", imageSrc: "team/alumni/kenneth.jpg" },
-                { name: "Edward Han", role: "Project Lead", imageSrc: "team/alumni/edward.jpg" },
-                { name: "Emily Gazo", role: "Designer", imageSrc: "" },
-                { name: "Ananmay Sharan", role: "Designer", imageSrc: "" },
-                { name: "Siddarth Dagar", role: "Developer", imageSrc: "" },
-                { name: "Annie Liu", role: "Developer", imageSrc: "" },
-                { name: "Ganesh Asapu", role: "Developer", imageSrc: "" },
-                { name: "Jordan Janakievski", role: "Developer", imageSrc: "team/24-25/exec/jordan.png" },
-                { name: "Helen Li", role: "Developer", imageSrc: "" },
-                { name: "MJ Munkhbayar", role: "Developer", imageSrc: "" },
-                { name: "Thardchi Ganesalingam", role: "Developer", imageSrc: "" },
+                {
+                  name: "Kenneth Miura",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/kenneth.jpg",
+                },
+                {
+                  name: "Edward Han",
+                  role: "Project Lead",
+                  imageSrc: "team/alumni/edward.jpg",
+                },
+                {
+                  name: "Emily Gazo",
+                  role: "Designer",
+                  imageSrc: "team/alumni/emilygazo.jpg",
+                },
+                {
+                  name: "Ananmay Sharan",
+                  role: "Designer",
+                  imageSrc: "team/alumni/ananmaysharan.jpg",
+                },
+                {
+                  name: "Siddarth Dagar",
+                  role: "Developer",
+                  imageSrc: "team/alumni/siddarth.jpg",
+                },
+                {
+                  name: "Annie Liu",
+                  role: "Developer",
+                  imageSrc: "team/alumni/annie.jpg",
+                },
+                {
+                  name: "Ganesh Asapu",
+                  role: "Developer",
+                  imageSrc: "team/alumni/ganesh.jpg",
+                },
+                {
+                  name: "Jordan Janakievski",
+                  role: "Developer",
+                  imageSrc: "team/current/jordan.png",
+                },
+                {
+                  name: "Helen Li",
+                  role: "Developer",
+                  imageSrc: "team/alumni/helen.jpg",
+                },
+                {
+                  name: "MJ Munkhbayar",
+                  role: "Developer",
+                  imageSrc: "team/alumni/mjmunkhbayar.jpg",
+                },
+                {
+                  name: "Thardchi Ganesalingam",
+                  role: "Developer",
+                  imageSrc: "team/alumni/thardchiganesalingam.jpg",
+                },
               ]}
               webLink="https://toronto-jobs.org/"
               githubLink="https://github.com/uoftblueprint/tces"
@@ -364,7 +841,11 @@ export default function ProjectsPage() {
                   role: "Project Lead",
                   imageSrc: "team/alumni/faye.jpg",
                 },
-                { name: "Jing Tey", role: "Designer", imageSrc: "" },
+                {
+                  name: "Jing Tey",
+                  role: "Designer",
+                  imageSrc: "team/alumni/jing.jpg",
+                },
                 {
                   name: "Annie Liu",
                   role: "Developer",
@@ -373,7 +854,7 @@ export default function ProjectsPage() {
                 {
                   name: "Emily Yu",
                   role: "Developer",
-                  imageSrc: "team/alumni/emily.jpg",
+                  imageSrc: "team/alumni/emilyyu.jpg",
                 },
                 {
                   name: "Roy Lin",

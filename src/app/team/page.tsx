@@ -21,7 +21,7 @@ export default function TeamPage() {
       <Banner
         title={"Meet our Team"}
         text={
-          "We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2023-2024 project teams!"
+          "We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2024-2025 project teams!"
         }
       />
       <Flex

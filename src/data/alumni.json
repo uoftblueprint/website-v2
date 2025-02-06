@@ -244,7 +244,7 @@
       "name": "Valerie Yip",
       "role": "Developer",
       "linkedinLink": "https://www.linkedin.com/in/valerie-yip-fh/",
-      "profilePicture": "team/alumni/valerie.png"
+      "profilePicture": "team/alumni/ValerieYip.png"
     },
     {
       "name": "Helen Li",
@@ -271,10 +271,118 @@
       "profilePicture": "team/alumni/annie.jpg"
     },
     {
-      "name": "Emily Yu",
+      "name": "Ananmay Sharan",
+      "role": "Designer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/AnanmaySharan.jpg"
+    },
+    {
+      "name": "Emily Gazo",
+      "role": "Designer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/EmilyGazo.jpg"
+    },
+    {
+      "name": "Harmit Goswami",
       "role": "Developer",
-      "linkedinLink": "https://www.linkedin.com/in/emily-yu24/",
-      "profilePicture": "team/alumni/emily.jpg"
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/HarmitGoswami.jpg"
+    },
+    {
+      "name": "Kurtis Law",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/KurtisLaw.jpg"
+    },
+    {
+      "name": "MJ Munkhbayar",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MJMunkhbayar.jpg"
+    },
+    {
+      "name": "Madeline Ahn",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MadelineAhn.jpg"
+    },
+    {
+      "name": "Manpreet Bhatti",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/ManpreetBhatti.jpg"
+    },
+    {
+      "name": "Manya Mittal",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/ManyaMittal.jpg"
+    },
+    {
+      "name": "Michael Ng",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MichaelNg.jpg"
+    },
+    {
+      "name": "Min Gi Kwon",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MinGiKwon.jpg"
+    },
+    {
+      "name": "Pierre-William Lessard",
+      "role": "Project Lead",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/Pierre.jpg"
+    },
+    {
+      "name": "Ramy Zhang",
+      "role": "Project Lead",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/RamyZhang.jpg"
+    },
+    {
+      "name": "Sarah Xu",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/SarahXu.jpg"
+    },
+    {
+      "name": "Serena Tran",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/SerenaTran.jpg"
+    },
+    {
+      "name": "Thardchi Ganesalingam",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/ThardchiGanesalingam.jpg"
+    },
+    {
+      "name": "Yuwei Jiang",
+      "role": "Designer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/YuweiJiang.jpg"
+    },
+    {
+      "name": "Emily Yu",
+      "role": "Project Lead",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/EmilyYu.jpg"
+    },
+    {
+      "name": "Jing Tey",
+      "role": "Designer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/jing.jpg"
+    },
+    {
+      "name": "Kevin Le",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/kevinle.png"
     },
     {
       "name": "Ganesh Asapu",
@@ -292,7 +400,7 @@
       "name": "Minh Le",
       "role": "Developer",
       "linkedinLink": "https://www.linkedin.com/in/nm-le/",
-      "profilePicture": "team/alumni/minh.png"
+      "profilePicture": "team/alumni/minhle.png"
     },
     {
       "name": "Yuet Ming Wong",
@@ -316,7 +424,7 @@
       "name": "Kevin Le",
       "role": "Developer",
       "linkedinLink": "https://www.linkedin.com/in/kevinle623/",
-      "profilePicture": "team/alumni/kevin.png"
+      "profilePicture": "team/alumni/kevinle.png"
     },
     {
       "name": "Jake Gu",
