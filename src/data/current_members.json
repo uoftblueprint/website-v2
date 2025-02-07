@@ -71,7 +71,7 @@
     {
       "name": "Sarina Li",
       "role": "Project Lead",
-      "linkedinLink": "",
+      "linkedinLink": "https://www.linkedin.com/in/sarinali/",
       "profilePicture": "team/current/Sarina.png"
     },
     {
@@ -313,8 +313,8 @@
     {
       "name": "Scott Angelides",
       "role": "Developer",
-      "linkedinLink": "",
-      "profilePicture": ""
+      "linkedinLink": "https://www.linkedin.com/in/scott-angelides-21936a262/",
+      "profilePicture": "team/current/Scott.jpg"
     },
     {
       "name": "Enaya Amir",
@@ -356,43 +356,43 @@
     },
     {
       "name": "John Fitzgerald",
-      "role": "VP of Software",
+      "role": "VP Software",
       "linkedinLink": "https://www.linkedin.com/in/jfitzgerald1126",
       "profilePicture": "team/current/John.jpg"
     },
     {
       "name": "Raunak Madan",
-      "role": "VP of Software",
+      "role": "VP Software",
       "linkedinLink": "https://www.linkedin.com/in/raunak-madan",
       "profilePicture": "team/current/Raunak.jpeg"
     },
     {
       "name": "Micol Altomare",
-      "role": "VP of Product",
+      "role": "VP Product",
       "linkedinLink": "https://www.linkedin.com/in/micol-altomare",
       "profilePicture": "team/current/Micol.jpeg"
     },
     {
       "name": "Arsal Khan",
-      "role": "VP of Design",
+      "role": "VP Design",
       "linkedinLink": "https://www.linkedin.com/in/arsal--khan",
       "profilePicture": "team/current/Arsal.jpg"
     },
     {
       "name": "Amelia Wu",
-      "role": "VP of Events",
+      "role": "VP Events",
       "linkedinLink": "https://www.linkedin.com/in/ameliawu26",
       "profilePicture": "team/current/Amelia.png"
     },
     {
       "name": "Wania Gondal",
-      "role": "VP of Events",
+      "role": "VP Events",
       "linkedinLink": "https://www.linkedin.com/in/waniagondal",
       "profilePicture": "team/current/Wania.png"
     },
     {
       "name": "Eleonora Scognamiglio",
-      "role": "VP of External",
+      "role": "VP External",
       "linkedinLink": "https://www.linkedin.com/in/eleonorascognamiglio",
       "profilePicture": "team/current/Eleonora.jpg"
     }

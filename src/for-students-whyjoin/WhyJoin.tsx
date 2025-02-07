@@ -15,12 +15,13 @@ function WhyJoin({ img }) {
           w={{ base: "100%" }}
           h={{ base: "100%" }}
           p={0}
+          m={30}
           style={{ minWidth: "250px", minHeight: "250px", maxWidth: "400px" }} // Set minimum size for the image container
         >
           <Image
             src={img}
             alt="why join img"
-            style={{ minWidth: "150px", minHeight: "150px" }}
+            style={{ minWidth: "150px", minHeight: "150px", borderRadius: "10px" }} // Set minimum size for the image
           />{" "}
         </Container>
         <Container

@@ -54,8 +54,11 @@ export default function WhiteSection() {
             </Text>
             <Image
               className="mission-image"
-              src="./about_page/replace_stock_image.png"
+              src="./about_page/group_collaboration.jpeg"
               alt="stock photo"
+              style={{
+                borderRadius: "10px",
+              }}
             ></Image>
           </Stack>
 
@@ -127,7 +130,7 @@ export default function WhiteSection() {
                       height: "100px",
                       marginBottom: "10px",
                       color: "#0078e8",
-                      opacity: 0.5,
+                      opacity: 0.2,
                     }}
                   ></Image>
                   <Text className="impact-text">{value_info.title}</Text>

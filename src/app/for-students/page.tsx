@@ -42,7 +42,7 @@ export default function forstudentsPage() {
       >
         <Roles />
         <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
-        <WhyJoin img={"/for-students/blu-reading.png"} />
+        <WhyJoin img={"/for-students/teaching_moment.jpeg"} />
         <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
         <Process
           applicationImg={"/for-students/blu-working.png"}

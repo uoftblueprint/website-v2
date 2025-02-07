@@ -287,6 +287,54 @@ export default function ProjectsPage() {
               webLink="https://www.brampton.ca/EN/pages/Welcome.aspx"
               githubLink="https://github.com/uoftblueprint/brampton-tennis-queue"
             />
+            <ProjectsCardWModal
+              name="Open-Source Contributors x Mozilla"
+              description="Enabling Live Activities downloads for Firefox iOS."
+              image={"projects/osc.jpeg"}
+              hasOverlay={true}
+              years={["2024-2025"]}
+              projectDescription="We are adding Live Activities/Dynamic Islands to Firefox-iOS to better inform users of file download progress."
+              nonprofitDescription="Mozilla is company working to put control of the internet back in the hands of the people using it. They achieve this through Advocacy initiatives, Building products that collect minimal data — e.g. Firefox — and funding people in efforts that align with their mission"
+              team={[
+                {
+                  name: "Daniel Dervishi",
+                  role: "Project Lead",
+                  imageSrc: "team/current/daniel.jpg",
+                },
+                {
+                  name: "Ryan Li",
+                  role: "Developer",
+                  imageSrc: "team/current/Ryan.jpeg",
+                },
+                {
+                  name: "Scott Angelides",
+                  role: "Developer",
+                  imageSrc: "team/current/Scott.jpg",
+                },
+                {
+                  name: "Enaya Amir",
+                  role: "Developer",
+                  imageSrc: "team/current/Enaya.jpg",
+                },
+                {
+                  name: "Lily Phan",
+                  role: "Developer",
+                  imageSrc: "team/current/Lily.jpg",
+                },
+                {
+                  name: "Max Nguyen",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Raine Yang",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+              ]}
+              webLink="https://www.brampton.ca/EN/pages/Welcome.aspx"
+              githubLink="https://github.com/uoftblueprint/brampton-tennis-queue"
+            />
           </SimpleGrid>
           {/* ************** */}
           {/* YEAR 2023-2024 */}
