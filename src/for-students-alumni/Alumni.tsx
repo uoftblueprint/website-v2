@@ -25,7 +25,7 @@ function Alumni() {
         </Title>
       </Center>
       <Center>
-        <Grid justify="center" align="center" w="60%">
+        <Grid justify="center" align="center" className="company-grid">
           {companies.map((company, index) => (
             <Grid.Col key={index} span={3}>
               <Image

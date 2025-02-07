@@ -13,15 +13,19 @@ export default function RoleCard({ role, link }) {
         </Text>
       </Center>
       <Center>
-        <Button
-          rightSection={<Image className="chevron" src="/chevron-right.svg" />}
-          variant="filled"
+      <Button
+          size="md"
           radius="xl"
-          size="xl"
-          className="buttonWithImage"
+          className="apply-button"
+          variant="filled"
+          color="#228BE6"
           ref={link}
+          component="a"
+          rightSection={
+            <Image className="chevron" src="/chevron-right.svg" />
+          }
         >
-          Apply Now
+          Apply
         </Button>
       </Center>
     </Card>

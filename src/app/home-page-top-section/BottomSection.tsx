@@ -4,7 +4,6 @@ import "./BottomSection.css";
 export default function BottomSection() {
   return (
     <>
-      {/* TODO: FIX THIS FROM BEING SO HUGE ON LARGE SCREENS TOO */}
       <div className="desktop-view">
         <Container size="100%" className="bottom-section">
           <Title className="title">How We Do It</Title>
@@ -59,12 +58,11 @@ export default function BottomSection() {
               className="container"
             >
               <Title className="subtitle">Non-Profit Partners</Title>
-              {/* TODO: WRITE NEW DESCRIPTION FOR NONPROFIT PARTNERS */}
               <Text className="text">
-                Do you want to give back to your community while building
-                real-life technological solutions for real-life stakeholders?
-                Join our growing team of passionate students in tech to make a
-                difference!
+                Do you want to collaborate with passionate student developers to
+                create real-world technological solutions for your organization?
+                Partner with us to bring innovative ideas to life helping you
+                make a bigger impact on your community!
               </Text>
               <Button
                 className="home-button"
@@ -121,12 +119,11 @@ export default function BottomSection() {
               src="/people_images/medical.svg"
             />
             <Title className="subtitle">Non-Profit Partners</Title>
-            {/* TODO: WRITE NEW DESCRIPTION FOR NONPROFIT PARTNERS */}
             <Text className="text">
-              Do you want to give back to your community while building
-              real-life technological solutions for real-life stakeholders? Join
-              our growing team of passionate students in tech to make a
-              difference!
+              Do you want to collaborate with passionate student developers to
+              create real-world technological solutions for your organization?
+              Partner with us to bring innovative ideas to life helping you make
+              a bigger impact on your community!
             </Text>
             <Button
               className="home-button"

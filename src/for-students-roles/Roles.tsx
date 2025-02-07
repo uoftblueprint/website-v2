@@ -1,6 +1,6 @@
 "use client";
 import RoleCard from "../RoleCard/RoleCard";
-import { Center, Divider, Grid, Title } from "@mantine/core";
+import { Center, Container, Divider, SimpleGrid, Title } from "@mantine/core";
 import "./Roles.css";
 
 const info = [
@@ -9,20 +9,9 @@ const info = [
   { role: "Software Developer", link: undefined },
 ];
 
-const row = info.map((info) => (
-  <Grid.Col
-    span={{ xs: 12, sm: 6, md: 4, lg: 3 }}
-    key={info.role}
-    className={"card"}
-  >
-    {" "}
-    <RoleCard role={info.role} link={info.link}></RoleCard>
-  </Grid.Col>
-));
-
 export default function Roles() {
   return (
-    <div>
+    <Container size="xl">
       <Center>
         <Title
           className="open-roles-title"
@@ -36,14 +25,18 @@ export default function Roles() {
         </Title>
       </Center>
       <Divider w="30%" color="#e7f3ff" size={"1px"} mx="auto" />
-      <Grid
-        justify="space-evenly"
-        align={"center"}
-        className={"grid"}
+      <SimpleGrid
+        cols={{ base: 1, sm: 2, lg: 3 }}
+        spacing={{ base: 10, sm: "xl" }}
+        verticalSpacing={{ base: "md", sm: "xl" }}
         style={{ padding: "2vw 4vw 4vw 4vw" }}
       >
-        {row}
-      </Grid>
-    </div>
+        {info.map((info, index) => (
+          <div key={index} className="card-container">
+            <RoleCard role={info.role} link={info.link} />
+          </div>
+        ))}
+      </SimpleGrid>
+    </Container>
   );
 }

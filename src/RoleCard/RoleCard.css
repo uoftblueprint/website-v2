@@ -6,7 +6,7 @@
 }
 
 .roleTitle {
-  font-size: 2.5vw;
+  font-size: 30px;
   line-height: normal;
   font-style: normal;
   font-family: "Poppins", sans-serif;
@@ -14,44 +14,37 @@
   margin-bottom: 1rem;
 }
 
-.buttonWithImage {
-  font-weight: normal;
-  font-size: 1.5vw;
-  padding: 1rem 1rem;
+.apply-button {
+  height: 45px;
+  width: 160px;
+  margin-bottom: 10px;
+  width: 160px;
 }
 
 .chevron {
-  width: 1.5vw;
-  height: 1.5vw;
+  height: 20px;
+  width: 20px;
 }
 
 .moniter {
-  width: 4vw;
-  height: 4vw;
+  width: 40px;
+  height: 40px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1350px) {
   .roleTitle {
     font-size: 20px;
   }
 
-  .buttonWithImage {
-    font-size: 16px;
+  .apply-button {
+    height: 45px;
+    width: 160px;
+    margin-bottom: 10px;
+    width: 160px;
   }
 
   .chevron {
-    width: 16px;
     height: 16px;
-  }
-
-  .moniter {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .buttonWithImage {
-    height: 3.5vw;
+    width: 16px;
   }
 }

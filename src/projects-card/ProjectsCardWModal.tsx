@@ -23,7 +23,13 @@ export default function ProjectsCardWModal(
   const [isOpened, { open, close }] = useDisclosure(false);
   return (
     <>
-      <Card padding="lg" className="project-card">
+      <Card
+        padding="lg"
+        className="project-card"
+        style={{
+          paddingBottom: "5%",
+        }}
+      >
         <CardSection className={"image-container"}>
           <Image
             src={props.image}

@@ -4,7 +4,7 @@ import Banner from "@/components/Banner/Banner";
 import Process from "@/for-students-process/Process";
 import WhyJoin from "@/for-students-whyjoin/WhyJoin";
 import FaqCard from "@/for-students-FAQ/FaqCard";
-import { Divider } from "@mantine/core";
+import { Container, Divider } from "@mantine/core";
 import Alumni from "@/for-students-alumni/Alumni";
 import Roles from "@/for-students-roles/Roles";
 
@@ -31,21 +31,28 @@ export default function forstudentsPage() {
           text="Interested in making a change in the community around you? Want to gain experience working in a software development team? Join us!"
         />
       </div>
-      {/* TODO: FIX WHY EVERYTHING IS SO BIG */}
       <Alumni />
-      <Roles />
-      <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
-      {/* TODO: FIX WHY JOIN IMAGE */}
-      <WhyJoin img={"/for-students/placeholder.png"} />
-      {/* TODO: FIX PROCESS IMAGES */}
-      <Process
-        applicationImg={"/for-students/placeholder.png"}
-        applicationLink={undefined}
-        interviewImg={"/for-students/placeholder.png"}
-        interviewLink={undefined}
-        acceptancesImg={"/for-students/placeholder.png"}
-        acceptancesLink={undefined}
-      />
+      <Container size="80%"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Roles />
+        <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
+        <WhyJoin img={"/for-students/blu-reading.png"} />
+        <Divider w="73%" color="#e7f3ff" size={"1px"} mx="auto" />
+        <Process
+          applicationImg={"/for-students/blu-working.png"}
+          applicationLink={undefined}
+          interviewImg={"/for-students/blu-question.png"}
+          interviewLink={undefined}
+          acceptancesImg={"/for-students/blu-surprise.png"}
+          acceptancesLink={undefined}
+        />
+      </Container>
       <FaqCard faq_info={faqData} />
     </div>
   );
