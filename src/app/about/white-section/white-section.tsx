@@ -30,11 +30,10 @@ export default function WhiteSection() {
   return (
     <>
       <Container className="top-section" size="xl">
-        <Title className="about-title top-title">
-          About Us
-        </Title>
+        <Title className="about-title top-title">About Us</Title>
         <Text className="heading-text">
-        Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare.
+          Blueprint strives to make technology accessible and useful for those
+          who assist communities and promote public welfare.
         </Text>
         <Image className="top-image" src="/about_page/team_at_work.svg" />
       </Container>

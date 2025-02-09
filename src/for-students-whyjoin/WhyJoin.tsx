@@ -21,7 +21,11 @@ function WhyJoin({ img }) {
           <Image
             src={img}
             alt="why join img"
-            style={{ minWidth: "150px", minHeight: "150px", borderRadius: "10px" }} // Set minimum size for the image
+            style={{
+              minWidth: "150px",
+              minHeight: "150px",
+              borderRadius: "10px",
+            }} // Set minimum size for the image
           />{" "}
         </Container>
         <Container

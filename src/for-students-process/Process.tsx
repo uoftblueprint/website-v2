@@ -1,11 +1,5 @@
 import "@/for-students-process/Process.css";
-import {
-  Image,
-  Title,
-  Center,
-  Container,
-  SimpleGrid,
-} from "@mantine/core";
+import { Image, Title, Center, Container, SimpleGrid } from "@mantine/core";
 
 function Process({
   applicationImg,
@@ -35,8 +29,12 @@ function Process({
         verticalSpacing={{ base: "md", sm: "xl" }}
         style={{ padding: "2vw 4vw 4vw 4vw" }}
       >
-        {info.map((info) => (
-          <div className="img-text-container" style={{ padding: "2vw" }}>
+        {info.map((info, index) => (
+          <div
+            key={index}
+            className="img-text-container"
+            style={{ padding: "2vw" }}
+          >
             <Image
               src={info.img}
               alt={info.title + " img"}

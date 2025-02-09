@@ -103,7 +103,11 @@ function TeamsGrid(team: TeamMember[]) {
       {TeamMember(member.name, member.role, member.imageSrc)}
     </Grid.Col>
   ));
-  return <Grid columns={30} justify="center">{teamMembers}</Grid>;
+  return (
+    <Grid columns={30} justify="center">
+      {teamMembers}
+    </Grid>
+  );
 }
 
 function TeamMember(name: string, role: string, imageSrc: string) {

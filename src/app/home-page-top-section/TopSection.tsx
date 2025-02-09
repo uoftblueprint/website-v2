@@ -19,7 +19,13 @@ export default function TopSection() {
       <Title style={{ fontSize: "calc(18px + 2vw)" }}>
         Hi! 👋 We’re Blueprint.
       </Title>
-      <Text style={{ fontSize: "calc(15px + 0.75vw)", maxWidth: "80%", paddingBottom: "20px" }}>
+      <Text
+        style={{
+          fontSize: "calc(15px + 0.75vw)",
+          maxWidth: "80%",
+          paddingBottom: "20px",
+        }}
+      >
         We’re a group of passionate students at the University of Toronto
         dedicated to building software to give back to our community!
       </Text>
