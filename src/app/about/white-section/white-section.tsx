@@ -20,13 +20,6 @@ export default function WhiteSection() {
     { title: "Be Humble", img: "about_page/number-5.svg" },
   ];
 
-  const card_style = {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    width: "fit-content",
-  } as const;
-
   return (
     <>
       <Container className="top-section" size="xl">

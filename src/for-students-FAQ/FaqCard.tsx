@@ -2,7 +2,7 @@ import { Accordion, Container, Title, Divider, Image } from "@mantine/core";
 import "./FaqCard.css";
 
 function FaqCard({ faq_info }) {
-  const items = faq_info.map((faq, index) => (
+  const items = faq_info.map((faq) => (
     <Accordion.Item
       className="accordion-item"
       key={faq.key}
