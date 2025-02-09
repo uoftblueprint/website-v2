@@ -324,12 +324,12 @@ export default function ProjectsPage() {
                 {
                   name: "Max Nguyen",
                   role: "Developer",
-                  imageSrc: "",
+                  imageSrc: "team/current/Max.png",
                 },
                 {
                   name: "Raine Yang",
                   role: "Developer",
-                  imageSrc: "",
+                  imageSrc: "team/current/Raine.jpg",
                 },
               ]}
               webLink="https://www.brampton.ca/EN/pages/Welcome.aspx"
