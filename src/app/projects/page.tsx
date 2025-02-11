@@ -226,7 +226,7 @@ export default function ProjectsPage() {
               hasOverlay={true}
               years={["2024-2025"]}
               projectDescription="We are building a digital queue system for the City of Brampton to help manage the demand for public sport courts."
-              nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
+              nonprofitDescription="The City of Brampton is a municipality in the Greater Toronto Area that is home to over 600,000 residents. They are committed to providing a high quality of life for their residents by providing services."
               team={[
                 {
                   name: "Raunak Madan",
@@ -332,8 +332,8 @@ export default function ProjectsPage() {
                   imageSrc: "team/current/Raine.jpg",
                 },
               ]}
-              webLink="https://www.brampton.ca/EN/pages/Welcome.aspx"
-              githubLink="https://github.com/uoftblueprint/brampton-tennis-queue"
+              webLink="https://www.mozilla.org/en-US/"
+              githubLink="https://github.com/mozilla-mobile/firefox-ios"
             />
           </SimpleGrid>
           {/* ************** */}
