@@ -65,11 +65,17 @@
       font-size: 18px;
     }
   
-   /*.read-more-button {
-      height: 25px;
-      width: 138px;
-      font-size: 15px;
-    }*/
+    .read-more-button {
+      height: 35px;
+      width: 125px;
+      margin: 2px 0;
+      font-size: 12px;
+    }
+
+    .chevron {
+      height: 15px;
+      width: 15px;
+    }
   
   }
   
@@ -95,9 +101,14 @@
     }
   
     .read-more-button {
-      height: 36px;
-      width: 140px;
-      font-size: 14px;
+      height: 25px;
+      width: 100px;
+      margin-bottom: 2px;
+      font-size: 8px;
     }
-  
+    
+    .chevron {
+      height: 10px;
+      width: 10px;
+    }
   }

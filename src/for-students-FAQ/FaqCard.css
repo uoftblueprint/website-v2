@@ -48,6 +48,11 @@
 }
 
 .question {
-  text-align: center;
+  text-align: left;
   font-size: var(--questionFont);
+}
+
+.answer {
+  text-align: left;
+  font-size: var(--regFont);
 }

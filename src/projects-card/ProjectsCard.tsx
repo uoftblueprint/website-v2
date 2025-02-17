@@ -16,7 +16,13 @@ export function ProjectsCard({
   link = null,
 }: ProjectsCardProps) {
   return (
-    <Card padding="lg" className="project-card">
+    <Card
+      padding="lg"
+      className="project-card"
+      style={{
+        paddingBottom: "5%",
+      }}
+    >
       <CardSection className={"image-container"}>
         <Image src={image} radius="md" alt={name} className={"project-image"} />
       </CardSection>
@@ -31,13 +37,13 @@ export function ProjectsCard({
 
       {link ? (
         <Button
-          size="lg"
+          size="md"
           radius="xl"
           className={"read-more-button"}
           variant="filled"
           color="#228BE6"
-          component="a"
           href={link}
+          component="a"
           rightSection={
             <Image className={"chevron"} src="/chevron-right.svg" />
           }

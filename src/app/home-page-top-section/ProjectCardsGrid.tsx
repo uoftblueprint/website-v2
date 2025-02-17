@@ -7,9 +7,9 @@ function CardGrid({ cards_info }) {
 
   return (
     <Container
-      fluid
       className="cards-grid"
       style={{ width: "85%", margin: "0 auto 100px auto" }}
+      size="xl"
     >
       <Title
         className="project-cards-title"

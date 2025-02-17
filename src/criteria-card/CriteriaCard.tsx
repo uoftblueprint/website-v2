@@ -35,6 +35,7 @@ export function CriteriaCard({
       <div
         style={{
           width: isSmallScreen ? "calc(50vw)" : "calc(200px + 2vw)",
+          paddingLeft: isSmallScreen ? "calc(5vw)" : "calc(10px + 1vw)",
         }}
       >
         <Title

@@ -23,19 +23,19 @@
 }
 
 .card-font {
-  font-size: max(10px, 1.5vw);
+  font-size: clamp(10px, 1.5vw, 1.5rem);
   font-weight: 500;
 }
 
 .chapter-name {
-  font-size: max(15px, 2vw);
+  font-size: clamp(15px, 2vw, 2rem);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .chapter-description {
-  font-size: max(10px, 1.2vw);
+  font-size: clamp(10px, 1.2vw, 1.2rem);
   font-weight: 400;
-  flex-grow: 1
+  flex-grow: 1;
 }

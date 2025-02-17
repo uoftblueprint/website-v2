@@ -1,5 +1,4 @@
 import { Container, Flex, Button } from "@mantine/core";
-import { useMediaQuery } from "@mantine/hooks";
 
 import "@mantine/core/styles.layer.css";
 import "@/components/Banner/Banner.css";
@@ -10,17 +9,15 @@ export default function Banner({
   button = { text: null, link: null },
 }) {
   // button is an optional prop that defines if button exists or not.
-  const bannerSize = useMediaQuery(`(max-width:  480px)`) ? "md" : "xl";
-  const justify = useMediaQuery(`(max-width:  720px)`) ? "center" : "end";
 
   return (
     <Container fluid className="non-hero banner-container">
       <Flex
-        justify={justify}
+        justify={"center"}
         align={"center"}
-        h={"100%"}
+        h={"80%"}
         direction={"column"}
-        rowGap={"20px"}
+        rowGap={"5px"}
         className="banner-flex"
       >
         <h1

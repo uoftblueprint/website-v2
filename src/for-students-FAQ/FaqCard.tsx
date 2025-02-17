@@ -2,13 +2,17 @@ import { Accordion, Container, Title, Divider, Image } from "@mantine/core";
 import "./FaqCard.css";
 
 function FaqCard({ faq_info }) {
-  const items = faq_info.map((faq, index) => (
-    <Accordion.Item className="accordion-item" key={index} value={faq.question}>
+  const items = faq_info.map((faq) => (
+    <Accordion.Item
+      className="accordion-item"
+      key={faq.key}
+      value={faq.question}
+    >
       <Accordion.Control className="question">
         <b>{faq.question}</b>
       </Accordion.Control>
 
-      <Accordion.Panel>{faq.answer}</Accordion.Panel>
+      <Accordion.Panel className="answer">{faq.answer}</Accordion.Panel>
     </Accordion.Item>
   ));
 

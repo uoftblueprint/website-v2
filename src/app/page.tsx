@@ -6,17 +6,30 @@ import HeroBanner from "@/components/Banner/HeroBanner";
 
 const cards_info = [
   {
-    name: "The Period Purse",
+    name: "The Centre for Dreams",
     description:
-      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
-    image: "/the-period-purse.jpeg",
+      "A centralized mobile application to send announcements, track absences, schedule events, and have discussions.",
+    image: "projects/centre-for-dreams.jpg",
     link: "/projects",
   },
   {
-    name: "Home for Heroes",
+    name: "The Period Purse",
     description:
-      "A CRM application used to help organize homes for Canadian veterans.",
-    image: "/homes-for-heroes.jpeg",
+      "A Menstrual Tracking application for iOS and Android, built by youth for youth.",
+    image: "projects/the-period-purse.jpeg",
+    link: "/projects",
+  },
+  {
+    name: "Toronto Community Employment Services",
+    description:
+      "A public-facing job board where applicants can find jobs to apply for.",
+    image: "projects/tces2.jpg",
+    link: "/projects",
+  },
+  {
+    name: "City of Brampton",
+    description: "A digital queue system for the public sport courts.",
+    image: "projects/btq.jpg",
     link: "/projects",
   },
 ];
